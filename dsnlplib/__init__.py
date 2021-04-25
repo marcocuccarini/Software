@@ -294,21 +294,15 @@ class DSConfig(object):
     else:
       self.__dict__[key] = value
 
-
 def ds_loop_gen(env):
- """ Legacy imperative function """
-  dsc = DSConfig.from_env(env)
-
-  return partial(_ds_loop,dsc=dsc)
-
+	dsc = DSConfig.from_env(env)
+	return partial(_ds_loop,dsc=dsc)
 
 def _ds_loop(model_idx,dsc):
- """ Legacy imperative function """
-  dsc.model_idx = model_idx
-
-  exp = DSExperiment(dsc)
-
-  return exp.run() 
+	
+	dsc.model_idx = model_idx
+	exp = DSExperiment(dsc)
+	return exp.run() 
 
 
 class DSExperiment(object):
@@ -482,7 +476,7 @@ class DSExperiment(object):
     
     tfms.append(x_tfms)
     
-    if (dsc.double):
+    if (0):
       x2_tfms = [attrgetter("Question"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
       tfms.append(x2_tfms)
 
