@@ -571,7 +571,7 @@ class DSExperiment(object):
         
           try:
             #with learn.no_mbar(): learn.fit_one_cycle(epochs, lr_max=lr)
-            with learn.no_mbar(): learn.fit(dsc.epochs, lr=dsc.lr, wd=1e-4, reset_opt=True)
+            with learn.no_mbar(): learn.fit(dsc.epochs, lr=dsc.lr, wd=1e-4, reset_opt=False)
           except KeyboardInterrupt:
             print('Fit was interrupted')
 
