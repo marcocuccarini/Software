@@ -74,9 +74,9 @@ dovuta alla commissione del reato
 28,28,Come ha avuto l’informazione della presenza delle opportunità di trattamento rieducativi che ha segnato nella domanda precedente?,DESCRIZIONE,dalle-lettere e dagli-altri-deten,descrizione,S,RD,"('green', 0, 1)",green,dalle-lettere e dagli-altri-deten,green,descrizione
 29,29,Come ha avuto l’informazione della presenza delle opportunità di trattamento rieducativi che ha segnato nella domanda precedente?,DESCRIZIONE,"e tutti qui-in-prig dicono che x-stran-e-imposs
 
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"e tutti qui-in-prig dicono che x-stran-e-imposs
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"e tutti qui-in-prig dicono che x-stran-e-imposs
 
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 30,30,Come ha avuto l’informazione della presenza delle opportunità di trattamento rieducativi che ha segnato nella domanda precedente?,DESCRIZIONE,dalle-lettere e dagli amici-di-un-altro,descrizione,S,RD,"('green', 0, 1)",green,dalle-lettere e dagli amici-di-un-altro,green,descrizione
 31,31,Come ha avuto l’informazione della presenza delle opportunità di trattamento rieducativi che ha segnato nella domanda precedente?,DESCRIZIONE,"non-vedendoc-ben, ho-segnato tut-cio-si-dov-fa per il reinserimento di queste-pers;",descrizione,S,RD,"('green', 0, 1)",green,"non-vedendoc-ben, ho-segnato tut-cio-si-dov-fa per il reinserimento di queste-pers;",green,descrizione
 32,32,Come ha avuto l’informazione della presenza delle opportunità di trattamento rieducativi che ha segnato nella domanda precedente?,DESCRIZIONE,"io perslmente,",non risposta,S,RD,"('red', 3, 1)",red,"io perslmente,",red,non risposta
@@ -1621,7 +1621,7 @@ cortesia anche verso i maleducati"" (inutile accettare provocazioni)
 1151,1151,"Se la risposta data alla risposta precedente è per nulla efficaci/poco efficaci 0 efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perché perché_ dipende tutto dalla persona e dalle sue possibilità_di_reinserirsi (ambiente sociale, familiare, lavorativo, esterno) ",specificazione,S,RD,"('yellow', 1, 1)",yellow,"perché perché_ dipende tutto dalla persona e dalle sue possibilità_di_reinserirsi (ambiente sociale, familiare, lavorativo, esterno) ",yellow,specificazione
 1152,1152,"Se la risposta data alla risposta precedente è per nulla efficaci/poco efficaci 0 efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,perché perché_ in_linea_di_massima su 100 persone convolte il 30% vano a buon fine ,giustificazione,S,RD,"('red', 4, 1)",red,perché perché_ in_linea_di_massima su 100 persone convolte il 30% vano a buon fine ,red,giustificazione
 1153,1153,"Se la risposta data alla risposta precedente è per nulla efficaci/poco efficaci 0 efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,perché perché_ a_mio_parere dette persone vanno rieducate. ,commento,S,RD,"('red', 3, 1)",red,perché perché_ a_mio_parere dette persone vanno rieducate. ,red,commento
-1154,1154,"Se la risposta data alla risposta precedente è per nulla efficaci/poco efficaci 0 efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,chi è incline a_delinquere difficilmente cambia anche_se ci_sono dei_casi sporadici ,implicazioni,S,RD,"('green', 0, 1)",green,chi è incline a_delinquere difficilmente cambia anche_se ci_sono dei_casi sporadici ,green,implicazioni
+1154,1154,"Se la risposta data alla risposta precedente è per nulla efficaci/poco efficaci 0 efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,chi è incline a_delinquere difficilmente cambia anche_se ci_sono dei_casi sporadici ,implicazioni,S,RD,"('red', 9, 7)",red,chi è incline a_delinquere difficilmente cambia anche_se ci_sono dei_casi sporadici ,red,implicazioni
 1155,1155,"Se la risposta data alla risposta precedente è per nulla efficaci/poco efficaci 0 efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,dipende dal_tipo_di persona_detenuta ,non risposta,S,RD,"('red', 3, 1)",red,dipende dal_tipo_di persona_detenuta ,red,non risposta
 1156,1156,"Se la risposta data alla risposta precedente è per nulla efficaci/poco efficaci 0 efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,numero elevato di_detenuti,commento,S,RD,"('red', 3, 1)",red,numero elevato di_detenuti,red,commento
 1157,1157,"Se la risposta data alla risposta precedente è per nulla efficaci/poco efficaci 0 efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,i tossicodipendenti andrebbero divisi.,giudizio,S,RD,"('red', 3, 1)",red,i tossicodipendenti andrebbero divisi.,red,giudizio
@@ -2592,7 +2592,7 @@ il volontariato",red,giudizio
 1586,1586,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,la risposte alle nostre domande arrivano molto tardi,giudizio,S,RD,"('red', 3, 1)",red,la risposte alle nostre domande arrivano molto tardi,red,giudizio
 1587,1587,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,non_mi_interessa,giudizio,S,RD,"('red', 3, 1)",red,non_mi_interessa,red,giudizio
 1588,1588,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,neanche uno,giudizio,S,RD,"('red', 3, 1)",red,neanche uno,red,giudizio
-1589,1589,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,neanche uno.,implicazioni,S,RD,"('green', 0, 1)",green,neanche uno.,green,implicazioni
+1589,1589,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,neanche uno.,implicazioni,S,RD,"('red', 9, 7)",red,neanche uno.,red,implicazioni
 1590,1590,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,il lavoro_dentro_e_fuori il carcere.,giudizio,S,RD,"('red', 3, 1)",red,il lavoro_dentro_e_fuori il carcere.,red,giudizio
 1591,1591,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,"primo e molto_importante, la salute e le cure, poi il cibo e il 
 trattamento, poi il dovere dell' agente penitenziario di eseguire 
@@ -3386,7 +3386,7 @@ basso risultato...",red,generalizzazione
 1882,1882,Come descriverebbe le opportunità di trattamento rieducativo a cui può accedere una persona Detenuta?,DESCRIZIONE,sono_opportunita positive,giudizio,S,RD,"('red', 3, 1)",red,sono_opportunita positive,red,giudizio
 1883,1883,Come descriverebbe le opportunità di trattamento rieducativo a cui può accedere una persona Detenuta?,DESCRIZIONE,che il soggetto detenuto deve recepire al_fine_di una sua rieducazione,prescrizione,S,RD,"('yellow', 4, 4)",yellow,che il soggetto detenuto deve recepire al_fine_di una sua rieducazione,yellow,prescrizione
 1884,1884,Come descriverebbe le opportunità di trattamento rieducativo a cui può accedere una persona Detenuta?,DESCRIZIONE,le opportunita sulla_carta sono adeguate nella_realta siamo al_di_sotto_del dettato costituzionale,specificazione,S,RD,"('yellow', 1, 1)",yellow,le opportunita sulla_carta sono adeguate nella_realta siamo al_di_sotto_del dettato costituzionale,yellow,specificazione
-1885,1885,Come descriverebbe le opportunità di trattamento rieducativo a cui può accedere una persona Detenuta?,DESCRIZIONE,"da arricchire, da incentivare la programmazione e la riflessione su cio che si_propone per evitare interventi incoerenti e non troppo utili",implicazioni,S,RD,"('green', 0, 1)",green,"da arricchire, da incentivare la programmazione e la riflessione su cio che si_propone per evitare interventi incoerenti e non troppo utili",green,implicazioni
+1885,1885,Come descriverebbe le opportunità di trattamento rieducativo a cui può accedere una persona Detenuta?,DESCRIZIONE,"da arricchire, da incentivare la programmazione e la riflessione su cio che si_propone per evitare interventi incoerenti e non troppo utili",implicazioni,S,RD,"('red', 9, 7)",red,"da arricchire, da incentivare la programmazione e la riflessione su cio che si_propone per evitare interventi incoerenti e non troppo utili",red,implicazioni
 1886,1886,Come descriverebbe le opportunità di trattamento rieducativo a cui può accedere una persona Detenuta?,DESCRIZIONE,"favorevoli , purtroppo non sono presenti al_momento in questo istituto",giudizio,S,RD,"('red', 3, 1)",red,"favorevoli , purtroppo non sono presenti al_momento in questo istituto",red,giudizio
 1887,1887,Come descriverebbe le opportunità di trattamento rieducativo a cui può accedere una persona Detenuta?,DESCRIZIONE,"demagogiche , quasi sempre inutili , a_volte impossibili , quasi sempre inesistenti ,",giudizio,S,RD,"('red', 3, 1)",red,"demagogiche , quasi sempre inutili , a_volte impossibili , quasi sempre inesistenti ,",red,giudizio
 1888,1888,Come descriverebbe le opportunità di trattamento rieducativo a cui può accedere una persona Detenuta?,DESCRIZIONE,ma sulla_carta ( ordinamento penitanziario ) sono tutte cose grandiose,giudizio,S,RD,"('red', 3, 1)",red,ma sulla_carta ( ordinamento penitanziario ) sono tutte cose grandiose,red,giudizio
@@ -3670,15 +3670,15 @@ se non ha rispettato la legge_deve_entrare in_carcere.",yellow,prescrizione
 2016,2016,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,047) mai,non risposta,S,RD,"('red', 3, 1)",red,047) mai,red,non risposta
 2017,2017,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,048) mai fatto uso,non risposta,S,RD,"('red', 3, 1)",red,048) mai fatto uso,red,non risposta
 2018,2018,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,050) una cosa cattiva,giudizio,S,RD,"('red', 3, 1)",red,050) una cosa cattiva,red,giudizio
-2019,2019,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,051) ci_sono fanno_scegliere questo,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,051) ci_sono fanno_scegliere questo,green,deresponsabilizzazione
+2019,2019,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,051) ci_sono fanno_scegliere questo,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,051) ci_sono fanno_scegliere questo,red,deresponsabilizzazione
 2020,2020,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,"052) i problemi_familiari, la manc_lavoro_fisso e i documenti_italiani che camb_perc_vita",generalizzazione,S,RD,"('red', 3, 1)",red,"052) i problemi_familiari, la manc_lavoro_fisso e i documenti_italiani che camb_perc_vita",red,generalizzazione
 2021,2021,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,053) non_lo_so,commento,S,RD,"('red', 3, 1)",red,053) non_lo_so,red,commento
 2022,2022,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,"054) l' efficacia,",non risposta,S,RD,"('red', 3, 1)",red,"054) l' efficacia,",red,non risposta
 2023,2023,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,dico alla gente che non_devono_usare l' eroina,descrizione,S,RD,"('green', 0, 1)",green,dico alla gente che non_devono_usare l' eroina,green,descrizione
 2024,2024,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,056) distrugge_la_salute.,commento,S,RD,"('red', 3, 1)",red,056) distrugge_la_salute.,red,commento
 2025,2025,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,057) non sono mai stato,non risposta,S,RD,"('red', 3, 1)",red,057) non sono mai stato,red,non risposta
-2026,2026,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,058) ci_sono orientano verso_questo,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,058) ci_sono orientano verso_questo,green,deresponsabilizzazione
-2027,2027,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,059) ci_sono cose che ti costring_a_orient verso_qte_cose.,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,059) ci_sono cose che ti costring_a_orient verso_qte_cose.,green,deresponsabilizzazione
+2026,2026,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,058) ci_sono orientano verso_questo,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,058) ci_sono orientano verso_questo,red,deresponsabilizzazione
+2027,2027,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,059) ci_sono cose che ti costring_a_orient verso_qte_cose.,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,059) ci_sono cose che ti costring_a_orient verso_qte_cose.,red,deresponsabilizzazione
 2028,2028,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,061) non_ero,commento,S,RD,"('red', 3, 1)",red,061) non_ero,red,commento
 2029,2029,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,non sarò,previsione,S,RD,"('red', 5, 4)",red,non sarò,red,previsione
 2030,2030,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,062) per godere tutto,generalizzazione,S,RD,"('red', 3, 1)",red,062) per godere tutto,red,generalizzazione
@@ -4087,7 +4087,7 @@ io non_dipendo da queste_sostanze però",red,contrapposizione
 2427,2427,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,non le uso,non risposta,S,RD,"('red', 3, 1)",red,non le uso,red,non risposta
 2428,2428,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,una persona porta un dramma psicosociale,sancire,S,RD,"('red', 1, 0)",red,una persona porta un dramma psicosociale,red,sancire
 2429,2429,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,che deve essere seguito e curato,prescrizione,S,RD,"('yellow', 4, 4)",yellow,che deve essere seguito e curato,yellow,prescrizione
-2430,2430,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,e la colpa la società di cui fa partee,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,e la colpa la società di cui fa partee,green,deresponsabilizzazione
+2430,2430,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,e la colpa la società di cui fa partee,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,e la colpa la società di cui fa partee,red,deresponsabilizzazione
 2431,2431,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,una_persona deviata incap_risp_realtà,giudizio,S,RD,"('red', 3, 1)",red,una_persona deviata incap_risp_realtà,red,giudizio
 2432,2432,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,una persona come le altre,generalizzazione,S,RD,"('red', 3, 1)",red,una persona come le altre,red,generalizzazione
 2433,2433,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,persona che_sta_male,sancire,S,RD,"('red', 1, 0)",red,persona che_sta_male,red,sancire
@@ -4107,7 +4107,7 @@ io non_dipendo da queste_sostanze però",red,contrapposizione
 2447,2447,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,per_esempio l' eroina o la cannabis che fanno_male,commento,S,RD,"('red', 3, 1)",red,per_esempio l' eroina o la cannabis che fanno_male,red,commento
 2448,2448,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,come il veleno,commento,S,RD,"('red', 3, 1)",red,come il veleno,red,commento
 2449,2449,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,l'eroina,commento,S,RD,"('red', 3, 1)",red,l'eroina,red,commento
-2450,2450,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,queste_cose ti_fanno diventare pazzo,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,queste_cose ti_fanno diventare pazzo,green,deresponsabilizzazione
+2450,2450,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,queste_cose ti_fanno diventare pazzo,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,queste_cose ti_fanno diventare pazzo,red,deresponsabilizzazione
 2451,2451,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,non ho sostanze illegali,non risposta,S,RD,"('red', 3, 1)",red,non ho sostanze illegali,red,non risposta
 2452,2452,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,non ho,non risposta,S,RD,"('red', 3, 1)",red,non ho,red,non risposta
 2453,2453,"Come si descrive come consumatore di sostanze legali (ad esempio alcol, psicofarmaci)?",DESCRIZIONE,non ho di niente,non risposta,S,RD,"('red', 3, 1)",red,non ho di niente,red,non risposta
@@ -4220,9 +4220,9 @@ come tutti gli altri",sancire,S,RD,"('red', 1, 0)",red,"----075
 come tutti gli altri",red,sancire
 2509,2509,Come descriverebbe una persona che è stata condannata per lo stesso reato che è stato imputato anche a lei?,DESCRIZIONE,"----076 
 Š una ingiustizia perch‚_io ho fatto niente e quindi neanche lui 
-ha_fatto",implicazioni,S,RD,"('green', 0, 1)",green,"----076 
+ha_fatto",implicazioni,S,RD,"('red', 9, 7)",red,"----076 
 Š una ingiustizia perch‚_io ho fatto niente e quindi neanche lui 
-ha_fatto",green,implicazioni
+ha_fatto",red,implicazioni
 2510,2510,Come descriverebbe una persona che è stata condannata per lo stesso reato che è stato imputato anche a lei?,DESCRIZIONE,"----077 
 come_ho_gi…_detto non potrei descrivere una_persona conosco, 
 posso sempre parlare della 
@@ -4527,7 +4527,7 @@ non sofferente quindi è attiva in tutto quello che fa",red,giudizio
 2659,2659,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,ha interesse a che la sua situazione fisica non vada compromessa,sancire,S,RD,"('red', 1, 0)",red,ha interesse a che la sua situazione fisica non vada compromessa,red,sancire
 2660,2660,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"una persona no criticità mediche, no criticità psicologiche no criticità relazionali",sancire,S,RD,"('red', 1, 0)",red,"una persona no criticità mediche, no criticità psicologiche no criticità relazionali",red,sancire
 2661,2661,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,in armonia corpo e psiche e sta bene psicologicamente,giudizio,S,RD,"('red', 3, 1)",red,in armonia corpo e psiche e sta bene psicologicamente,red,giudizio
-2662,2662,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,una persona ha un equilibrio psico fisico che gli consenta di promuovere e mantenere il proprio benessere (personale),implicazioni,S,RD,"('green', 0, 1)",green,una persona ha un equilibrio psico fisico che gli consenta di promuovere e mantenere il proprio benessere (personale),green,implicazioni
+2662,2662,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,una persona ha un equilibrio psico fisico che gli consenta di promuovere e mantenere il proprio benessere (personale),implicazioni,S,RD,"('red', 9, 7)",red,una persona ha un equilibrio psico fisico che gli consenta di promuovere e mantenere il proprio benessere (personale),red,implicazioni
 2663,2663,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,non segni patologie presenti,sancire,S,RD,"('red', 1, 0)",red,non segni patologie presenti,red,sancire
 2664,2664,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,attivo e dinamico,giudizio,S,RD,"('red', 3, 1)",red,attivo e dinamico,red,giudizio
 2665,2665,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"una persona di psicofarmaci,",generalizzazione,S,RD,"('red', 3, 1)",red,"una persona di psicofarmaci,",red,generalizzazione
@@ -4540,7 +4540,7 @@ non sofferente quindi è attiva in tutto quello che fa",red,giudizio
 2672,2672,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"una persona libera, serena e in pace se stessa",giudizio,S,RD,"('red', 3, 1)",red,"una persona libera, serena e in pace se stessa",red,giudizio
 2673,2673,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,che richiede la visita medica per consigli medici,descrizione,S,RD,"('green', 0, 1)",green,che richiede la visita medica per consigli medici,green,descrizione
 2674,2674,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,non mette ansia,sancire,S,RD,"('red', 1, 0)",red,non mette ansia,red,sancire
-2675,2675,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"una persona che prima di tutto non malattie, e quindi come una persona anche dal punto di vista psicologico, che riesce ad affrontare le situazioni con serenità",implicazioni,S,RD,"('green', 0, 1)",green,"una persona che prima di tutto non malattie, e quindi come una persona anche dal punto di vista psicologico, che riesce ad affrontare le situazioni con serenità",green,implicazioni
+2675,2675,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"una persona che prima di tutto non malattie, e quindi come una persona anche dal punto di vista psicologico, che riesce ad affrontare le situazioni con serenità",implicazioni,S,RD,"('red', 9, 7)",red,"una persona che prima di tutto non malattie, e quindi come una persona anche dal punto di vista psicologico, che riesce ad affrontare le situazioni con serenità",red,implicazioni
 2676,2676,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,di sana e robusta costituzione fisica idonea al lavoro,giudizio,S,RD,"('red', 3, 1)",red,di sana e robusta costituzione fisica idonea al lavoro,red,giudizio
 2677,2677,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,molto fortunata,giudizio,S,RD,"('red', 3, 1)",red,molto fortunata,red,giudizio
 2678,2678,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,una persona fisica e mentale,sancire,S,RD,"('red', 1, 0)",red,una persona fisica e mentale,red,sancire
@@ -4905,7 +4905,7 @@ ha un buon psichico",red,giudizio
 2989,2989,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,solare,giudizio,S,RD,"('red', 3, 1)",red,solare,red,giudizio
 2990,2990,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,una persona ha un buon compenso psico-fisico,giudizio,S,RD,"('red', 3, 1)",red,una persona ha un buon compenso psico-fisico,red,giudizio
 2991,2991,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"buon colorito, sguardo acceso, peso corporeo proporzionato all'altezza",giudizio,S,RD,"('red', 3, 1)",red,"buon colorito, sguardo acceso, peso corporeo proporzionato all'altezza",red,giudizio
-2992,2992,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,la persona che gode è meglio disposta alla relazione e all'integrazione,implicazioni,S,RD,"('green', 0, 1)",green,la persona che gode è meglio disposta alla relazione e all'integrazione,green,implicazioni
+2992,2992,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,la persona che gode è meglio disposta alla relazione e all'integrazione,implicazioni,S,RD,"('red', 9, 7)",red,la persona che gode è meglio disposta alla relazione e all'integrazione,red,implicazioni
 2993,2993,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,sana,giudizio,S,RD,"('red', 3, 1)",red,sana,red,giudizio
 2994,2994,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,una persona ha una buona qualità della vita da un punto di vista sia fisico che psichico,sancire,S,RD,"('red', 1, 0)",red,una persona ha una buona qualità della vita da un punto di vista sia fisico che psichico,red,sancire
 2995,2995,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,fortunata e nello stesso tempo consapevole che altre persone stanno peggio di cotesto,giudizio,S,RD,"('red', 3, 1)",red,fortunata e nello stesso tempo consapevole che altre persone stanno peggio di cotesto,red,giudizio
@@ -5306,7 +5306,7 @@ alcoldipendente fino l anno 90",red,commento
 3362,3362,Come descriverebbe una persona che ha commesso lo stesso reato che è stato imputato anche a lei?,DESCRIZIONE,"se c'è qualche infrazione come mia mi dispiacerebbe tanto, perché sarà una persona innocente",valutazione,S,RD,"('yellow', 5, 5)",yellow,"se c'è qualche infrazione come mia mi dispiacerebbe tanto, perché sarà una persona innocente",yellow,valutazione
 3363,3363,Come descriverebbe una persona che ha commesso lo stesso reato che è stato imputato anche a lei?,DESCRIZIONE,fortunato,giudizio,S,RD,"('red', 3, 1)",red,fortunato,red,giudizio
 3364,3364,Come descriverebbe una persona che ha commesso lo stesso reato che è stato imputato anche a lei?,DESCRIZIONE,non ha fortuna perché mai ho fatto male a nessuno,valutazione,S,RD,"('yellow', 5, 5)",yellow,non ha fortuna perché mai ho fatto male a nessuno,yellow,valutazione
-3365,3365,Come descriverebbe una persona che ha commesso lo stesso reato che è stato imputato anche a lei?,DESCRIZIONE,una persona per la necessità di lavorare è stata costretta a scegliere quella opportunità che le hanno dato con la promessa di guadagnare qualche dollaro in più per poter sopravvivere,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,una persona per la necessità di lavorare è stata costretta a scegliere quella opportunità che le hanno dato con la promessa di guadagnare qualche dollaro in più per poter sopravvivere,green,deresponsabilizzazione
+3365,3365,Come descriverebbe una persona che ha commesso lo stesso reato che è stato imputato anche a lei?,DESCRIZIONE,una persona per la necessità di lavorare è stata costretta a scegliere quella opportunità che le hanno dato con la promessa di guadagnare qualche dollaro in più per poter sopravvivere,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,una persona per la necessità di lavorare è stata costretta a scegliere quella opportunità che le hanno dato con la promessa di guadagnare qualche dollaro in più per poter sopravvivere,red,deresponsabilizzazione
 3366,3366,Come descriverebbe una persona che ha commesso lo stesso reato che è stato imputato anche a lei?,DESCRIZIONE,"""uno sballo"", mancanza opportunità!",causa,S,RD,"('red', 2, 1)",red,"""uno sballo"", mancanza opportunità!",red,causa
 3367,3367,Come descriverebbe una persona che ha commesso lo stesso reato che è stato imputato anche a lei?,DESCRIZIONE,"ha commesso, come me",generalizzazione,S,RD,"('red', 3, 1)",red,"ha commesso, come me",red,generalizzazione
 3368,3368,Come descriverebbe una persona che ha commesso lo stesso reato che è stato imputato anche a lei?,DESCRIZIONE,una persona malata di avarizia,giudizio,S,RD,"('red', 3, 1)",red,una persona malata di avarizia,red,giudizio
@@ -6117,8 +6117,8 @@ nn-sofferm-cancell della mia-cella
 4057,4057,"In quanto persona straniera detenuta, come pensa che un operatore dell’area socio-sanitaria di sesso diverso dal suo la descriverebbe?",DESCRIZIONE,normale,giudizio,S,RD,"('red', 3, 1)",red,normale,red,giudizio
 4058,4058,"In quanto persona straniera detenuta, come pensa che un operatore dell’area socio-sanitaria di sesso diverso dal suo la descriverebbe?",DESCRIZIONE,una-femmina,descrizione,S,RD,"('green', 0, 1)",green,una-femmina,green,descrizione
 4059,4059,"In quanto persona straniera detenuta, come pensa che un operatore dell’area socio-sanitaria di sesso diverso dal suo la descriverebbe?",DESCRIZIONE,"se-c-comp-com-s-dev c-poss-descrivere come-gli-altri 
-",implicazioni,S,RD,"('green', 0, 1)",green,"se-c-comp-com-s-dev c-poss-descrivere come-gli-altri 
-",green,implicazioni
+",implicazioni,S,RD,"('red', 9, 7)",red,"se-c-comp-com-s-dev c-poss-descrivere come-gli-altri 
+",red,implicazioni
 4060,4060,"In quanto persona straniera detenuta, come pensa che un operatore dell’area socio-sanitaria di sesso diverso dal suo la descriverebbe?",DESCRIZIONE,"per-me non-ha-nessuna importanza , E del-tutto-normale 
 ",commento,S,RD,"('red', 3, 1)",red,"per-me non-ha-nessuna importanza , E del-tutto-normale 
 ",red,commento
@@ -6595,11 +6595,11 @@ in_cui si_trova in_questo_posto
 fanno Š tenerci chiuse e non possiamo
 uscire , usciamo solo
 attorno l' area
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"qui_non c' Š niente . l' unica cosa che
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"qui_non c' Š niente . l' unica cosa che
 fanno Š tenerci chiuse e non possiamo
 uscire , usciamo solo
 attorno l' area
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4337,4337,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"la scuola mi Š_stata molto utile perch‚ non
 sapevo niente
 ",descrizione,S,RD,"('green', 0, 1)",green,"la scuola mi Š_stata molto utile perch‚ non
@@ -6750,18 +6750,18 @@ stop
 ",red,giudizio
 4367,4367,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"nessuno non_si interessa di te , da
 educatrici a assistenti_sociali
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"nessuno non_si interessa di te , da
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"nessuno non_si interessa di te , da
 educatrici a assistenti_sociali
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4368,4368,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"vedo poca volont… da_parte_della societ… a
 intervenire seriamente e con mezzi adeguati
 nel recupero
 dei_detenuti
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"vedo poca volont… da_parte_della societ… a
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"vedo poca volont… da_parte_della societ… a
 intervenire seriamente e con mezzi adeguati
 nel recupero
 dei_detenuti
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4369,4369,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,per educare una_persona inserirsi,generalizzazione,S,RD,"('red', 3, 1)",red,per educare una_persona inserirsi,red,generalizzazione
 4370,4370,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"non_ci_sono condizioni per lavorare , per
 contattare la famiglia , fare sport ,
@@ -7023,15 +7023,15 @@ influenza sulla loro psiche
 4415,4415,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,non_so che risposta potrei dare .,giustificazione,S,RD,"('red', 4, 1)",red,non_so che risposta potrei dare .,red,giustificazione
 4416,4416,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚ non vengono offerte i lavori
 per_poter partecipare noi stranieri
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"perch‚ non vengono offerte i lavori
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"perch‚ non vengono offerte i lavori
 per_poter partecipare noi stranieri
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4417,4417,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,non_so cosa potrei rispondere .,giustificazione,S,RD,"('red', 4, 1)",red,non_so cosa potrei rispondere .,red,giustificazione
 4418,4418,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"si_pu•_cambiare la vita dopo_di_che ai
 fatto la sentenza penale
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"si_pu•_cambiare la vita dopo_di_che ai
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"si_pu•_cambiare la vita dopo_di_che ai
 fatto la sentenza penale
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4419,4419,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"le considero efficaci perch‚ quello_che_ho
 chiesto riferito a loro mi Š stato sempre
 approvato e mi
@@ -7067,9 +7067,9 @@ sportiva , teatro , anche lavoro
 4425,4425,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,ognuno fa il suo mestiere io sono detenuto,commento,S,RD,"('red', 3, 1)",red,ognuno fa il suo mestiere io sono detenuto,red,commento
 4426,4426,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"dipende se la persona ha capito la causa e
 il fine di_questo_trattt .
-",implicazioni,S,RD,"('green', 0, 1)",green,"dipende se la persona ha capito la causa e
+",implicazioni,S,RD,"('red', 9, 7)",red,"dipende se la persona ha capito la causa e
 il fine di_questo_trattt .
-",green,implicazioni
+",red,implicazioni
 4427,4427,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"penso_che le possibilit… di rieducaz
 nn_sn_molto_efficaci perch‚ sono_molto
 poche ( limitate ) .
@@ -7158,10 +7158,10 @@ disperato
 4440,4440,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚ ha pi— opportunit… di inserirsi nel
 mondo sociale lavoro , studio , corsi
 professionali , eccetera eccetera
-",implicazioni,S,RD,"('green', 0, 1)",green,"perch‚ ha pi— opportunit… di inserirsi nel
+",implicazioni,S,RD,"('red', 9, 7)",red,"perch‚ ha pi— opportunit… di inserirsi nel
 mondo sociale lavoro , studio , corsi
 professionali , eccetera eccetera
-",green,implicazioni
+",red,implicazioni
 4441,4441,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"sono sei anni mai_visto mia famiglia .
 questo Š il problema
 ",sancire,S,RD,"('red', 1, 0)",red,"sono sei anni mai_visto mia famiglia .
@@ -7171,11 +7171,11 @@ questo Š il problema
 molto_efficaci aumentano le possibilit… di
 trovare_un_lavoro onesto e dare senso alla
 nostra vita
-",implicazioni,S,RD,"('green', 0, 1)",green,"le opportunit…_di tratt_rieducativo_sono
+",implicazioni,S,RD,"('red', 9, 7)",red,"le opportunit…_di tratt_rieducativo_sono
 molto_efficaci aumentano le possibilit… di
 trovare_un_lavoro onesto e dare senso alla
 nostra vita
-",green,implicazioni
+",red,implicazioni
 4443,4443,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"mancanza soldi
 senza famiglia
 disperato
@@ -7299,12 +7299,12 @@ non c' Š
 neanche il desiderio di rieducare le
 persone_detenute
 ",red,sancire
-4462,4462,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,servono ad_occupare_il_tempo,implicazioni,S,RD,"('green', 0, 1)",green,servono ad_occupare_il_tempo,green,implicazioni
+4462,4462,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,servono ad_occupare_il_tempo,implicazioni,S,RD,"('red', 9, 7)",red,servono ad_occupare_il_tempo,red,implicazioni
 4463,4463,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"ti aiuta ad_occupare_il_tempo e ti da
 speranze per il futuro .
-",implicazioni,S,RD,"('green', 0, 1)",green,"ti aiuta ad_occupare_il_tempo e ti da
+",implicazioni,S,RD,"('red', 9, 7)",red,"ti aiuta ad_occupare_il_tempo e ti da
 speranze per il futuro .
-",green,implicazioni
+",red,implicazioni
 4464,4464,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"la mia_scelta per ragioni che le
 opportunit…_di_trattt_rieducativo_sono
 di_grande bisogno
@@ -7403,14 +7403,14 @@ sportiva ti_fa strare bene fisicamente e
 anche il lavoro ti_fa passare_il_tempo e
 anche a_livello
 economico
-",implicazioni,S,RD,"('green', 0, 1)",green,"perch‚ Š molto importante per_esempio
+",implicazioni,S,RD,"('red', 9, 7)",red,"perch‚ Š molto importante per_esempio
 frequentare i corsi imparare tante_cose e
 poi l' attivit…
 sportiva ti_fa strare bene fisicamente e
 anche il lavoro ti_fa passare_il_tempo e
 anche a_livello
 economico
-",green,implicazioni
+",red,implicazioni
 4478,4478,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚ , se esiste abbastanza , rieducher la persona e quando sar… rieducato cercher…solo di
 lavorare
 ",previsione,S,RD,"('red', 5, 4)",red,"perch‚ , se esiste abbastanza , rieducher la persona e quando sar… rieducato cercher…solo di
@@ -7647,7 +7647,7 @@ fanno in_modo molto_efficace cos dandoti
 la possibilit… di
 capire meglio_che cosa vorresti fare della
 vita
-",implicazioni,S,RD,"('green', 0, 1)",green,"per_quanto mi riguarda penso siano
+",implicazioni,S,RD,"('red', 9, 7)",red,"per_quanto mi riguarda penso siano
 abbastanza positive nel_senso_che ti danno
 una mano per capire
 che cosa realmente vuoi dalla_vita e lo
@@ -7655,7 +7655,7 @@ fanno in_modo molto_efficace cos dandoti
 la possibilit… di
 capire meglio_che cosa vorresti fare della
 vita
-",green,implicazioni
+",red,implicazioni
 4521,4521,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,per lavoro,generalizzazione,S,RD,"('red', 3, 1)",red,per lavoro,red,generalizzazione
 4522,4522,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"io sono invalido e non sono curato . ho
 subito cinque interventi in entrambi i
@@ -7679,12 +7679,12 @@ accessibili per tutti . i motivi non li
 saprei_spiegare ,
 le spiegazioni le dovrebbe dare lo stato
 italiano .
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"sono_poco_efficaci non sono ugualmente
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"sono_poco_efficaci non sono ugualmente
 accessibili per tutti . i motivi non li
 saprei_spiegare ,
 le spiegazioni le dovrebbe dare lo stato
 italiano .
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4526,4526,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"bisogna educare bene perch‚ la buona
 educazione ti aiuta a rispettare gli altri
 ",generalizzazione,S,RD,"('red', 3, 1)",red,"bisogna educare bene perch‚ la buona
@@ -7693,10 +7693,10 @@ educazione ti aiuta a rispettare gli altri
 4527,4527,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"se vai al corso e al lavoro non pensi che
 sei in_carcere , passi buon tempo , anche
 il cervello si libera
-",implicazioni,S,RD,"('green', 0, 1)",green,"se vai al corso e al lavoro non pensi che
+",implicazioni,S,RD,"('red', 9, 7)",red,"se vai al corso e al lavoro non pensi che
 sei in_carcere , passi buon tempo , anche
 il cervello si libera
-",green,implicazioni
+",red,implicazioni
 4528,4528,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"la rag_della_mia_scelta Š la maleducazione
 che porta le persone qua_dentro
 ",generalizzazione,S,RD,"('red', 3, 1)",red,"la rag_della_mia_scelta Š la maleducazione
@@ -7758,11 +7758,11 @@ volontario
 entratto in_questo_carcere nessuno mi ha
 chiamato
 anche perch‚_sono_straniero
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"perch‚ per_me non_funziona perch‚ da_quando
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"perch‚ per_me non_funziona perch‚ da_quando
 entratto in_questo_carcere nessuno mi ha
 chiamato
 anche perch‚_sono_straniero
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4538,4538,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"a_questa_domanda , fratello mio mi sono
 opposto pi—_di una_volta senza risposta
 ",non risposta,S,RD,"('red', 3, 1)",red,"a_questa_domanda , fratello mio mi sono
@@ -7841,16 +7841,16 @@ mio problema
 4551,4551,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,perch‚ ci aiuta,descrizione,S,RD,"('green', 0, 1)",green,perch‚ ci aiuta,green,descrizione
 4552,4552,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"per fare passare_il_tempo e non annoiarsi .
 non pensare alle brutte cose .
-",implicazioni,S,RD,"('green', 0, 1)",green,"per fare passare_il_tempo e non annoiarsi .
+",implicazioni,S,RD,"('red', 9, 7)",red,"per fare passare_il_tempo e non annoiarsi .
 non pensare alle brutte cose .
-",green,implicazioni
+",red,implicazioni
 4553,4553,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"Š molto semplice , la rieducaz ti cambia ,
 ti_fa capire tante_cose e ti_fa pensare per
 il domani
-",implicazioni,S,RD,"('green', 0, 1)",green,"Š molto semplice , la rieducaz ti cambia ,
+",implicazioni,S,RD,"('red', 9, 7)",red,"Š molto semplice , la rieducaz ti cambia ,
 ti_fa capire tante_cose e ti_fa pensare per
 il domani
-",green,implicazioni
+",red,implicazioni
 4554,4554,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"non_fanno le relazioni giuste le fanno
 a_loro_modo . non_funziona il controllo
 per_i_detenuti . pensano
@@ -7991,9 +7991,9 @@ importante che non_si senti abbandonato dalle istituzioni
 4579,4579,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,non_voglio rispondere,giustificazione,S,RD,"('red', 4, 1)",red,non_voglio rispondere,red,giustificazione
 4580,4580,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"quando uno cerca di educarti , qualcosa ne
 impari
-",implicazioni,S,RD,"('green', 0, 1)",green,"quando uno cerca di educarti , qualcosa ne
+",implicazioni,S,RD,"('red', 9, 7)",red,"quando uno cerca di educarti , qualcosa ne
 impari
-",green,implicazioni
+",red,implicazioni
 4581,4581,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"mi_disp_tanto_ma_non sono_capace
 di_spiegare il perch‚ della_mia_scelta
 ",giustificazione,S,RD,"('red', 4, 1)",red,"mi_disp_tanto_ma_non sono_capace
@@ -8003,16 +8003,16 @@ di_spiegare il perch‚ della_mia_scelta
 4583,4583,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,contribuiscono alla_rieducaz della_persona,descrizione,S,RD,"('green', 0, 1)",green,contribuiscono alla_rieducaz della_persona,green,descrizione
 4584,4584,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚ anche_se le opportunit… ci sono non
 ce lo permettono di beneficiarne
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"perch‚ anche_se le opportunit… ci sono non
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"perch‚ anche_se le opportunit… ci sono non
 ce lo permettono di beneficiarne
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4585,4585,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚_tramite l' educazione
 si_pu•_cambiare mentalit… diventare pi—
 educati
-",implicazioni,S,RD,"('green', 0, 1)",green,"perch‚_tramite l' educazione
+",implicazioni,S,RD,"('red', 9, 7)",red,"perch‚_tramite l' educazione
 si_pu•_cambiare mentalit… diventare pi—
 educati
-",green,implicazioni
+",red,implicazioni
 4586,4586,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚ mi diverto e mi dimentico la realt…
 quotidiana
 ",descrizione,S,RD,"('green', 0, 1)",green,"perch‚ mi diverto e mi dimentico la realt…
@@ -8040,19 +8040,19 @@ pi— irritabile
 ",red,giustificazione
 4591,4591,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"non conosco la lingua italiana e nessuno si
 preoccupa per_me
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"non conosco la lingua italiana e nessuno si
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"non conosco la lingua italiana e nessuno si
 preoccupa per_me
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4592,4592,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,poco_personale,descrizione,S,RD,"('green', 0, 1)",green,poco_personale,green,descrizione
 4593,4593,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚_sono stato punito con una condanna
 lunga nessuno mi ha aiutato ne per i
 documenti ne per il
 lavoro ne per_niente
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"perch‚_sono stato punito con una condanna
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"perch‚_sono stato punito con una condanna
 lunga nessuno mi ha aiutato ne per i
 documenti ne per il
 lavoro ne per_niente
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4594,4594,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"le rag_della_mia_scelta sono_abb_efficaci
 perch‚ questa prigione non possiede queste
 opportunit… di trattt
@@ -8197,7 +8197,7 @@ usufruire
 ",red,generalizzazione
 4624,4624,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,perch‚ Š_una_cosa_efficace,generalizzazione,S,RD,"('red', 3, 1)",red,perch‚ Š_una_cosa_efficace,red,generalizzazione
 4625,4625,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,non lo so,giustificazione,S,RD,"('red', 4, 1)",red,non lo so,red,giustificazione
-4626,4626,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,perch‚ cambia_il_perc_vita umana,implicazioni,S,RD,"('green', 0, 1)",green,perch‚ cambia_il_perc_vita umana,green,implicazioni
+4626,4626,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,perch‚ cambia_il_perc_vita umana,implicazioni,S,RD,"('red', 9, 7)",red,perch‚ cambia_il_perc_vita umana,red,implicazioni
 4627,4627,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,perch‚ vedo tutto quello che succede,sancire,S,RD,"('red', 1, 0)",red,perch‚ vedo tutto quello che succede,red,sancire
 4628,4628,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,Š_una_cosa per l' interesse del_detenuto,generalizzazione,S,RD,"('red', 3, 1)",red,Š_una_cosa per l' interesse del_detenuto,red,generalizzazione
 4629,4629,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,questo Š a_favore_del detenuto,giudizio,S,RD,"('red', 3, 1)",red,questo Š a_favore_del detenuto,red,giudizio
@@ -8226,9 +8226,9 @@ lottare per uscire
 ",green,descrizione
 4635,4635,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"parlo dell' istruzione se l' insegnante Š
 bravo allora impari qualcosa
-",implicazioni,S,RD,"('green', 0, 1)",green,"parlo dell' istruzione se l' insegnante Š
+",implicazioni,S,RD,"('red', 9, 7)",red,"parlo dell' istruzione se l' insegnante Š
 bravo allora impari qualcosa
-",green,implicazioni
+",red,implicazioni
 4636,4636,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,vedo tutto_ci• che succede,sancire,S,RD,"('red', 1, 0)",red,vedo tutto_ci• che succede,red,sancire
 4637,4637,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"penso_che tra i detenuti non ci sia
 comprensione malgr_le_loro_condiz gli hanno
@@ -8239,7 +8239,7 @@ comprensione malgr_le_loro_condiz gli hanno
 costretti a
 entrare in_carcere
 ",red,commento
-4638,4638,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,perch‚ cambia_il_perc_vita umana,implicazioni,S,RD,"('green', 0, 1)",green,perch‚ cambia_il_perc_vita umana,green,implicazioni
+4638,4638,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,perch‚ cambia_il_perc_vita umana,implicazioni,S,RD,"('red', 9, 7)",red,perch‚ cambia_il_perc_vita umana,red,implicazioni
 4639,4639,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"poco_efficace_perch‚ tante di
 queste_opportunit… sono_assenti
 ",descrizione,S,RD,"('green', 0, 1)",green,"poco_efficace_perch‚ tante di
@@ -8252,9 +8252,9 @@ l' obiettivo di essere messo nella comunit…
 ",green,riferimento all'obiettivo
 4641,4641,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚ nn_mi danno_la_possibilit… di
 rientrare nella societ…
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"perch‚ nn_mi danno_la_possibilit… di
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"perch‚ nn_mi danno_la_possibilit… di
 rientrare nella societ…
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4642,4642,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"e se per_caso mi
 viene data rimango
 macchiata dal_mio reato per_sempre",previsione,S,RD,"('red', 5, 4)",red,"e se per_caso mi
@@ -8267,19 +8267,19 @@ che non_sono_efficaci
 ",red,generalizzazione
 4644,4644,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"non ho idea se_le_opportunit… dentro il
 carcere_ti riducono la pena
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"non ho idea se_le_opportunit… dentro il
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"non ho idea se_le_opportunit… dentro il
 carcere_ti riducono la pena
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4645,4645,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,perch‚_non professionali,descrizione,S,RD,"('green', 0, 1)",green,perch‚_non professionali,green,descrizione
 4646,4646,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,fanno poca attenzione,descrizione,S,RD,"('green', 0, 1)",green,fanno poca attenzione,green,descrizione
 4647,4647,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"se si va dal dottore perch‚ si sta male, non prescrive niente
-",implicazioni,S,RD,"('green', 0, 1)",green,"se si va dal dottore perch‚ si sta male, non prescrive niente
-",green,implicazioni
+",implicazioni,S,RD,"('red', 9, 7)",red,"se si va dal dottore perch‚ si sta male, non prescrive niente
+",red,implicazioni
 4648,4648,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚_la_rieducaz fa fare un cambio di
 vita
-",implicazioni,S,RD,"('green', 0, 1)",green,"perch‚_la_rieducaz fa fare un cambio di
+",implicazioni,S,RD,"('red', 9, 7)",red,"perch‚_la_rieducaz fa fare un cambio di
 vita
-",green,implicazioni
+",red,implicazioni
 4649,4649,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,mi sento molto male,sancire,S,RD,"('red', 1, 0)",red,mi sento molto male,red,sancire
 4650,4650,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"sono_efficaci da_parte_delle persone che ci
 vogliono dare la rieducaz , ma la mancanza
@@ -8387,7 +8387,7 @@ altro
 colloquio con l' educatore e da nessun
 altro
 ",green,descrizione
-4670,4670,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,danno una possibilit… nella vita nuova,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,danno una possibilit… nella vita nuova,green,deresponsabilizzazione
+4670,4670,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,danno una possibilit… nella vita nuova,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,danno una possibilit… nella vita nuova,red,deresponsabilizzazione
 4671,4671,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚ Š un' altra possibilit… di costruire
 una_vita
 ",sancire,S,RD,"('red', 1, 0)",red,"perch‚ Š un' altra possibilit… di costruire
@@ -8411,11 +8411,11 @@ migliorare
 istituto Š_molto_efficace per un detenuto
 cos� possiamo
 ottenere una societ… sana e senza pericoli
-",implicazioni,S,RD,"('green', 0, 1)",green,"penso_che il trattt_rieducativo nell'
+",implicazioni,S,RD,"('red', 9, 7)",red,"penso_che il trattt_rieducativo nell'
 istituto Š_molto_efficace per un detenuto
 cos� possiamo
 ottenere una societ… sana e senza pericoli
-",green,implicazioni
+",red,implicazioni
 4675,4675,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"non_ho_visto molta gente che ha avuto
 queste_opportunit…
 ",generalizzazione,S,RD,"('red', 3, 1)",red,"non_ho_visto molta gente che ha avuto
@@ -8501,11 +8501,11 @@ danno quasi benefici
 parte del_tempo rinchiusi senza fare niente
 perch‚ non
 ci sono abbastanza attivit…
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"una delle ragioni Š che passiamo la maggior
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"una delle ragioni Š che passiamo la maggior
 parte del_tempo rinchiusi senza fare niente
 perch‚ non
 ci sono abbastanza attivit…
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4693,4693,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"non_ci_sono molti corsi , non_ci_sono
 proposte di_lavoro fuori_dal carcere per
 prepararti al mondo
@@ -8751,11 +8751,11 @@ praticamente_non c' e nulla
 essere rispettati ed aiutati in questi
 momenti perch‚
 sono degli esseri umani come voi
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"sono_efficaci i detenuti hanno bisogno di
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"sono_efficaci i detenuti hanno bisogno di
 essere rispettati ed aiutati in questi
 momenti perch‚
 sono degli esseri umani come voi
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4729,4729,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚ si esce sempre tardi dalla cella ed
 Š troppo faticoso per gli agenti
 penitenziari e i secondini
@@ -8774,13 +8774,13 @@ che pi— dovrebbero
 seguire i trattt_rieducativi come lo
 psicologo , l' educatrice , l' assistente
 sociale
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"perch‚_sono in_carcere da 4 anni e
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"perch‚_sono in_carcere da 4 anni e
 non_ho_mai avuto contatti con le persone
 che pi— dovrebbero
 seguire i trattt_rieducativi come lo
 psicologo , l' educatrice , l' assistente
 sociale
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4732,4732,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚ finora non_ho_avuto nessun_tipo .
 voglio comunicare con la mia famiglia e non
 posso
@@ -8850,9 +8850,9 @@ e nessuno ci prende sul_serio .
 ",red,giustificazione
 4743,4743,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚_le_persone autorizate non_si danno
 da fare per reeducare i detinuti
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"perch‚_le_persone autorizate non_si danno
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"perch‚_le_persone autorizate non_si danno
 da fare per reeducare i detinuti
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4744,4744,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"la prima cosa non sento la necesita di
 tratt_rieducativo . perch‚_non_si fa , e
 perch‚ io sono una
@@ -8961,9 +8961,9 @@ errori
 4763,4763,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,perch‚ Š tutta un' attesa ! !,descrizione,S,RD,"('green', 0, 1)",green,perch‚ Š tutta un' attesa ! !,green,descrizione
 4764,4764,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"perch‚ hai bisogno di opportunit… che
 qui_non danno , ci_sono_poche
-",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"perch‚ hai bisogno di opportunit… che
+",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"perch‚ hai bisogno di opportunit… che
 qui_non danno , ci_sono_poche
-",green,deresponsabilizzazione
+",red,deresponsabilizzazione
 4765,4765,"Se la risposta data alla domanda precedente è per nulla efficaci/poco efficaci o efficaci/molto efficaci, ci potrebbe indicare le ragioni della sua scelta?",VALUTAZIONE,"abbastanza_efficaci a me_sono serviti
 per_imparare a convivere con persone
 sconosciute ,
@@ -9258,7 +9258,7 @@ pi— .
 4914,4914,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,dipende dalla direzione: perché siamo esseri umani ,generalizzazione,S,RD,"('red', 3, 1)",red,dipende dalla direzione: perché siamo esseri umani ,red,generalizzazione
 4915,4915,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,la prima cosa che farò è quella di cercare un cittadino che appartiene al mio stesso paese e che non fa uso di nulla ,dichiarazione di intenti,S,RD,"('red', 5, 4)",red,la prima cosa che farò è quella di cercare un cittadino che appartiene al mio stesso paese e che non fa uso di nulla ,red,dichiarazione di intenti
 4916,4916,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,quando si rispettano uno con l'altro ,descrizione,S,RD,"('green', 0, 1)",green,quando si rispettano uno con l'altro ,green,descrizione
-4917,4917,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,"la cosa mi fa pensare, è che devo conoscere le regole di questo nuovo istituto ",implicazioni,S,RD,"('green', 0, 1)",green,"la cosa mi fa pensare, è che devo conoscere le regole di questo nuovo istituto ",green,implicazioni
+4917,4917,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,"la cosa mi fa pensare, è che devo conoscere le regole di questo nuovo istituto ",implicazioni,S,RD,"('red', 9, 7)",red,"la cosa mi fa pensare, è che devo conoscere le regole di questo nuovo istituto ",red,implicazioni
 4918,4918,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,avrei bisogno di conoscere l'ambiente prima di dare il mio giudizio ,giustificazione,S,RD,"('red', 4, 1)",red,avrei bisogno di conoscere l'ambiente prima di dare il mio giudizio ,red,giustificazione
 4919,4919,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,penso che sono poco integrati ,commento,S,RD,"('red', 3, 1)",red,penso che sono poco integrati ,red,commento
 4920,4920,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,per me non c'è nessun problema ,non risposta,S,RD,"('red', 3, 1)",red,per me non c'è nessun problema ,red,non risposta
@@ -9407,7 +9407,7 @@ attività scolastiche e religiose pari per_entrambi
 ",green,descrizione
 5058,5058,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,che la maggioranza degli stranieri è riuscita ad integrarsi abbandonando modi di vivere del loro_paese,commento,S,RD,"('red', 3, 1)",red,che la maggioranza degli stranieri è riuscita ad integrarsi abbandonando modi di vivere del loro_paese,red,commento
 5059,5059,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,tutto il mondo è paese,non risposta,S,RD,"('red', 3, 1)",red,tutto il mondo è paese,red,non risposta
-5060,5060,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,dal_comportamento istituzionale molto dipende da come viene istituito il carcere e se si_dà che possiamo coesistere con gli stranieri e di tutto guadagnato,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,dal_comportamento istituzionale molto dipende da come viene istituito il carcere e se si_dà che possiamo coesistere con gli stranieri e di tutto guadagnato,green,deresponsabilizzazione
+5060,5060,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,dal_comportamento istituzionale molto dipende da come viene istituito il carcere e se si_dà che possiamo coesistere con gli stranieri e di tutto guadagnato,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,dal_comportamento istituzionale molto dipende da come viene istituito il carcere e se si_dà che possiamo coesistere con gli stranieri e di tutto guadagnato,red,deresponsabilizzazione
 5061,5061,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,vedendo che nelle_celle sono di_razza e religioni diversi e che lo_stesso per il lavoro,sancire,S,RD,"('red', 1, 0)",red,vedendo che nelle_celle sono di_razza e religioni diversi e che lo_stesso per il lavoro,red,sancire
 5062,5062,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,comune accordo,descrizione,S,RD,"('green', 0, 1)",green,comune accordo,green,descrizione
 5063,5063,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,sono tutti uguali,descrizione,S,RD,"('green', 0, 1)",green,sono tutti uguali,green,descrizione
@@ -9435,7 +9435,7 @@ attività scolastiche e religiose pari per_entrambi
 5085,5085,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,si è stabilizzato un_rapporto_di rispetto ed amicizia,sancire,S,RD,"('red', 1, 0)",red,si è stabilizzato un_rapporto_di rispetto ed amicizia,red,sancire
 5086,5086,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,dal modo di comportamento che troverei tra_detenuti_italiani_e_stranieri,giudizio,S,RD,"('red', 3, 1)",red,dal modo di comportamento che troverei tra_detenuti_italiani_e_stranieri,red,giudizio
 5087,5087,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,passo le giornate con stranieri e italiani,sancire,S,RD,"('red', 1, 0)",red,passo le giornate con stranieri e italiani,red,sancire
-5088,5088,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,vedere ciò che viene domandato se non_si vedono piccole o individuali forme di amicizia e convivenza,implicazioni,S,RD,"('green', 0, 1)",green,vedere ciò che viene domandato se non_si vedono piccole o individuali forme di amicizia e convivenza,green,implicazioni
+5088,5088,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,vedere ciò che viene domandato se non_si vedono piccole o individuali forme di amicizia e convivenza,implicazioni,S,RD,"('red', 9, 7)",red,vedere ciò che viene domandato se non_si vedono piccole o individuali forme di amicizia e convivenza,red,implicazioni
 5089,5089,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,vivendola di propria persona in qualsiasi istituto dove sono stato è stata sempre il medesimo non_si_può negare,commento,S,RD,"('red', 3, 1)",red,vivendola di propria persona in qualsiasi istituto dove sono stato è stata sempre il medesimo non_si_può negare,red,commento
 5090,5090,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,se sono allocati in celle_miste,valutazione,S,RD,"('yellow', 5, 5)",yellow,se sono allocati in celle_miste,yellow,valutazione
 5091,5091,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,perché io mi sono sempre trovato bene con tutte le razze di questo mondo,commento,S,RD,"('red', 3, 1)",red,perché io mi sono sempre trovato bene con tutte le razze di questo mondo,red,commento
@@ -9526,11 +9526,11 @@ lo che vedo e sento",yellow,valutazione
 5172,5172,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,"se c' è collaborazione, accordo, aiuto reciproco senza far differenza per_via_della nazionalità",descrizione,S,RD,"('green', 0, 1)",green,"se c' è collaborazione, accordo, aiuto reciproco senza far differenza per_via_della nazionalità",green,descrizione
 5173,5173,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,"mi permette di pensare_che ""sono già integrate"" quindi sono io che devo integrarmi",giustificazione,S,RD,"('red', 4, 1)",red,"mi permette di pensare_che ""sono già integrate"" quindi sono io che devo integrarmi",red,giustificazione
 5174,5174,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,mi basterà vedere se effettivamente le persone condividono gli stessi interessi e se cercano di aiutarsi tra_loro,descrizione,S,RD,"('green', 0, 1)",green,mi basterà vedere se effettivamente le persone condividono gli stessi interessi e se cercano di aiutarsi tra_loro,green,descrizione
-5175,5175,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,essendo una_convivenza obbligatoria i dirigenti dell' istituto hanno_saputo gestire al_meglio la situazione,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,essendo una_convivenza obbligatoria i dirigenti dell' istituto hanno_saputo gestire al_meglio la situazione,green,deresponsabilizzazione
+5175,5175,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,essendo una_convivenza obbligatoria i dirigenti dell' istituto hanno_saputo gestire al_meglio la situazione,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,essendo una_convivenza obbligatoria i dirigenti dell' istituto hanno_saputo gestire al_meglio la situazione,red,deresponsabilizzazione
 5176,5176,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,vedere che alcuni lavorano,descrizione,S,RD,"('green', 0, 1)",green,vedere che alcuni lavorano,green,descrizione
 5177,5177,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,perchénon_parliamo_la_stessa e a_volte può_succedere che non_ci_capiamo e possiamo litigare e io_non voglio questo,commento,S,RD,"('red', 3, 1)",red,perchénon_parliamo_la_stessa e a_volte può_succedere che non_ci_capiamo e possiamo litigare e io_non voglio questo,red,commento
 5178,5178,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,è l' interattività sportiva e penitenziaria che lo dimostra,sancire,S,RD,"('red', 1, 0)",red,è l' interattività sportiva e penitenziaria che lo dimostra,red,sancire
-5179,5179,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,il personale penitenziario ha_fatto sì di integrate che vanno d_accordo,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,il personale penitenziario ha_fatto sì di integrate che vanno d_accordo,green,deresponsabilizzazione
+5179,5179,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,il personale penitenziario ha_fatto sì di integrate che vanno d_accordo,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,il personale penitenziario ha_fatto sì di integrate che vanno d_accordo,red,deresponsabilizzazione
 5180,5180,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,dal cibo e dalla religione,sancire,S,RD,"('red', 1, 0)",red,dal cibo e dalla religione,red,sancire
 5181,5181,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,con i pochi stranieri che ci_sono stato in_cella sono sempre andato d_accordo,commento,S,RD,"('red', 3, 1)",red,con i pochi stranieri che ci_sono stato in_cella sono sempre andato d_accordo,red,commento
 5182,5182,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,"la pacifica convivenza, la voglia di integrarsi da_parte_dei detenuti e la volontà e di accettare costumi e religione",valutazione,S,RD,"('yellow', 5, 5)",yellow,"la pacifica convivenza, la voglia di integrarsi da_parte_dei detenuti e la volontà e di accettare costumi e religione",yellow,valutazione
@@ -9746,7 +9746,7 @@ di_personale
 ",descrizione,S,RD,"('green', 0, 1)",green,"non_si fanno abbastanza corsi di aggiornamento per_il_personale 
 
 ",green,descrizione
-5353,5353,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,abbandonandolo a se stesso.,implicazioni,S,RD,"('green', 0, 1)",green,abbandonandolo a se stesso.,green,implicazioni
+5353,5353,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,abbandonandolo a se stesso.,implicazioni,S,RD,"('red', 9, 7)",red,abbandonandolo a se stesso.,red,implicazioni
 5354,5354,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,perche nel_corso_degli anni servizio mi accultura sempre_di_piu,conferma,S,RD,"('red', 2, 1)",red,perche nel_corso_degli anni servizio mi accultura sempre_di_piu,red,conferma
 5355,5355,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,i nostri compiti non rientrano nel reinserimento,commento,S,RD,"('red', 3, 1)",red,i nostri compiti non rientrano nel reinserimento,red,commento
 5356,5356,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"non_ho avuto occasione di poter frequentare_corsi che mi 
@@ -9766,12 +9766,12 @@ vecchia
 ",descrizione,S,RD,"('green', 0, 1)",green,"la ragione della mia_risposta e quella che questa struttura e abbastanza 
 vecchia 
 ",green,descrizione
-5361,5361,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,mettendo in_difficolta lo svolgimento delle attivita,implicazioni,S,RD,"('green', 0, 1)",green,mettendo in_difficolta lo svolgimento delle attivita,green,implicazioni
+5361,5361,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,mettendo in_difficolta lo svolgimento delle attivita,implicazioni,S,RD,"('red', 9, 7)",red,mettendo in_difficolta lo svolgimento delle attivita,red,implicazioni
 5362,5362,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"e mi dispiace 
 essere ripetitivo,",commento,S,RD,"('red', 3, 1)",red,"e mi dispiace 
 essere ripetitivo,",red,commento
 5363,5363,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,ma ci vuole piu personale,giustificazione,S,RD,"('red', 4, 1)",red,ma ci vuole piu personale,red,giustificazione
-5364,5364,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,altrimeno va tutto bloccato.,implicazioni,S,RD,"('green', 0, 1)",green,altrimeno va tutto bloccato.,green,implicazioni
+5364,5364,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,altrimeno va tutto bloccato.,implicazioni,S,RD,"('red', 9, 7)",red,altrimeno va tutto bloccato.,red,implicazioni
 5365,5365,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"spesso_si esclusi per contingenti ragioni di_servizio dal ruolo che 
 effettivamene si_riveste. 
 ",commento,S,RD,"('red', 3, 1)",red,"spesso_si esclusi per contingenti ragioni di_servizio dal ruolo che 
@@ -9806,9 +9806,9 @@ funzioni
 ",red,opinione
 5375,5375,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"e 
 la mancanza_di_personale_non consente a tutti di_partecipare a quei 
-pochi corsi organizzati solo per pochi",implicazioni,S,RD,"('green', 0, 1)",green,"e 
+pochi corsi organizzati solo per pochi",implicazioni,S,RD,"('red', 9, 7)",red,"e 
 la mancanza_di_personale_non consente a tutti di_partecipare a quei 
-pochi corsi organizzati solo per pochi",green,implicazioni
+pochi corsi organizzati solo per pochi",red,implicazioni
 5376,5376,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"credo che l' amministrazione penitenziaria fornisca poche occasioni 
 rispetto_agli obiettivi previsti nel_mio ruolo,",descrizione,S,RD,"('green', 0, 1)",green,"credo che l' amministrazione penitenziaria fornisca poche occasioni 
 rispetto_agli obiettivi previsti nel_mio ruolo,",green,descrizione
@@ -10138,14 +10138,14 @@ di formazione o approfondimento utili al mio ruolo.",red,conferma
 sempre_piu ridotto",commento,S,RD,"('red', 3, 1)",red,"perche purtroppo negli anni il numero di_personale operante e 
 sempre_piu ridotto",red,commento
 5446,5446,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,"per cui_si da priorita ai_compiti essenziali 
-",implicazioni,S,RD,"('green', 0, 1)",green,"per cui_si da priorita ai_compiti essenziali 
-",green,implicazioni
+",implicazioni,S,RD,"('red', 9, 7)",red,"per cui_si da priorita ai_compiti essenziali 
+",red,implicazioni
 5447,5447,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,"e perche tra 
 un_corso e l' altro passa sempre un lungo periodo_di_tempo",descrizione,S,RD,"('green', 0, 1)",green,"e perche tra 
 un_corso e l' altro passa sempre un lungo periodo_di_tempo",green,descrizione
 5448,5448,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,"facendo si 
-che si disperda quanto acquisito nel precedente.",implicazioni,S,RD,"('green', 0, 1)",green,"facendo si 
-che si disperda quanto acquisito nel precedente.",green,implicazioni
+che si disperda quanto acquisito nel precedente.",implicazioni,S,RD,"('red', 9, 7)",red,"facendo si 
+che si disperda quanto acquisito nel precedente.",red,implicazioni
 5449,5449,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,dovrebbe organizzare piu frequentemente corsi_di_aggiornamento,generalizzazione,S,RD,"('red', 3, 1)",red,dovrebbe organizzare piu frequentemente corsi_di_aggiornamento,red,generalizzazione
 5450,5450,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,"perche_il_ruolo che occupo per rendere positivo una mia competenza, ha 
 bisogno di_formazione tempi che quest' amministrazione non garantisce. 
@@ -10319,9 +10319,9 @@ mentre viene privilegiata la burocratizzazione,
 ",green,descrizione
 5488,5488,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,"questo significa spesso 
 lavorare senza un lavoro di equipe che migliorerebbe i risultati e le 
-risposte",implicazioni,S,RD,"('green', 0, 1)",green,"questo significa spesso 
+risposte",implicazioni,S,RD,"('red', 9, 7)",red,"questo significa spesso 
 lavorare senza un lavoro di equipe che migliorerebbe i risultati e le 
-risposte",green,implicazioni
+risposte",red,implicazioni
 5489,5489,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,ci fornisce tutte le domande dei detenuti,commento,S,RD,"('red', 3, 1)",red,ci fornisce tutte le domande dei detenuti,red,commento
 5490,5490,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,"mancanza di rapporti con educatori_/ operatori sert 
 carenza_di_spazi 
@@ -11035,15 +11035,15 @@ guardie nei_confronti_dei detenuti",red,conferma
 5729,5729,come descriverebbe le opportunità di trattamento rieducativo a cui può accedere in quanto persona detenuta?,DESCRIZIONE,il trattame_rieducativo sufficiente per_me come_detenuto,giudizio,S,RD,"('red', 3, 1)",red,il trattame_rieducativo sufficiente per_me come_detenuto,red,giudizio
 5730,5730,come descriverebbe le opportunità di trattamento rieducativo a cui può accedere in quanto persona detenuta?,DESCRIZIONE,"e 
 per_questo 
-chiedo a voi di cambiare_trattamento del_detenuto",implicazioni,S,RD,"('green', 0, 1)",green,"e 
+chiedo a voi di cambiare_trattamento del_detenuto",implicazioni,S,RD,"('red', 9, 7)",red,"e 
 per_questo 
-chiedo a voi di cambiare_trattamento del_detenuto",green,implicazioni
+chiedo a voi di cambiare_trattamento del_detenuto",red,implicazioni
 5731,5731,come descriverebbe le opportunità di trattamento rieducativo a cui può accedere in quanto persona detenuta?,DESCRIZIONE,il trattame_rieducativo sufficiente per_il_detenuto,giudizio,S,RD,"('red', 3, 1)",red,il trattame_rieducativo sufficiente per_il_detenuto,red,giudizio
 5732,5732,come descriverebbe le opportunità di trattamento rieducativo a cui può accedere in quanto persona detenuta?,DESCRIZIONE,"per_questo 
 vi_chiedo di 
-cambiare_trattamento",implicazioni,S,RD,"('green', 0, 1)",green,"per_questo 
+cambiare_trattamento",implicazioni,S,RD,"('red', 9, 7)",red,"per_questo 
 vi_chiedo di 
-cambiare_trattamento",green,implicazioni
+cambiare_trattamento",red,implicazioni
 5733,5733,come descriverebbe le opportunità di trattamento rieducativo a cui può accedere in quanto persona detenuta?,DESCRIZIONE,secondo_me il trattame_rieducativo questo carcere Š_ottimo,opinione,S,RD,"('red', 5, 3)",red,secondo_me il trattame_rieducativo questo carcere Š_ottimo,red,opinione
 5734,5734,come descriverebbe le opportunità di trattamento rieducativo a cui può accedere in quanto persona detenuta?,DESCRIZIONE,sto_bene,commento,S,RD,"('red', 3, 1)",red,sto_bene,red,commento
 5735,5735,come descriverebbe le opportunità di trattamento rieducativo a cui può accedere in quanto persona detenuta?,DESCRIZIONE,"tante_persone sono andate a_scuola visto_che qui in prigione c'Š . io_sono qua da un_mese , non_ho 
@@ -11897,9 +11897,9 @@ accert_tossicodip
 6061,6061,Quali sono le azioni che vengono intraprese per la presa in carico della persona straniera detenuta tenendo anche in considerazione l’attività svolta dai ser.t?,DESCRIZIONE,se il detenuto è regolarizzato con il permesso_sogg può essere preso_carico dal serv_tossdip,commento,S,RD,"('red', 3, 1)",red,se il detenuto è regolarizzato con il permesso_sogg può essere preso_carico dal serv_tossdip,red,commento
 6062,6062,Quali sono le azioni che vengono intraprese per la presa in carico della persona straniera detenuta tenendo anche in considerazione l’attività svolta dai ser.t?,DESCRIZIONE,"verif_permes_sogg 
 se posseduto o non posseduto , un colloq_conoscitivo viene_fatto sempre ma le opportunità variano a_seconda_della presenza del permesso . diversamente la presa_carico subisce delle modifiche non positive 
-",implicazioni,S,RD,"('green', 0, 1)",green,"verif_permes_sogg 
+",implicazioni,S,RD,"('red', 9, 7)",red,"verif_permes_sogg 
 se posseduto o non posseduto , un colloq_conoscitivo viene_fatto sempre ma le opportunità variano a_seconda_della presenza del permesso . diversamente la presa_carico subisce delle modifiche non positive 
-",green,implicazioni
+",red,implicazioni
 6063,6063,Quali sono le azioni che vengono intraprese per la presa in carico della persona straniera detenuta tenendo anche in considerazione l’attività svolta dai ser.t?,DESCRIZIONE,"le risposte date sono state date secondo le mie sensazioni , non_ho alcuna esperienza in_merito",commento,S,RD,"('red', 3, 1)",red,"le risposte date sono state date secondo le mie sensazioni , non_ho alcuna esperienza in_merito",red,commento
 6064,6064,Quali sono le azioni che vengono intraprese per la presa in carico della persona straniera detenuta tenendo anche in considerazione l’attività svolta dai ser.t?,DESCRIZIONE,non_lo_so,giustificazione,S,RD,"('red', 4, 1)",red,non_lo_so,red,giustificazione
 6065,6065,Quali sono le azioni che vengono intraprese per la presa in carico della persona straniera detenuta tenendo anche in considerazione l’attività svolta dai ser.t?,DESCRIZIONE,seguino un gruppo di det_tossici già servizio dall_esterno ospedalieri per metadone,commento,S,RD,"('red', 3, 1)",red,seguino un gruppo di det_tossici già servizio dall_esterno ospedalieri per metadone,red,commento
@@ -12399,7 +12399,7 @@ avvio_comunità dopo l' iscrizione_sert",green,descrizione
 6353,6353,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,una_brava,giudizio,S,RD,"('red', 3, 1)",red,una_brava,red,giudizio
 6354,6354,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,pensare alla mia_famiglia,dichiarazione di intenti,S,RD,"('red', 5, 4)",red,pensare alla mia_famiglia,red,dichiarazione di intenti
 6355,6355,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,le prime settimane devo rilasciarsi e devo riabilitare con il mondo fuori_di qua è certamente a quelle liberante,prescrizione,S,RD,"('yellow', 4, 4)",yellow,le prime settimane devo rilasciarsi e devo riabilitare con il mondo fuori_di qua è certamente a quelle liberante,yellow,prescrizione
-6356,6356,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,"se i magistrati italiani giudicheranno il mio caso in_modo imparziale neutrale , allora mi_sentirò davvero libero e tranquillo",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"se i magistrati italiani giudicheranno il mio caso in_modo imparziale neutrale , allora mi_sentirò davvero libero e tranquillo",green,deresponsabilizzazione
+6356,6356,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,"se i magistrati italiani giudicheranno il mio caso in_modo imparziale neutrale , allora mi_sentirò davvero libero e tranquillo",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"se i magistrati italiani giudicheranno il mio caso in_modo imparziale neutrale , allora mi_sentirò davvero libero e tranquillo",red,deresponsabilizzazione
 6357,6357,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,penso_che mi_descriverò come più saggio,giudizio,S,RD,"('red', 3, 1)",red,penso_che mi_descriverò come più saggio,red,giudizio
 6358,6358,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,"io_penso sempre a questa_domanda , ma_sicuramente cambiato e molto_felice",giudizio,S,RD,"('red', 3, 1)",red,"io_penso sempre a questa_domanda , ma_sicuramente cambiato e molto_felice",red,giudizio
 6359,6359,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,molto_contento,giudizio,S,RD,"('red', 3, 1)",red,molto_contento,red,giudizio
@@ -12422,7 +12422,7 @@ avvio_comunità dopo l' iscrizione_sert",green,descrizione
 6376,6376,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,"la persona_che_sono_sempre_stata , una_persona corretta , sincera , onesta e rispettosa .",giudizio,S,RD,"('red', 3, 1)",red,"la persona_che_sono_sempre_stata , una_persona corretta , sincera , onesta e rispettosa .",red,giudizio
 6377,6377,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,bene,giudizio,S,RD,"('red', 3, 1)",red,bene,red,giudizio
 6378,6378,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,come_una_persona che nn_vuole_rip_sbagl,riferimento all'obiettivo,S,RD,"('green', 5, 6)",green,come_una_persona che nn_vuole_rip_sbagl,green,riferimento all'obiettivo
-6379,6379,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,dipende da come mi accetta la società,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,dipende da come mi accetta la società,green,deresponsabilizzazione
+6379,6379,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,dipende da come mi accetta la società,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,dipende da come mi accetta la società,red,deresponsabilizzazione
 6380,6380,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,"quando_arriverà quel_giorno , continuerò normalmente dal punto in_cui mi_sono fermato facendo questa lunga pausa , espulso dal mondo esterno",giudizio,S,RD,"('red', 3, 1)",red,"quando_arriverà quel_giorno , continuerò normalmente dal punto in_cui mi_sono fermato facendo questa lunga pausa , espulso dal mondo esterno",red,giudizio
 6381,6381,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,non mai stato razzista però da_qui uscirò come il più_grande razzista perché_non riesco a sopportare questi animali di arabi,giustificazione,S,RD,"('red', 4, 1)",red,non mai stato razzista però da_qui uscirò come il più_grande razzista perché_non riesco a sopportare questi animali di arabi,red,giustificazione
 6382,6382,Come ti descriverai una volta uscito dal carcere?,DESCRIZIONE,come_sono,generalizzazione,S,RD,"('red', 3, 1)",red,come_sono,red,generalizzazione
@@ -12491,7 +12491,7 @@ paese_origine , non_ho_trovato_un_lavoro_fisso",red,giustificazione
 6441,6441,Come si descriverebbe come persona straniera detenuta,DESCRIZIONE,"una persona_normale ,",giudizio,S,RD,"('red', 3, 1)",red,"una persona_normale ,",red,giudizio
 6442,6442,Come si descriverebbe come persona straniera detenuta,DESCRIZIONE,trattano sempre meglio gli_italiani di noi stranieri .,sancire,S,RD,"('red', 1, 0)",red,trattano sempre meglio gli_italiani di noi stranieri .,red,sancire
 6443,6443,Come si descriverebbe come persona straniera detenuta,DESCRIZIONE,è_vero la_prima_volta_che affronto questa vita dura,sancire,S,RD,"('red', 1, 0)",red,è_vero la_prima_volta_che affronto questa vita dura,red,sancire
-6444,6444,Come si descriverebbe come persona straniera detenuta,DESCRIZIONE,spero_che voi mi salvate dalla prigione perché non sopporto di vivere qui in_prigione .,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,spero_che voi mi salvate dalla prigione perché non sopporto di vivere qui in_prigione .,green,deresponsabilizzazione
+6444,6444,Come si descriverebbe come persona straniera detenuta,DESCRIZIONE,spero_che voi mi salvate dalla prigione perché non sopporto di vivere qui in_prigione .,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,spero_che voi mi salvate dalla prigione perché non sopporto di vivere qui in_prigione .,red,deresponsabilizzazione
 6445,6445,Come si descriverebbe come persona straniera detenuta,DESCRIZIONE,mi_descrivo all_interno_prigione che non_ha_diritti .,sancire,S,RD,"('red', 1, 0)",red,mi_descrivo all_interno_prigione che non_ha_diritti .,red,sancire
 6446,6446,Come si descriverebbe come persona straniera detenuta,DESCRIZIONE,non_mi_sento vivere come vivono gli altri,sancire,S,RD,"('red', 1, 0)",red,non_mi_sento vivere come vivono gli altri,red,sancire
 6447,6447,Come si descriverebbe come persona straniera detenuta,DESCRIZIONE,mi_sento_soffocato,giudizio,S,RD,"('red', 3, 1)",red,mi_sento_soffocato,red,giudizio
@@ -12528,7 +12528,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 6465,6465,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,assemblee dove venga data la possibilità a detenuti delle varie nazionalità di esporre e spiegare la storia e le tradizioni del proprio paese d' origine.,descrizione,S,RD,"('green', 0, 1)",green,assemblee dove venga data la possibilità a detenuti delle varie nazionalità di esporre e spiegare la storia e le tradizioni del proprio paese d' origine.,green,descrizione
 6466,6466,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,impostando così una maggior conoscenza delle tradizioni altrui,implicazioni,S,RD,"('green', 0, 1)",green,impostando così una maggior conoscenza delle tradizioni altrui,green,implicazioni
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,impostando così una maggior conoscenza delle tradizioni altrui,implicazioni,S,RD,"('red', 9, 7)",red,impostando così una maggior conoscenza delle tradizioni altrui,red,implicazioni
 6467,6467,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,rieducare gli stranieri a convivere con la nostra_cultura,sancire,S,RD,"('red', 1, 0)",red,rieducare gli stranieri a convivere con la nostra_cultura,red,sancire
 6468,6468,"Secondo lei, quali altre iniziative
@@ -12552,7 +12552,7 @@ lavorative
 6474,6474,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non_saprei,non risposta,S,RD,"('red', 3, 1)",red,non_saprei,red,non risposta
 6475,6475,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,compito loro,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,compito loro,green,deresponsabilizzazione
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,compito loro,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,compito loro,red,deresponsabilizzazione
 6476,6476,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non rispondo,non risposta,S,RD,"('red', 3, 1)",red,non rispondo,red,non risposta
 6477,6477,"Secondo lei, quali altre iniziative
@@ -12578,7 +12578,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 6486,6486,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,"corsi_professionali che ti insegnino un lavoro,",sancire,S,RD,"('red', 1, 0)",red,"corsi_professionali che ti insegnino un lavoro,",red,sancire
 6487,6487,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,e che dopo aver finito la pena un lavoro sicuro,implicazioni,S,RD,"('green', 0, 1)",green,e che dopo aver finito la pena un lavoro sicuro,green,implicazioni
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,e che dopo aver finito la pena un lavoro sicuro,implicazioni,S,RD,"('red', 9, 7)",red,e che dopo aver finito la pena un lavoro sicuro,red,implicazioni
 6488,6488,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,e un tutor che ti segua nel bene.,giudizio,S,RD,"('red', 3, 1)",red,e un tutor che ti segua nel bene.,red,giudizio
 6489,6489,"Secondo lei, quali altre iniziative
@@ -12630,7 +12630,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 6512,6512,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,"l' iniziativa da_parte_delle istituzioni e da_parte_della direzione, oltre_che dai volontari, nel dar la possibilità di far riprovare ad assaporare la vita vera, senza_più sofferenze,",giudizio,S,RD,"('red', 3, 1)",red,"l' iniziativa da_parte_delle istituzioni e da_parte_della direzione, oltre_che dai volontari, nel dar la possibilità di far riprovare ad assaporare la vita vera, senza_più sofferenze,",red,giudizio
 6513,6513,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,quindi facendo così riflettere sugli sbagli passati,implicazioni,S,RD,"('green', 0, 1)",green,quindi facendo così riflettere sugli sbagli passati,green,implicazioni
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,quindi facendo così riflettere sugli sbagli passati,implicazioni,S,RD,"('red', 9, 7)",red,quindi facendo così riflettere sugli sbagli passati,red,implicazioni
 6514,6514,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,"secondo_me parlo in_questo_caso da nuovo dell' ambiente, io_penso la comunicazione e il nostro modo di vivere e di pensare",opinione,S,RD,"('red', 5, 3)",red,"secondo_me parlo in_questo_caso da nuovo dell' ambiente, io_penso la comunicazione e il nostro modo di vivere e di pensare",red,opinione
 6515,6515,"Secondo lei, quali altre iniziative
@@ -12662,7 +12662,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 6528,6528,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,"le iniziative sarebbero quelle di differenziare le normalità,",sancire,S,RD,"('red', 1, 0)",red,"le iniziative sarebbero quelle di differenziare le normalità,",red,sancire
 6529,6529,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,si evidenziarebbero tanti problemi di vita detentive,implicazioni,S,RD,"('green', 0, 1)",green,si evidenziarebbero tanti problemi di vita detentive,green,implicazioni
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,si evidenziarebbero tanti problemi di vita detentive,implicazioni,S,RD,"('red', 9, 7)",red,si evidenziarebbero tanti problemi di vita detentive,red,implicazioni
 6530,6530,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,"lavoro comune 
 attività_sportive in_comune 
@@ -12698,7 +12698,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 6543,6543,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,allora ci si vivrebbe con un altro spirito,conferma,S,RD,"('red', 2, 1)",red,allora ci si vivrebbe con un altro spirito,red,conferma
 6544,6544,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,e di_conseguenza si potrebbe convivere,implicazioni,S,RD,"('green', 0, 1)",green,e di_conseguenza si potrebbe convivere,green,implicazioni
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,e di_conseguenza si potrebbe convivere,implicazioni,S,RD,"('red', 9, 7)",red,e di_conseguenza si potrebbe convivere,red,implicazioni
 6545,6545,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,colloqui - sport,descrizione,S,RD,"('green', 0, 1)",green,colloqui - sport,green,descrizione
 6546,6546,"Secondo lei, quali altre iniziative
@@ -12716,7 +12716,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 6552,6552,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,nessuna carceri separati,sancire,S,RD,"('red', 1, 0)",red,nessuna carceri separati,red,sancire
 6553,6553,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non_saprei pensateci voi,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,non_saprei pensateci voi,green,deresponsabilizzazione
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non_saprei pensateci voi,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,non_saprei pensateci voi,red,deresponsabilizzazione
 6554,6554,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,il punto più_grave è del troppo razzismo,giudizio,S,RD,"('red', 3, 1)",red,il punto più_grave è del troppo razzismo,red,giudizio
 6555,6555,"Secondo lei, quali altre iniziative
@@ -12788,7 +12788,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 6588,6588,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,la possibilità di poter frequentare maggiormente dei corsi scolastici,proposta,S,RD,"('green', 4, 5)",green,la possibilità di poter frequentare maggiormente dei corsi scolastici,green,proposta
 6589,6589,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,quindi crescere entrambi culturalmente,implicazioni,S,RD,"('green', 0, 1)",green,quindi crescere entrambi culturalmente,green,implicazioni
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,quindi crescere entrambi culturalmente,implicazioni,S,RD,"('red', 9, 7)",red,quindi crescere entrambi culturalmente,red,implicazioni
 6590,6590,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non esiste,sancire,S,RD,"('red', 1, 0)",red,non esiste,red,sancire
 6591,6591,"Secondo lei, quali altre iniziative
@@ -13480,7 +13480,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 6914,6914,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,nessuna,sancire,S,RD,"('red', 1, 0)",red,nessuna,red,sancire
 6915,6915,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,ci_sono_persone pagate per fare funzionare questa giusta integrazione.,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,ci_sono_persone pagate per fare funzionare questa giusta integrazione.,green,deresponsabilizzazione
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,ci_sono_persone pagate per fare funzionare questa giusta integrazione.,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,ci_sono_persone pagate per fare funzionare questa giusta integrazione.,red,deresponsabilizzazione
 6916,6916,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non_saprei io,non risposta,S,RD,"('red', 3, 1)",red,non_saprei io,red,non risposta
 6917,6917,"Secondo lei, quali altre iniziative
@@ -13600,7 +13600,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 6971,6971,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,una scuola di socializzazione riunita,descrizione,S,RD,"('green', 0, 1)",green,una scuola di socializzazione riunita,green,descrizione
 6972,6972,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non_mi_interessa,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,non_mi_interessa,green,deresponsabilizzazione
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non_mi_interessa,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,non_mi_interessa,red,deresponsabilizzazione
 6973,6973,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non lo so,non risposta,S,RD,"('red', 3, 1)",red,non lo so,red,non risposta
 6974,6974,"Secondo lei, quali altre iniziative
@@ -13630,7 +13630,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 6986,6986,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,razzismo,generalizzazione,S,RD,"('red', 3, 1)",red,razzismo,red,generalizzazione
 6987,6987,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non_sono in_grado_di essere responsabile di tale risposta,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,non_sono in_grado_di essere responsabile di tale risposta,green,deresponsabilizzazione
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non_sono in_grado_di essere responsabile di tale risposta,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,non_sono in_grado_di essere responsabile di tale risposta,red,deresponsabilizzazione
 6988,6988,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,più civiltà da_parte_degli stranieri,giudizio,S,RD,"('red', 3, 1)",red,più civiltà da_parte_degli stranieri,red,giudizio
 6989,6989,"Secondo lei, quali altre iniziative
@@ -13708,7 +13708,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7022,7022,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,"ogni individuo ha il diritto di credere e vivere come vuole e quindi non permettere agli stranieri senza permesso_di_soggiorno di rimanere in italia,",commento,S,RD,"('red', 3, 1)",red,"ogni individuo ha il diritto di credere e vivere come vuole e quindi non permettere agli stranieri senza permesso_di_soggiorno di rimanere in italia,",red,commento
 7023,7023,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,così chi è in_regola e si_trova detenuto si integrerrebbe meglio con gli italiani e viceversa,implicazioni,S,RD,"('green', 0, 1)",green,così chi è in_regola e si_trova detenuto si integrerrebbe meglio con gli italiani e viceversa,green,implicazioni
+potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,così chi è in_regola e si_trova detenuto si integrerrebbe meglio con gli italiani e viceversa,implicazioni,S,RD,"('red', 9, 7)",red,così chi è in_regola e si_trova detenuto si integrerrebbe meglio con gli italiani e viceversa,red,implicazioni
 7024,7024,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,"l' integrazione va fatta fuori nei passeggi, nei corsi_professionali, nell' attività lavorativa e ricreativa.",prescrizione,S,RD,"('yellow', 4, 4)",yellow,"l' integrazione va fatta fuori nei passeggi, nei corsi_professionali, nell' attività lavorativa e ricreativa.",yellow,prescrizione
 7025,7025,"Secondo lei, quali altre iniziative
@@ -13723,7 +13723,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,"si, l' informazione e la conoscenza da entrambe le parti",descrizione,S,RD,"('green', 0, 1)",green,"si, l' informazione e la conoscenza da entrambe le parti",green,descrizione
 7030,7030,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,prendere un periodo_di_tempo per le partite a_pallone per delle riunioni per parlare delle differenze culturali così ci si rende conto delle vaie culture,riferimento all'obiettivo,S,RD,"('green', 5, 6)",green,prendere un periodo_di_tempo per le partite a_pallone per delle riunioni per parlare delle differenze culturali così ci si rende conto delle vaie culture,green,riferimento all'obiettivo
-7031,7031,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,ho_commesso uno_sbaglio e lo sto_pagando,implicazioni,S,RD,"('green', 0, 1)",green,ho_commesso uno_sbaglio e lo sto_pagando,green,implicazioni
+7031,7031,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,ho_commesso uno_sbaglio e lo sto_pagando,implicazioni,S,RD,"('red', 9, 7)",red,ho_commesso uno_sbaglio e lo sto_pagando,red,implicazioni
 7032,7032,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"mi_descrivo che , pensando ai_suoi_figli , non ha_avuto altra scelta se non quella di delinquere",giustificazione,S,RD,"('red', 4, 1)",red,"mi_descrivo che , pensando ai_suoi_figli , non ha_avuto altra scelta se non quella di delinquere",red,giustificazione
 7033,7033,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona molti problemi_economici e problemi di droga,descrizione,S,RD,"('green', 0, 1)",green,una_persona molti problemi_economici e problemi di droga,green,descrizione
 7034,7034,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,mi_sentivo un po' disperata perché_non guadagnavo il necessario per aiutare la mia famiglia,causa,S,RD,"('red', 2, 1)",red,mi_sentivo un po' disperata perché_non guadagnavo il necessario per aiutare la mia famiglia,red,causa
@@ -13742,7 +13742,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7047,7047,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona che fa una vita semplicissima che va a lavorare e torna con la moglie una_persona felicissima non avrò mai_pensato di finire_in_carcere,giustificazione,S,RD,"('red', 4, 1)",red,una_persona che fa una vita semplicissima che va a lavorare e torna con la moglie una_persona felicissima non avrò mai_pensato di finire_in_carcere,red,giustificazione
 7048,7048,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,prima_di_entrare in_carcere ero felice perché ho avuto un figlio che ha_cambiato tutta la nostra vita però come ho_avuto problema con la giustizia in_passato mi_hanno mio figlio,valutazione,S,RD,"('yellow', 5, 5)",yellow,prima_di_entrare in_carcere ero felice perché ho avuto un figlio che ha_cambiato tutta la nostra vita però come ho_avuto problema con la giustizia in_passato mi_hanno mio figlio,yellow,valutazione
 7049,7049,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,crescerà senza padre e fra un po' di mesi perdo anche mia_moglie,previsione,S,RD,"('red', 5, 4)",red,crescerà senza padre e fra un po' di mesi perdo anche mia_moglie,red,previsione
-7050,7050,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"una_persona , con il passare del_tempo dopo la morte del papà , della mamma e di mio fratello ho_cominciato a usare la droga dopo pochi mesi sono_stato arrestato",implicazioni,S,RD,"('green', 0, 1)",green,"una_persona , con il passare del_tempo dopo la morte del papà , della mamma e di mio fratello ho_cominciato a usare la droga dopo pochi mesi sono_stato arrestato",green,implicazioni
+7050,7050,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"una_persona , con il passare del_tempo dopo la morte del papà , della mamma e di mio fratello ho_cominciato a usare la droga dopo pochi mesi sono_stato arrestato",implicazioni,S,RD,"('red', 9, 7)",red,"una_persona , con il passare del_tempo dopo la morte del papà , della mamma e di mio fratello ho_cominciato a usare la droga dopo pochi mesi sono_stato arrestato",red,implicazioni
 7051,7051,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,descrivo_questa_prigione come un muro,commento,S,RD,"('red', 3, 1)",red,descrivo_questa_prigione come un muro,red,commento
 7052,7052,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,prima_d_entrare in_carcere mi_descrivo tutta_la_gente senza alcun problema con le persone,specificazione,S,RD,"('yellow', 1, 1)",yellow,prima_d_entrare in_carcere mi_descrivo tutta_la_gente senza alcun problema con le persone,yellow,specificazione
 7053,7053,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,descrivo_questa_prigione un muro,commento,S,RD,"('red', 3, 1)",red,descrivo_questa_prigione un muro,red,commento
@@ -13753,7 +13753,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7058,7058,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,indisponibile,non risposta,S,RD,"('red', 3, 1)",red,indisponibile,red,non risposta
 7059,7059,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"una_persona seria , calma",descrizione,S,RD,"('green', 0, 1)",green,"una_persona seria , calma",green,descrizione
 7060,7060,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"io lavoravo vendevo roba da vestire , andavo col camper con mio_marito , per otto giorni sono_stata nel_campo nomade tutto tranquillo",descrizione,S,RD,"('green', 0, 1)",green,"io lavoravo vendevo roba da vestire , andavo col camper con mio_marito , per otto giorni sono_stata nel_campo nomade tutto tranquillo",green,descrizione
-7061,7061,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"aggressiva , andavo dal medico mentale , prendevo pastiglie spesso , con le persone mi comportavo bene , solo in_famiglia non sopportavo nessuno",implicazioni,S,RD,"('green', 0, 1)",green,"aggressiva , andavo dal medico mentale , prendevo pastiglie spesso , con le persone mi comportavo bene , solo in_famiglia non sopportavo nessuno",green,implicazioni
+7061,7061,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"aggressiva , andavo dal medico mentale , prendevo pastiglie spesso , con le persone mi comportavo bene , solo in_famiglia non sopportavo nessuno",implicazioni,S,RD,"('red', 9, 7)",red,"aggressiva , andavo dal medico mentale , prendevo pastiglie spesso , con le persone mi comportavo bene , solo in_famiglia non sopportavo nessuno",red,implicazioni
 7062,7062,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,come_adesso,confronto,S,RD,"('red', 6, 4)",red,come_adesso,red,confronto
 7063,7063,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"mi_sono_descritta una_persona fallita e senza_speranza , a piangere dalla_mattina_alla_sera come_una_persona che non vale niente",descrizione,S,RD,"('green', 0, 1)",green,"mi_sono_descritta una_persona fallita e senza_speranza , a piangere dalla_mattina_alla_sera come_una_persona che non vale niente",green,descrizione
 7064,7064,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"non_male , ma dovevo essere un_po' meglio",giudizio,S,RD,"('red', 3, 1)",red,"non_male , ma dovevo essere un_po' meglio",red,giudizio
@@ -13766,7 +13766,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7071,7071,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,sana al 100% .,giudizio,S,RD,"('red', 3, 1)",red,sana al 100% .,red,giudizio
 7072,7072,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,povera,giudizio,S,RD,"('red', 3, 1)",red,povera,red,giudizio
 7073,7073,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,stupida 80%,giudizio,S,RD,"('red', 3, 1)",red,stupida 80%,red,giudizio
-7074,7074,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"mi sona sentita male , sono_stata in isolamento una mese",implicazioni,S,RD,"('green', 0, 1)",green,"mi sona sentita male , sono_stata in isolamento una mese",green,implicazioni
+7074,7074,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"mi sona sentita male , sono_stata in isolamento una mese",implicazioni,S,RD,"('red', 9, 7)",red,"mi sona sentita male , sono_stata in isolamento una mese",red,implicazioni
 7075,7075,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,abbastanza normale poco aggressivo e con un_carattere instabile . non certo da mandare al manicomio,giudizio,S,RD,"('red', 3, 1)",red,abbastanza normale poco aggressivo e con un_carattere instabile . non certo da mandare al manicomio,red,giudizio
 7076,7076,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,bellissima,giudizio,S,RD,"('red', 3, 1)",red,bellissima,red,giudizio
 7077,7077,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"ero_molto adolescente nn_so_quello_faccio , ero un' altra_persona",contrapposizione,S,RD,"('red', 6, 4)",red,"ero_molto adolescente nn_so_quello_faccio , ero un' altra_persona",red,contrapposizione
@@ -13787,7 +13787,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7092,7092,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,in un' ottima condizione,giudizio,S,RD,"('red', 3, 1)",red,in un' ottima condizione,red,giudizio
 7093,7093,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,un_uomo onesto e libero,descrizione,S,RD,"('green', 0, 1)",green,un_uomo onesto e libero,green,descrizione
 7094,7094,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"vivevo felice e tranquillo ogni_anno andavo in_tunisia per incontrare la mia_famiglia perché l' algeria è il paese dei pericoli e ho un problema ,",valutazione,S,RD,"('yellow', 5, 5)",yellow,"vivevo felice e tranquillo ogni_anno andavo in_tunisia per incontrare la mia_famiglia perché l' algeria è il paese dei pericoli e ho un problema ,",yellow,valutazione
-7095,7095,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"da_quando mi ha abbandonato ingiustamente la vita e i giorni , sono molto triste e ho raccolto dalla vita solo i ricordi",deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"da_quando mi ha abbandonato ingiustamente la vita e i giorni , sono molto triste e ho raccolto dalla vita solo i ricordi",green,deresponsabilizzazione
+7095,7095,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"da_quando mi ha abbandonato ingiustamente la vita e i giorni , sono molto triste e ho raccolto dalla vita solo i ricordi",deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"da_quando mi ha abbandonato ingiustamente la vita e i giorni , sono molto triste e ho raccolto dalla vita solo i ricordi",red,deresponsabilizzazione
 7096,7096,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,ero_uomo_buono dal lavoro alla casa e viceversa,descrizione,S,RD,"('green', 0, 1)",green,ero_uomo_buono dal lavoro alla casa e viceversa,green,descrizione
 7097,7097,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,mi_descrivevo prima_di_entrare in_prigione normale libero,descrizione,S,RD,"('green', 0, 1)",green,mi_descrivevo prima_di_entrare in_prigione normale libero,green,descrizione
 7098,7098,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,come_una_persona che conduceva una vita regolare,descrizione,S,RD,"('green', 0, 1)",green,come_una_persona che conduceva una vita regolare,green,descrizione
@@ -13808,7 +13808,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7113,7113,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,e questa esperienza mi ha_fatto maturare tanto . posso dire_che sono cambiata radicalmente .,commento,S,RD,"('red', 3, 1)",red,e questa esperienza mi ha_fatto maturare tanto . posso dire_che sono cambiata radicalmente .,red,commento
 7114,7114,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,egoista pensando solo al guadagno per_motivi_di sbaglio giudiziario in_precedenza,giustificazione,S,RD,"('red', 4, 1)",red,egoista pensando solo al guadagno per_motivi_di sbaglio giudiziario in_precedenza,red,giustificazione
 7115,7115,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"una_persona , capace_di_amare , una_mamma , una nonna , una moglie , una figlia , una zia una_persona capace_di_amare senza aspettare niente , una donna elegante e con classe , e soprattutto con sentimenti",descrizione,S,RD,"('green', 0, 1)",green,"una_persona , capace_di_amare , una_mamma , una nonna , una moglie , una figlia , una zia una_persona capace_di_amare senza aspettare niente , una donna elegante e con classe , e soprattutto con sentimenti",green,descrizione
-7116,7116,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"mi_descrivo donna alla quale , in_questo_momento , hanno tolto la libertà , ossia , una donna triste per la propria_famiglia .",implicazioni,S,RD,"('green', 0, 1)",green,"mi_descrivo donna alla quale , in_questo_momento , hanno tolto la libertà , ossia , una donna triste per la propria_famiglia .",green,implicazioni
+7116,7116,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"mi_descrivo donna alla quale , in_questo_momento , hanno tolto la libertà , ossia , una donna triste per la propria_famiglia .",implicazioni,S,RD,"('red', 9, 7)",red,"mi_descrivo donna alla quale , in_questo_momento , hanno tolto la libertà , ossia , una donna triste per la propria_famiglia .",red,implicazioni
 7117,7117,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,come_una_persona prigioniera,descrizione,S,RD,"('green', 0, 1)",green,come_una_persona prigioniera,green,descrizione
 7118,7118,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"migliore , più onesto e ingenuo . credevo nell' italia",giudizio,S,RD,"('red', 3, 1)",red,"migliore , più onesto e ingenuo . credevo nell' italia",red,giudizio
 7119,7119,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"prima ero ancora molto ingenuo , avevo solo 20 anni e pensavo solo ai soldi .",giustificazione,S,RD,"('red', 4, 1)",red,"prima ero ancora molto ingenuo , avevo solo 20 anni e pensavo solo ai soldi .",red,giustificazione
@@ -13868,7 +13868,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7173,7173,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,mi_sono_sentito male ma per_me la_prima_volta è una_bella esperienza,commento,S,RD,"('red', 3, 1)",red,mi_sono_sentito male ma per_me la_prima_volta è una_bella esperienza,red,commento
 7174,7174,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,quando ero fuori ero_una_persona che ce l' aveva una_bella adesso tutte sono distrutte,sancire,S,RD,"('red', 1, 0)",red,quando ero fuori ero_una_persona che ce l' aveva una_bella adesso tutte sono distrutte,red,sancire
 7175,7175,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona che cercava di rispettare tutti senza fare del_male a nessuno . rispettavo le leggi italiane e lavoravo per farmi un po' di_soldi in_modo_da poter mantenere i miei quattro figli,descrizione,S,RD,"('green', 0, 1)",green,una_persona che cercava di rispettare tutti senza fare del_male a nessuno . rispettavo le leggi italiane e lavoravo per farmi un po' di_soldi in_modo_da poter mantenere i miei quattro figli,green,descrizione
-7176,7176,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,mi_descrivevo come_una_persona alla quale la giustizia italiana per una_cosa minima ha rovinato tutta la vita,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,mi_descrivevo come_una_persona alla quale la giustizia italiana per una_cosa minima ha rovinato tutta la vita,green,deresponsabilizzazione
+7176,7176,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,mi_descrivevo come_una_persona alla quale la giustizia italiana per una_cosa minima ha rovinato tutta la vita,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,mi_descrivevo come_una_persona alla quale la giustizia italiana per una_cosa minima ha rovinato tutta la vita,red,deresponsabilizzazione
 7177,7177,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,io non_avevo idea perché è la_prima_volta ma è stata bruttissima,non risposta,S,RD,"('red', 3, 1)",red,io non_avevo idea perché è la_prima_volta ma è stata bruttissima,red,non risposta
 7178,7178,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,come_una_persona,generalizzazione,S,RD,"('red', 3, 1)",red,come_una_persona,red,generalizzazione
 7179,7179,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"una_persona per il proprio benessere , ma questa_volta ho_preso_la_strada_sbagliata .",contrapposizione,S,RD,"('red', 6, 4)",red,"una_persona per il proprio benessere , ma questa_volta ho_preso_la_strada_sbagliata .",red,contrapposizione
@@ -13895,7 +13895,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7200,7200,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,molto normale,descrizione,S,RD,"('green', 0, 1)",green,molto normale,green,descrizione
 7201,7201,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,ero_un_ragazzo felice e poco saggio,giudizio,S,RD,"('red', 3, 1)",red,ero_un_ragazzo felice e poco saggio,red,giudizio
 7202,7202,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"un_ragazzo giovane , immaturo e con_tanti_sogni",descrizione,S,RD,"('green', 0, 1)",green,"un_ragazzo giovane , immaturo e con_tanti_sogni",green,descrizione
-7203,7203,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"ero giovane pieno_vita ma sfortunatamente sono finito_in_carcere e come dice un vecchio detto albanese "" la legna tagliata fresca finisce per bruciarsi se vicino_a quella secca """,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,"ero giovane pieno_vita ma sfortunatamente sono finito_in_carcere e come dice un vecchio detto albanese "" la legna tagliata fresca finisce per bruciarsi se vicino_a quella secca """,green,deresponsabilizzazione
+7203,7203,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"ero giovane pieno_vita ma sfortunatamente sono finito_in_carcere e come dice un vecchio detto albanese "" la legna tagliata fresca finisce per bruciarsi se vicino_a quella secca """,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,"ero giovane pieno_vita ma sfortunatamente sono finito_in_carcere e come dice un vecchio detto albanese "" la legna tagliata fresca finisce per bruciarsi se vicino_a quella secca """,red,deresponsabilizzazione
 7204,7204,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"una_persona vedeva la vita solo in rose , una_persona distendeva il bene del_male",opinione,S,RD,"('red', 5, 3)",red,"una_persona vedeva la vita solo in rose , una_persona distendeva il bene del_male",red,opinione
 7205,7205,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona con_la_famiglia e con un posto_di_lavoro,sancire,S,RD,"('red', 1, 0)",red,una_persona con_la_famiglia e con un posto_di_lavoro,red,sancire
 7206,7206,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona tranquilla,descrizione,S,RD,"('green', 0, 1)",green,una_persona tranquilla,green,descrizione
@@ -13904,7 +13904,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7209,7209,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"mi_sembrava_che_tutto il mondo fosse mio , in_poche_parole_ero il più duro . è stato un brutto sogno .",sancire,S,RD,"('red', 1, 0)",red,"mi_sembrava_che_tutto il mondo fosse mio , in_poche_parole_ero il più duro . è stato un brutto sogno .",red,sancire
 7210,7210,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"ero molto diverso , ma adesso mi_dispiace , spero di cambiarmi per_bene",generalizzazione,S,RD,"('red', 3, 1)",red,"ero molto diverso , ma adesso mi_dispiace , spero di cambiarmi per_bene",red,generalizzazione
 7211,7211,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona finanziari .,sancire,S,RD,"('red', 1, 0)",red,una_persona finanziari .,red,sancire
-7212,7212,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"un_uomo normale ma , dato le circostanze e i problemi che avevo , ho_fatto cose nella_vita che mi hanno portato in_carcere",implicazioni,S,RD,"('green', 0, 1)",green,"un_uomo normale ma , dato le circostanze e i problemi che avevo , ho_fatto cose nella_vita che mi hanno portato in_carcere",green,implicazioni
+7212,7212,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"un_uomo normale ma , dato le circostanze e i problemi che avevo , ho_fatto cose nella_vita che mi hanno portato in_carcere",implicazioni,S,RD,"('red', 9, 7)",red,"un_uomo normale ma , dato le circostanze e i problemi che avevo , ho_fatto cose nella_vita che mi hanno portato in_carcere",red,implicazioni
 7213,7213,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona con molti bisogni,descrizione,S,RD,"('green', 0, 1)",green,una_persona con molti bisogni,green,descrizione
 7214,7214,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona matura,descrizione,S,RD,"('green', 0, 1)",green,una_persona matura,green,descrizione
 7215,7215,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona e libera,descrizione,S,RD,"('green', 0, 1)",green,una_persona e libera,green,descrizione
@@ -13944,7 +13944,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7249,7249,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,benissimo,giudizio,S,RD,"('red', 3, 1)",red,benissimo,red,giudizio
 7250,7250,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,come_una_persona matta non trovo lavoro,descrizione,S,RD,"('green', 0, 1)",green,come_una_persona matta non trovo lavoro,green,descrizione
 7251,7251,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"mi vedevo diverso da_ora , qui è il cimitero dei vivi",commento,S,RD,"('red', 3, 1)",red,"mi vedevo diverso da_ora , qui è il cimitero dei vivi",red,commento
-7252,7252,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona rovinata perché ho perso i miei_amici perfino anche la mia_ragazza,implicazioni,S,RD,"('green', 0, 1)",green,una_persona rovinata perché ho perso i miei_amici perfino anche la mia_ragazza,green,implicazioni
+7252,7252,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona rovinata perché ho perso i miei_amici perfino anche la mia_ragazza,implicazioni,S,RD,"('red', 9, 7)",red,una_persona rovinata perché ho perso i miei_amici perfino anche la mia_ragazza,red,implicazioni
 7253,7253,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,mi_sentivo che non_ho bisogno di niente,sancire,S,RD,"('red', 1, 0)",red,mi_sentivo che non_ho bisogno di niente,red,sancire
 7254,7254,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,mai ricordo bellissimo quel_giorno e ho_avuto tanta paura e mi chiedo dove sono cosa ho_fatto e un disastro,generalizzazione,S,RD,"('red', 3, 1)",red,mai ricordo bellissimo quel_giorno e ho_avuto tanta paura e mi chiedo dove sono cosa ho_fatto e un disastro,red,generalizzazione
 7255,7255,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"re , vivevo_bene e vivevo con gli italiani",sancire,S,RD,"('red', 1, 0)",red,"re , vivevo_bene e vivevo con gli italiani",red,sancire
@@ -13959,7 +13959,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7264,7264,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,non aspettavo questo reato,giustificazione,S,RD,"('red', 4, 1)",red,non aspettavo questo reato,red,giustificazione
 7265,7265,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,normale,descrizione,S,RD,"('green', 0, 1)",green,normale,green,descrizione
 7266,7266,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona lavorava onestamente per_guadagnare il suo pane_quotidiano,sancire,S,RD,"('red', 1, 0)",red,una_persona lavorava onestamente per_guadagnare il suo pane_quotidiano,red,sancire
-7267,7267,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,dicevo sempre non entro nella_prigione perché_io e mia_moglie avevamo lavoro_onesto è successo questo perché il destino di dio ha voluto così e sono qui che aspetto dio con pazienza,deresponsabilizzazione,S,RD,"('green', 0, 1)",green,dicevo sempre non entro nella_prigione perché_io e mia_moglie avevamo lavoro_onesto è successo questo perché il destino di dio ha voluto così e sono qui che aspetto dio con pazienza,green,deresponsabilizzazione
+7267,7267,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,dicevo sempre non entro nella_prigione perché_io e mia_moglie avevamo lavoro_onesto è successo questo perché il destino di dio ha voluto così e sono qui che aspetto dio con pazienza,deresponsabilizzazione,S,RD,"('red', 4, 2)",red,dicevo sempre non entro nella_prigione perché_io e mia_moglie avevamo lavoro_onesto è successo questo perché il destino di dio ha voluto così e sono qui che aspetto dio con pazienza,red,deresponsabilizzazione
 7268,7268,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,prima_d_entrare in_prigione stavo_bene lavoravo regolarmente e quello che successo è successo per nulla,sancire,S,RD,"('red', 1, 0)",red,prima_d_entrare in_prigione stavo_bene lavoravo regolarmente e quello che successo è successo per nulla,red,sancire
 7269,7269,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,normale,descrizione,S,RD,"('green', 0, 1)",green,normale,green,descrizione
 7270,7270,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"prima_di_tutto pensavo al_mio futuro e quello della_mia , ma purtroppo non é andata come pensavo io .",opinione,S,RD,"('red', 5, 3)",red,"prima_di_tutto pensavo al_mio futuro e quello della_mia , ma purtroppo non é andata come pensavo io .",red,opinione
@@ -14039,7 +14039,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7344,7344,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,ho dato tanta fiducia alle amicizie per_quello che sono_diventato tossico e adesso in_carcere,causa,S,RD,"('red', 2, 1)",red,ho dato tanta fiducia alle amicizie per_quello che sono_diventato tossico e adesso in_carcere,red,causa
 7345,7345,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,che non sono indicato sulla strada giusta,sancire,S,RD,"('red', 1, 0)",red,che non sono indicato sulla strada giusta,red,sancire
 7346,7346,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,mi ritengo una_persona superficiale però non lo ero,contrapposizione,S,RD,"('red', 6, 4)",red,mi ritengo una_persona superficiale però non lo ero,red,contrapposizione
-7347,7347,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"stavo meglio e riuscivo a cavarmela in_ogni_cosa , e poi qualcosa ha_cambiato la mia condizione .",implicazioni,S,RD,"('green', 0, 1)",green,"stavo meglio e riuscivo a cavarmela in_ogni_cosa , e poi qualcosa ha_cambiato la mia condizione .",green,implicazioni
+7347,7347,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"stavo meglio e riuscivo a cavarmela in_ogni_cosa , e poi qualcosa ha_cambiato la mia condizione .",implicazioni,S,RD,"('red', 9, 7)",red,"stavo meglio e riuscivo a cavarmela in_ogni_cosa , e poi qualcosa ha_cambiato la mia condizione .",red,implicazioni
 7348,7348,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,prima_di_entrare in_prigione vendevo la droga senza_sapere cosa ne sarà di me domani . oggi sono fuori domani dentro .,descrizione,S,RD,"('green', 0, 1)",green,prima_di_entrare in_prigione vendevo la droga senza_sapere cosa ne sarà di me domani . oggi sono fuori domani dentro .,green,descrizione
 7349,7349,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,abbastanza responsabile,descrizione,S,RD,"('green', 0, 1)",green,abbastanza responsabile,green,descrizione
 7350,7350,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,stavo_lavorando regolarmente,sancire,S,RD,"('red', 1, 0)",red,stavo_lavorando regolarmente,red,sancire
@@ -14055,10 +14055,10 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7360,7360,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"andavo a lavorare come_tutta_la_gente , facevo un_lavoro semplice",sancire,S,RD,"('red', 1, 0)",red,"andavo a lavorare come_tutta_la_gente , facevo un_lavoro semplice",red,sancire
 7361,7361,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"prima_di_entrare in_prigione vivevo_una_vita migliore con la mia_amica lavoravamo e tornavamo a casa , scherzavo con la mia_amica fatima non abbiamo sentito "" l' amore "" , vivevo_una_vita straordinaria con_mia_famiglia",valutazione,S,RD,"('yellow', 5, 5)",yellow,"prima_di_entrare in_prigione vivevo_una_vita migliore con la mia_amica lavoravamo e tornavamo a casa , scherzavo con la mia_amica fatima non abbiamo sentito "" l' amore "" , vivevo_una_vita straordinaria con_mia_famiglia",yellow,valutazione
 7362,7362,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"ero_una_persona rispettabile lontano_dai problemi , una_volta lavoravo e una_volta aiutavo gli amici nello spaccio di droga per_guadagnare il pane_quotidiano",valutazione,S,RD,"('yellow', 5, 5)",yellow,"ero_una_persona rispettabile lontano_dai problemi , una_volta lavoravo e una_volta aiutavo gli amici nello spaccio di droga per_guadagnare il pane_quotidiano",yellow,valutazione
-7363,7363,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,perché ho una responsabilità verso la mia famiglia e la ragione per_fare questo è la mancanza_del_lavoro stabile,implicazioni,S,RD,"('green', 0, 1)",green,perché ho una responsabilità verso la mia famiglia e la ragione per_fare questo è la mancanza_del_lavoro stabile,green,implicazioni
+7363,7363,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,perché ho una responsabilità verso la mia famiglia e la ragione per_fare questo è la mancanza_del_lavoro stabile,implicazioni,S,RD,"('red', 9, 7)",red,perché ho una responsabilità verso la mia famiglia e la ragione per_fare questo è la mancanza_del_lavoro stabile,red,implicazioni
 7364,7364,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,vivo con mia_madre tranquillo . cercavo un_lavoro,sancire,S,RD,"('red', 1, 0)",red,vivo con mia_madre tranquillo . cercavo un_lavoro,red,sancire
 7365,7365,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,la vita in migliori condizioni,giudizio,S,RD,"('red', 3, 1)",red,la vita in migliori condizioni,red,giudizio
-7366,7366,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona vive un vita senza importanza per_questo sono in_prigione,implicazioni,S,RD,"('green', 0, 1)",green,una_persona vive un vita senza importanza per_questo sono in_prigione,green,implicazioni
+7366,7366,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona vive un vita senza importanza per_questo sono in_prigione,implicazioni,S,RD,"('red', 9, 7)",red,una_persona vive un vita senza importanza per_questo sono in_prigione,red,implicazioni
 7367,7367,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona che gode della libertà,descrizione,S,RD,"('green', 0, 1)",green,una_persona che gode della libertà,green,descrizione
 7368,7368,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,prima ero_libero e lavoravo in ottima salute,sancire,S,RD,"('red', 1, 0)",red,prima ero_libero e lavoravo in ottima salute,red,sancire
 7369,7369,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona però_sono umano e bravo,giustificazione,S,RD,"('red', 4, 1)",red,una_persona però_sono umano e bravo,red,giustificazione
@@ -14066,7 +14066,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7371,7371,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"vorrei ritornare a fare lo_stesso tipo_di_vita e poter lavorare , alla_fine è quello che mi piace",dichiarazione di intenti,S,RD,"('red', 5, 4)",red,"vorrei ritornare a fare lo_stesso tipo_di_vita e poter lavorare , alla_fine è quello che mi piace",red,dichiarazione di intenti
 7372,7372,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,come_una_persona aveva un futuro promettente,sancire,S,RD,"('red', 1, 0)",red,come_una_persona aveva un futuro promettente,red,sancire
 7373,7373,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,non_avevo avuto a_che_fare_con la giustizia,giustificazione,S,RD,"('red', 4, 1)",red,non_avevo avuto a_che_fare_con la giustizia,red,giustificazione
-7374,7374,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,come_una_persona senza_problemi che non_pensava di finire_in_carcere solo per aver dato un passaggio alla persona_sbagliata,implicazioni,S,RD,"('green', 0, 1)",green,come_una_persona senza_problemi che non_pensava di finire_in_carcere solo per aver dato un passaggio alla persona_sbagliata,green,implicazioni
+7374,7374,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,come_una_persona senza_problemi che non_pensava di finire_in_carcere solo per aver dato un passaggio alla persona_sbagliata,implicazioni,S,RD,"('red', 9, 7)",red,come_una_persona senza_problemi che non_pensava di finire_in_carcere solo per aver dato un passaggio alla persona_sbagliata,red,implicazioni
 7375,7375,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"ero_una_persona , un_grande lavoratore , disponibile",descrizione,S,RD,"('green', 0, 1)",green,"ero_una_persona , un_grande lavoratore , disponibile",green,descrizione
 7376,7376,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,ho_sempre_lavorato e guadagnato grazie_al mio_lavoro,sancire,S,RD,"('red', 1, 0)",red,ho_sempre_lavorato e guadagnato grazie_al mio_lavoro,red,sancire
 7377,7377,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,stavo_bene ed ero felice,giudizio,S,RD,"('red', 3, 1)",red,stavo_bene ed ero felice,red,giudizio
@@ -14112,7 +14112,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7417,7417,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,male che sono_stato sfortunato,giudizio,S,RD,"('red', 3, 1)",red,male che sono_stato sfortunato,red,giudizio
 7418,7418,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,sono come_tutti,generalizzazione,S,RD,"('red', 3, 1)",red,sono come_tutti,red,generalizzazione
 7419,7419,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"ero_un_ragazzo tranquillo , lavoravo , andavo a scuola , ho_fatto anche la scuola alberghiera ,",descrizione,S,RD,"('green', 0, 1)",green,"ero_un_ragazzo tranquillo , lavoravo , andavo a scuola , ho_fatto anche la scuola alberghiera ,",green,descrizione
-7420,7420,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"dopo ho cominciato a conoscere delle persone non adatte al_mio modo_di_essere , quindi mi_sono lasciato un po' condizionare",implicazioni,S,RD,"('green', 0, 1)",green,"dopo ho cominciato a conoscere delle persone non adatte al_mio modo_di_essere , quindi mi_sono lasciato un po' condizionare",green,implicazioni
+7420,7420,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"dopo ho cominciato a conoscere delle persone non adatte al_mio modo_di_essere , quindi mi_sono lasciato un po' condizionare",implicazioni,S,RD,"('red', 9, 7)",red,"dopo ho cominciato a conoscere delle persone non adatte al_mio modo_di_essere , quindi mi_sono lasciato un po' condizionare",red,implicazioni
 7421,7421,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,però ero veramente un_bravo_ragazzo,giudizio,S,RD,"('red', 3, 1)",red,però ero veramente un_bravo_ragazzo,red,giudizio
 7422,7422,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,vivevo in jugoslavia e sono qui per vedere i miei_figli e nipoti,sancire,S,RD,"('red', 1, 0)",red,vivevo in jugoslavia e sono qui per vedere i miei_figli e nipoti,red,sancire
 7423,7423,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,ero un_bravo_ragazzo,descrizione,S,RD,"('green', 0, 1)",green,ero un_bravo_ragazzo,green,descrizione
@@ -14131,7 +14131,7 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 7436,7436,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"una_persona , ho_sentito difficoltà morale mi_sentivo che stava arrivando qualcosa subito prima_di_entrare in_carcere",sancire,S,RD,"('red', 1, 0)",red,"una_persona , ho_sentito difficoltà morale mi_sentivo che stava arrivando qualcosa subito prima_di_entrare in_carcere",red,sancire
 7437,7437,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,una_persona sa niente della vita proprio tanti sbagli senza rendersi conto della gravità,sancire,S,RD,"('red', 1, 0)",red,una_persona sa niente della vita proprio tanti sbagli senza rendersi conto della gravità,red,sancire
 7438,7438,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,prima_di essere arrestato ho_sempre la strada_sbagliata e nessuno mi ha mai dato un consiglio,giustificazione,S,RD,"('red', 4, 1)",red,prima_di essere arrestato ho_sempre la strada_sbagliata e nessuno mi ha mai dato un consiglio,red,giustificazione
-7439,7439,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,però ora grazie_al carcere che mi ha_fatto capire cosa_vuol_dire la vita dentro queste quattro mura,implicazioni,S,RD,"('green', 0, 1)",green,però ora grazie_al carcere che mi ha_fatto capire cosa_vuol_dire la vita dentro queste quattro mura,green,implicazioni
+7439,7439,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,però ora grazie_al carcere che mi ha_fatto capire cosa_vuol_dire la vita dentro queste quattro mura,implicazioni,S,RD,"('red', 9, 7)",red,però ora grazie_al carcere che mi ha_fatto capire cosa_vuol_dire la vita dentro queste quattro mura,red,implicazioni
 7440,7440,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"stavo_molto_bene , molto attaccato alla_mia_famiglia e alla_famiglia della mia_ragazza , sempre divertito sempre andato all_estero",sancire,S,RD,"('red', 1, 0)",red,"stavo_molto_bene , molto attaccato alla_mia_famiglia e alla_famiglia della mia_ragazza , sempre divertito sempre andato all_estero",red,sancire
 7441,7441,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,sicuramente un buono a nulla una_persona non valida quindi è_giusto_che mi_descriva un criminale no ma una_persona deve essere punita,giudizio,S,RD,"('red', 3, 1)",red,sicuramente un buono a nulla una_persona non valida quindi è_giusto_che mi_descriva un criminale no ma una_persona deve essere punita,red,giudizio
 7442,7442,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"abbastanza_bene , sono sposato e vivevo con mia_moglie , lavoro da dieci anni a padova come saldatore",sancire,S,RD,"('red', 1, 0)",red,"abbastanza_bene , sono sposato e vivevo con mia_moglie , lavoro da dieci anni a padova come saldatore",red,sancire
