@@ -2258,11 +2258,6 @@ il mangiare fa schifo",red,generalizzazione
 perché_non funziona bene l' impianto",sancire,S,RD,"('red', 1, 0)",red,"c' è bisogno d' acqua 
 perché_non funziona bene l' impianto",red,sancire
 1416,1416,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,c' è bisogno di uno spazio più_grande per l' aria,giudizio,S,RD,"('red', 3, 1)",red,c' è bisogno di uno spazio più_grande per l' aria,red,giudizio
-1417,1417,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,"valuterei la possibilità che il condannato prenda coscienza di 
-dove ha sbagliato e non gli servirebbe scontare tutta la pena per 
-poi uscire uguale se_non anche peggio di_prima_",considerazione,S,RD,"('green', 3, 5)",green,"valuterei la possibilità che il condannato prenda coscienza di 
-dove ha sbagliato e non gli servirebbe scontare tutta la pena per 
-poi uscire uguale se_non anche peggio di_prima_",green,considerazione
 1418,1418,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,dipende da quello che ha fatto.,giudizio,S,RD,"('red', 3, 1)",red,dipende da quello che ha fatto.,red,giudizio
 1419,1419,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,"vorrei elaborare dei_criteri per la qualità_dei_servizi offerti ma in 
 questo istituto non_esistono dei_criteri oppure delle_qualità che 
@@ -2757,7 +2752,6 @@ area_sanitaria",red,giudizio
 1639,1639,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,"rapp_con_i_detenuti, lavoro, cibo, strutture, igiene",conferma,S,RD,"('red', 2, 1)",red,"rapp_con_i_detenuti, lavoro, cibo, strutture, igiene",red,conferma
 1640,1640,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,educazione e scolarizzazione delle_persone,descrizione,S,RD,"('green', 0, 1)",green,educazione e scolarizzazione delle_persone,green,descrizione
 1641,1641,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,possi_di_lavoro e di cure,giudizio,S,RD,"('red', 3, 1)",red,possi_di_lavoro e di cure,red,giudizio
-1642,1642,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,efficienza della_direzione e degli_educatori,considerazione,S,RD,"('green', 3, 5)",green,efficienza della_direzione e degli_educatori,green,considerazione
 1643,1643,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,il lavoro,specificazione,S,RD,"('yellow', 1, 1)",yellow,il lavoro,yellow,specificazione
 1644,1644,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,"l' educazione professionale degli_agenti 
 spazio vitale per_ogni persona",giudizio,S,RD,"('red', 3, 1)",red,"l' educazione professionale degli_agenti 
@@ -2975,9 +2969,6 @@ si rapporta ai_detenuti",red,giudizio
 1707,1707,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,"vorrei che sia_più, o che potrei uscire in affidamento 
 il colloquio, rispettare le regole, la scuola, aiutare il prossimo",giudizio,S,RD,"('red', 3, 1)",red,"vorrei che sia_più, o che potrei uscire in affidamento 
 il colloquio, rispettare le regole, la scuola, aiutare il prossimo",red,giudizio
-1708,1708,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,"la doccia_in_cella acqua_calda, la televisione nuova con il 
-telecomando, i colloqui in giardino",considerazione,S,RD,"('green', 3, 5)",green,"la doccia_in_cella acqua_calda, la televisione nuova con il 
-telecomando, i colloqui in giardino",green,considerazione
 1709,1709,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,avere una doccia_in_cella con acqua_calda,sancire,S,RD,"('red', 1, 0)",red,avere una doccia_in_cella con acqua_calda,red,sancire
 1710,1710,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,"più_spazio in bagno, troppo piccolo",giudizio,S,RD,"('red', 3, 1)",red,"più_spazio in bagno, troppo piccolo",red,giudizio
 1711,1711,"Se dovesse stabilire dei criteri per valutare la qualità di ciò che può offrire un Istituto di pena, quali elementi prenderebbe in considerazione ?",VALUTAZIONE,"avere_rappo_coniugal poter_avere un ventilatore_in_cella 
@@ -4697,7 +4688,6 @@ in grado di prendersi cura di qualcun altro",red,giudizio
 2809,2809,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"che riesce a comunicare e relazionare con ogni persona rispettoando la nazionalità, sesso, religione, tendenza politica eccetera",sancire,S,RD,"('red', 1, 0)",red,"che riesce a comunicare e relazionare con ogni persona rispettoando la nazionalità, sesso, religione, tendenza politica eccetera",red,sancire
 2810,2810,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"sorridente,",giudizio,S,RD,"('red', 3, 1)",red,"sorridente,",red,giudizio
 2811,2811,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,anche se sta male ci prova lo stesso,contrapposizione,S,RD,"('red', 6, 4)",red,anche se sta male ci prova lo stesso,red,contrapposizione
-2812,2812,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,quanto dettato dall'articolo 32 della costituzione italiana,considerazione,S,RD,"('green', 3, 5)",green,quanto dettato dall'articolo 32 della costituzione italiana,green,considerazione
 2813,2813,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,sana,giudizio,S,RD,"('red', 3, 1)",red,sana,red,giudizio
 2814,2814,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"serena, ben nutrita, energica",giudizio,S,RD,"('red', 3, 1)",red,"serena, ben nutrita, energica",red,giudizio
 2815,2815,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"sana, robusta e con la voglia di fare. (non tossica)",giudizio,S,RD,"('red', 3, 1)",red,"sana, robusta e con la voglia di fare. (non tossica)",red,giudizio
@@ -4965,7 +4955,6 @@ capacità di saper adattarsi ai cambiamenti presenti nelle varie fasi del ciclo 
 3043,3043,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"Non posso dare agli altri se prima non do a me stesso in termini di sicurezza, emotività, forza interiore",conferma,S,RD,"('red', 2, 1)",red,"Non posso dare agli altri se prima non do a me stesso in termini di sicurezza, emotività, forza interiore",red,conferma
 3044,3044,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,un po' dall'aspetto fisico,descrizione,S,RD,"('green', 0, 1)",green,un po' dall'aspetto fisico,green,descrizione
 3045,3045,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,tranquilla con obiettivi,giudizio,S,RD,"('red', 3, 1)",red,tranquilla con obiettivi,red,giudizio
-3046,3046,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"come la descrivere l'organizzazione mondiale della sanità per cui la salute un equilibrio biologico, equilibrio psicologico e quilibrio sociale",considerazione,S,RD,"('green', 3, 5)",green,"come la descrivere l'organizzazione mondiale della sanità per cui la salute un equilibrio biologico, equilibrio psicologico e quilibrio sociale",green,considerazione
 3047,3047,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,(e di conseguenza nel pianeta i sani sono veramente pochi),specificazione,S,RD,"('yellow', 1, 1)",yellow,(e di conseguenza nel pianeta i sani sono veramente pochi),yellow,specificazione
 3048,3048,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"psicologicamente serena
 fisicamente in forma
@@ -5049,7 +5038,6 @@ volontà di fare qualcosa di concreto, lavoro",red,giudizio
 3113,3113,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,una persona che fisicamente e psicologicamente è sana,giudizio,S,RD,"('red', 3, 1)",red,una persona che fisicamente e psicologicamente è sana,red,giudizio
 3114,3114,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,"una persona, equilibrata, e con la voglia di vivere",giudizio,S,RD,"('red', 3, 1)",red,"una persona, equilibrata, e con la voglia di vivere",red,giudizio
 3115,3115,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,serena,giudizio,S,RD,"('red', 3, 1)",red,serena,red,giudizio
-3116,3116,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,vedere definizione organizzazione mondiale sanità,considerazione,S,RD,"('green', 3, 5)",green,vedere definizione organizzazione mondiale sanità,green,considerazione
 3117,3117,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,interiormente ed esteriormente manifesta il suo stato morale,sancire,S,RD,"('red', 1, 0)",red,interiormente ed esteriormente manifesta il suo stato morale,red,sancire
 3118,3118,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,una persona e comunque capace autonomamente di soddisfare le proprie esigenze e di non dover dipendere da alcuno e da farmaci,giudizio,S,RD,"('red', 3, 1)",red,una persona e comunque capace autonomamente di soddisfare le proprie esigenze e di non dover dipendere da alcuno e da farmaci,red,giudizio
 3119,3119,Come descriverebbe una persona che “gode di salute”?,DESCRIZIONE,che è vissuta in un ambiente sano,sancire,S,RD,"('red', 1, 0)",red,che è vissuta in un ambiente sano,red,sancire
@@ -9443,7 +9431,6 @@ attività scolastiche e religiose pari per_entrambi
 5093,5093,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,che non ci siano litigi continui,sancire,S,RD,"('red', 1, 0)",red,che non ci siano litigi continui,red,sancire
 5094,5094,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,nulla da dichiarare,non risposta,S,RD,"('red', 3, 1)",red,nulla da dichiarare,red,non risposta
 5095,5095,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,prima_di tutto una_convivenza nella_stessa,sancire,S,RD,"('red', 1, 0)",red,prima_di tutto una_convivenza nella_stessa,red,sancire
-5096,5096,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,e magari degli incontri supportati da educatori adeguati,proposta,S,RD,"('green', 4, 5)",green,e magari degli incontri supportati da educatori adeguati,green,proposta
 5097,5097,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,ho vissuto l' esperienza sopra citata ma la realtà in_quanto_al discorso integrazione è simile in_ogni altro_istituto in_cui ho_avuto modo di soggiornare,generalizzazione,S,RD,"('red', 3, 1)",red,ho vissuto l' esperienza sopra citata ma la realtà in_quanto_al discorso integrazione è simile in_ogni altro_istituto in_cui ho_avuto modo di soggiornare,red,generalizzazione
 5098,5098,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,non_mi riesce pensare,non risposta,S,RD,"('red', 3, 1)",red,non_mi riesce pensare,red,non risposta
 5099,5099,Immagini di essere stato trasferito in un nuovo Istituto di pena. Dopo alcuni giorni dal suo arrivo pensa: “la popolazione detenuta italiana e straniera di questo Istituto è integrata”. Che cosa le permette di pensarlo?,DESCRIZIONE,le motivazioni e per la diversità di religione,giudizio,S,RD,"('red', 3, 1)",red,le motivazioni e per la diversità di religione,red,giudizio
@@ -9723,7 +9710,6 @@ personale preposto
 personale preposto 
 ",green,descrizione
 5343,5343,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,mancanza_di_corsi qualifica ai detenuti ristretti,descrizione,S,RD,"('green', 0, 1)",green,mancanza_di_corsi qualifica ai detenuti ristretti,green,descrizione
-5344,5344,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,formazione che andrebbe sviluppata e mirata,proposta,S,RD,"('green', 4, 5)",green,formazione che andrebbe sviluppata e mirata,green,proposta
 5345,5345,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,poca formazione_e_aggiornamento,descrizione,S,RD,"('green', 0, 1)",green,poca formazione_e_aggiornamento,green,descrizione
 5346,5346,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"la carenza_di_personale non_permette di aggiornarsi e poter far_si_che si 
 possano studiare modi e tipi di trattamento piu_efficaci 
@@ -10085,15 +10071,6 @@ problematiche presenti all_interno_della struttura carceraria
 ",descrizione,S,RD,"('green', 0, 1)",green,"si sono attuati incontri per informare i docenti su diversi aspetti delle 
 problematiche presenti all_interno_della struttura carceraria 
 ",green,descrizione
-5434,5434,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"l' occasione da ricercare e quella della costruzione di una rete (un modo di 
-lavorare dove ognuno con le proprie specificita e responsabilita si 
-confronta con l' altro e insieme si costruiscono progetti, mediazioni e 
-collaborazioni) 
-",proposta,S,RD,"('green', 4, 5)",green,"l' occasione da ricercare e quella della costruzione di una rete (un modo di 
-lavorare dove ognuno con le proprie specificita e responsabilita si 
-confronta con l' altro e insieme si costruiscono progetti, mediazioni e 
-collaborazioni) 
-",green,proposta
 5435,5435,Come ti descriveresti prima di entrare in carcere?,DESCRIZIONE,"teoricamente sta girando questa idea, ma nella pratica si stanno facendo 
 passi indietro verso una netta separazione tra custodia e trattamento 
 ",confronto,S,RD,"('red', 6, 4)",red,"teoricamente sta girando questa idea, ma nella pratica si stanno facendo 
@@ -10421,11 +10398,6 @@ verifica e studio
 verifica e studio 
 ",red,sancire
 5513,5513,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,con continui corsi_di_aggiornamento,descrizione,S,RD,"('green', 0, 1)",green,con continui corsi_di_aggiornamento,green,descrizione
-5514,5514,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,"sarebbero opportune maggiori integrazioni e ritrovi anche per non perdere 
-di_vista l' obiettivo primo che e il detenuto 
-",proposta,S,RD,"('green', 4, 5)",green,"sarebbero opportune maggiori integrazioni e ritrovi anche per non perdere 
-di_vista l' obiettivo primo che e il detenuto 
-",green,proposta
 5515,5515,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,"buona apertura da_parte_di direttore, comandante, ispettore",descrizione,S,RD,"('green', 0, 1)",green,"buona apertura da_parte_di direttore, comandante, ispettore",green,descrizione
 5516,5516,"Per sviluppare le competenze che il suo ruolo richiede, in che modo l’Amministrazione Penitenziaria fornisce occasioni che reputa efficaci rispetto agli obiettivi e alle competenze previste dal suo ruolo?",DESCRIZIONE,"godo di qualche piccolo privilegio liberta di movimento in 
 rispetto_delle_regole che ci_sono 
@@ -12607,8 +12579,6 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,perché potrebbero dividerci,giustificazione,S,RD,"('red', 4, 1)",red,perché potrebbero dividerci,red,giustificazione
 6501,6501,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,nel_senso questo carcere soffruisce di 6 sezioni di cui 1 è alta sicurezza e 5 sono comuni,specificazione,S,RD,"('yellow', 1, 1)",yellow,nel_senso questo carcere soffruisce di 6 sezioni di cui 1 è alta sicurezza e 5 sono comuni,yellow,specificazione
-6502,6502,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,"e potrebbero fare 2 sezioni tutti italiani e 3 sezioni tutti musulmani,",proposta,S,RD,"('green', 4, 5)",green,"e potrebbero fare 2 sezioni tutti italiani e 3 sezioni tutti musulmani,",green,proposta
 6503,6503,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,dico 3 sezioni perché loro sono molto_più numerosi di noi,giustificazione,S,RD,"('red', 4, 1)",red,dico 3 sezioni perché loro sono molto_più numerosi di noi,red,giustificazione
 6504,6504,"Secondo lei, quali altre iniziative
@@ -12763,8 +12733,6 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,più scuole e più dialogo,giudizio,S,RD,"('red', 3, 1)",red,più scuole e più dialogo,red,giudizio
 6576,6576,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,ve ne potrebbero essere parecchie,generalizzazione,S,RD,"('red', 3, 1)",red,ve ne potrebbero essere parecchie,red,generalizzazione
-6577,6577,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,una per_esempio mischiare nelle stanze detentive (celle) le verie etnie,proposta,S,RD,"('green', 4, 5)",green,una per_esempio mischiare nelle stanze detentive (celle) le verie etnie,green,proposta
 6578,6578,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,ma tutte compresa questa finirebbe per fallire,previsione,S,RD,"('red', 5, 4)",red,ma tutte compresa questa finirebbe per fallire,red,previsione
 6579,6579,"Secondo lei, quali altre iniziative
@@ -12785,8 +12753,6 @@ potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e st
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,"ma non_perché_sia_razzista,",giustificazione,S,RD,"('red', 4, 1)",red,"ma non_perché_sia_razzista,",red,giustificazione
 6587,6587,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,ma perché è così purtroppo,generalizzazione,S,RD,"('red', 3, 1)",red,ma perché è così purtroppo,red,generalizzazione
-6588,6588,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,la possibilità di poter frequentare maggiormente dei corsi scolastici,proposta,S,RD,"('green', 4, 5)",green,la possibilità di poter frequentare maggiormente dei corsi scolastici,green,proposta
 6589,6589,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,quindi crescere entrambi culturalmente,implicazioni,S,RD,"('red', 9, 7)",red,quindi crescere entrambi culturalmente,red,implicazioni
 6590,6590,"Secondo lei, quali altre iniziative
@@ -13535,8 +13501,6 @@ perché mi ritengo superiore",red,opinione
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,non_saprei quali se non_che loro si sapessero adeguare dipiù alla nostra mentalità,sancire,S,RD,"('red', 1, 0)",red,non_saprei quali se non_che loro si sapessero adeguare dipiù alla nostra mentalità,red,sancire
 6939,6939,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,dividere_gli_stranieri dagli italiani,generalizzazione,S,RD,"('red', 3, 1)",red,dividere_gli_stranieri dagli italiani,red,generalizzazione
-6940,6940,"Secondo lei, quali altre iniziative
-potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,"se_ci_fosse lavoro per tutti, senza discriminazioni, da_far stare tutti tranquilli ed in pace tra_loro",considerazione,S,RD,"('green', 3, 5)",green,"se_ci_fosse lavoro per tutti, senza discriminazioni, da_far stare tutti tranquilli ed in pace tra_loro",green,considerazione
 6941,6941,"Secondo lei, quali altre iniziative
 potrebbero facilitare l’integrazione fra la popolazione detenuta italiana e straniera?",OPINIONE,aumentare il lavoro,descrizione,S,RD,"('green', 0, 1)",green,aumentare il lavoro,green,descrizione
 6942,6942,"Secondo lei, quali altre iniziative
