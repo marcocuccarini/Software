@@ -475,7 +475,7 @@ class DSExperiment(object):
     
     tfms.append(x_tfms)
     
-    if (1):
+    if (0):
       x2_tfms = [attrgetter("Question"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
       tfms.append(x2_tfms)
 
