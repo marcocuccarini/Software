@@ -396,10 +396,9 @@ class DSExperiment(object):
     learn = Learner(dls, fai_model,  opt_func=self.opt_func, loss_func=self.criterion, metrics=self.metrics, cbs=self.callbacks, splitter=fai_model.transformer_spltr).to_fp16()
 
     if (pretrained):
-      #learn.load(fname)
+      learn.load(fname)
 
     print(training_id, flush=true)
-
     return training_id, learn
 
   def transformer_setup(self):
@@ -476,7 +475,7 @@ class DSExperiment(object):
     
     tfms.append(x_tfms)
     
-    if (0):
+    if (1):
       x2_tfms = [attrgetter("Question"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
       tfms.append(x2_tfms)
 
