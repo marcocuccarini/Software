@@ -396,7 +396,7 @@ class DSExperiment(object):
     learn = Learner(dls, fai_model,  opt_func=self.opt_func, loss_func=self.criterion, metrics=self.metrics, cbs=self.callbacks, splitter=fai_model.transformer_spltr).to_fp16()
 
     if (pretrained):
-      learn.load(fname)
+      #learn.load(fname)
 
     print(training_id, flush=true)
 
@@ -593,6 +593,7 @@ class DSExperiment(object):
 
     #outputstream.close()
 
+ 
   def benchmark(self):
     
     dsc = self.dsc
