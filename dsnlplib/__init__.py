@@ -470,12 +470,12 @@ class DSExperiment(object):
     if (dsc.use_qa):
       x_tfms = [DSTransform(self)]
 
-    else:
-      x_tfms = [attrgetter("text"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
+    #else:
+      #x_tfms = [attrgetter("text"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
     
     tfms.append(x_tfms)
     
-    if (1):
+    if (0):
       x2_tfms = [attrgetter("Question"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
       tfms.append(x2_tfms)
 
