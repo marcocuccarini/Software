@@ -634,8 +634,6 @@ class DSExperiment(object):
           
           for (metric, value) in zip(metricsL, metrics):
             results[benchmark][metric].append(value)
-            
-            print("Results")
             print(results)
 
             interp = DSClassificationInterpretation.from_learner(learner)
@@ -668,6 +666,7 @@ class DSExperiment(object):
 
     interp.plot_average_confusion_matrix(self.dsc.confusion_matrices['test'],figsize=(12,12))
     interp.print_average_classification_report(self.dsc.classification_reports['test'])
+    interp.auc()
     pprint(self.dsc.averages)
 
 
@@ -687,8 +686,6 @@ class DSClassificationInterpretation(ClassificationInterpretation):
             header = [x for x in splited[0].split(' ')]
         
             data_by_label = splited[2:-5]
-            print("DataLabel")
-            print(data_by_label)
             accuracy_data = splited[-4]
             macro_avg_data = splited[-3]
             weighted_avg_data = splited[-2]
@@ -726,6 +723,13 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 
         display(HTML(report_average.to_html(float_format=lambda x: '%.2f' % x)))
     
+    def auc(self):
+        "Print scikit-learn classification report"
+        d,t = flatten_check(self.decoded, self.targs)
+        print(d)
+        print(t)
+
+
 
     def classification_report(self):
         "Print scikit-learn classification report"
