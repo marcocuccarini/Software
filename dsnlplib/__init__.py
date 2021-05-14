@@ -608,11 +608,13 @@ class DSExperiment(object):
       confusion_matrices = { benchmark: [] for benchmark in benchmarks }
       classification_reports = { benchmark: [] for benchmark in benchmarks }
       
-      print(metric)
-      print(metricsL)
+      
+      
 
       
       learner_datalist = self.dsc.learner_datalist
+
+      print(learner_datalist)
 
       for (i, learner_data) in enumerate(learner_datalist, start = 1):
 
