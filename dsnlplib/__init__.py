@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1Sx1BQQtw9Ti1sReJYNc5aELVdcrh3Rys
 """
 
-import sys
+import sy
 sys.path.append('/home/nbuser/library/')
 
 import os
