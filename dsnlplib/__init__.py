@@ -579,6 +579,7 @@ class DSExperiment(object):
           plt.show()
 
         dsc.learner_datalist.append((training_id, train_index, valid_index))
+
         del learn
         gc.collect()
         torch.cuda.empty_cache()
@@ -633,6 +634,9 @@ class DSExperiment(object):
           
           for (metric, value) in zip(metricsL, metrics):
             results[benchmark][metric].append(value)
+            
+            print("Results")
+            print(results)
 
             interp = DSClassificationInterpretation.from_learner(learner)
 
@@ -664,7 +668,6 @@ class DSExperiment(object):
 
     interp.plot_average_confusion_matrix(self.dsc.confusion_matrices['test'],figsize=(12,12))
     interp.print_average_classification_report(self.dsc.classification_reports['test'])
-    
     pprint(self.dsc.averages)
 
 
@@ -684,6 +687,8 @@ class DSClassificationInterpretation(ClassificationInterpretation):
             header = [x for x in splited[0].split(' ')]
         
             data_by_label = splited[2:-5]
+            print("DataLabel")
+            print(data_by_label)
             accuracy_data = splited[-4]
             macro_avg_data = splited[-3]
             weighted_avg_data = splited[-2]
@@ -733,7 +738,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 
         normalized_matrices = []
         support = confusion_matrices[0].sum(axis=1)
-        print(confusion_matrices)
+
         # Normalize matrices
         for m in confusion_matrices:
           nm = m.astype('float') / m.sum(axis=1)[:, np.newaxis] 
