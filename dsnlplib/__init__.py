@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1Sx1BQQtw9Ti1sReJYNc5aELVdcrh3Rys
 """
 Ma come fa a funzionatr
-import sy
+import sys
 sys.path.append('/home/nbuser/library/')
 
 import os
