@@ -617,7 +617,7 @@ class DSExperiment(object):
         for benchmark in benchmarks:
 
           training_id, learner = self.create_learner(train_index, valid_index, training_id, 'test' == benchmark)
-          print('+++++++++++++++++++++++')
+
           print('*'*30)
           print('%s metrics for %s' % (benchmark, training_id))
 
@@ -656,7 +656,9 @@ class DSExperiment(object):
 
     interp.plot_average_confusion_matrix(self.dsc.confusion_matrices['test'],figsize=(12,12))
     interp.print_average_classification_report(self.dsc.classification_reports['test'])
+    print(dsc.classification_reports['test']+"   "+dsc.classification_reports['test'])
     pprint(self.dsc.averages)
+
 
 
 class DSClassificationInterpretation(ClassificationInterpretation):
