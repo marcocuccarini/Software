@@ -607,10 +607,16 @@ class DSExperiment(object):
       averages = { benchmark: {metric: None for metric in metricsL} for benchmark in benchmarks }
       confusion_matrices = { benchmark: [] for benchmark in benchmarks }
       classification_reports = { benchmark: [] for benchmark in benchmarks }
+      print(learner_data)
+      print(metric)
+      print(metricsL)
 
+      
       learner_datalist = self.dsc.learner_datalist
 
       for (i, learner_data) in enumerate(learner_datalist, start = 1):
+
+
 
         training_id, train_index, valid_index = learner_data
 
@@ -656,7 +662,6 @@ class DSExperiment(object):
 
     interp.plot_average_confusion_matrix(self.dsc.confusion_matrices['test'],figsize=(12,12))
     interp.print_average_classification_report(self.dsc.classification_reports['test'])
-    print(dsc.classification_reports['test'])
     pprint(self.dsc.averages)
 
 
