@@ -614,7 +614,7 @@ class DSExperiment(object):
       
       learner_datalist = self.dsc.learner_datalist
 
-      print(learner_datalist)
+
 
       for (i, learner_data) in enumerate(learner_datalist, start = 1):
 
@@ -664,6 +664,7 @@ class DSExperiment(object):
 
     interp.plot_average_confusion_matrix(self.dsc.confusion_matrices['test'],figsize=(12,12))
     interp.print_average_classification_report(self.dsc.classification_reports['test'])
+    
     pprint(self.dsc.averages)
 
 
@@ -732,7 +733,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 
         normalized_matrices = []
         support = confusion_matrices[0].sum(axis=1)
-
+        print(confusion_matrices)
         # Normalize matrices
         for m in confusion_matrices:
           nm = m.astype('float') / m.sum(axis=1)[:, np.newaxis] 
