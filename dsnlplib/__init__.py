@@ -727,7 +727,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
     def auc(self):
         "Print scikit-learn classification report"
         d,t = flatten_check(self.decoded, self.targs)
-        skm.roc_auc_score((y_true,self.num_labels), (y_score,self.num_labels), average='macro', sample_weight=None, max_fpr=None, multi_class='ovo', labels=None)
+        skm.roc_auc_score((t,self.num_labels), (d,self.num_labels), average='macro', sample_weight=None, max_fpr=None, multi_class='ovo', labels=None)
 
 
 
