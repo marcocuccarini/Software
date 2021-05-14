@@ -17,7 +17,7 @@ from fastai.basics import *
 from fastai.text.all import *
 from fastai.callback.all import *
 
-
+from sklearn.multioutput import MultiOutputClassifier
 from transformers import AutoModel, AutoTokenizer, AutoConfig
 from .splitters import *
 from .models import * 
@@ -727,7 +727,8 @@ class DSClassificationInterpretation(ClassificationInterpretation):
     def auc(self):
         "Print scikit-learn classification report"
         d,t = flatten_check(self.decoded, self.targs)
-        skm.roc_auc_score((t,23), (d,23), average='macro', sample_weight=None, max_fpr=None, multi_class='ovo', labels=None)
+        clf = LogisticRegression(solver="liblinear").fit(d, t)
+        skm.roc_auc_score((t,23), (clf.predict_proba(t),23), average='macro', sample_weight=None, max_fpr=None, multi_class='ovo', labels=None)
 
 
 
