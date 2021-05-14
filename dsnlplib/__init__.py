@@ -607,7 +607,7 @@ class DSExperiment(object):
       averages = { benchmark: {metric: None for metric in metricsL} for benchmark in benchmarks }
       confusion_matrices = { benchmark: [] for benchmark in benchmarks }
       classification_reports = { benchmark: [] for benchmark in benchmarks }
-      print(learner_data)
+      
       print(metric)
       print(metricsL)
 
