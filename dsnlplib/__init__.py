@@ -728,8 +728,8 @@ class DSClassificationInterpretation(ClassificationInterpretation):
     def auc(self):
         "Print scikit-learn classification report"
         d,t = flatten_check(self.decoded, self.targs)
-        clf = sk(solver="liblinear").fit(d, t)
-        skm.roc_auc_score((t,23), (clf.predict_proba(t),23), average='macro', sample_weight=None, max_fpr=None, multi_class='ovo', labels=None)
+        #clf = sk(solver="liblinear").fit(d, t)
+        skm.roc_auc_score((t,23), ('''clf.predict_proba(t)'''d,23), average='macro', sample_weight=None, max_fpr=None, multi_class='ovo', labels=None)
 
 
 
