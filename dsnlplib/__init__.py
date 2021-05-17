@@ -575,7 +575,7 @@ class DSExperiment(object):
             with learn.no_mbar(): learn.fit(dsc.epochs, lr=dsc.lr, wd=1e-4, reset_opt=False)
           except KeyboardInterrupt:
             print('Fit was interrupted')
-
+            self.save()
         
           learn.recorder.plot_loss(skip_start=0)
           plt.show()
