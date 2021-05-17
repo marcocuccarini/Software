@@ -566,11 +566,10 @@ class DSExperiment(object):
       for train_index, valid_index in dsc.split_series[start_from_split:]:
         
         training_id, learn = self.create_learner(train_index, valid_index)
-        
-    	json_file = open("modello.json",'r')
-    # Do something with the file
+        json_file = open("modello.json",'r')
+    # Do something with the fil
 		except IOError:
-   			json_file = open('modello.json', 'r')
+			json_file = open('modello.json', 'r')
 			loaded_model_json = json_file.read()
 			json_file.close()
 			learn = model_from_json(loaded_model_json)
@@ -598,7 +597,7 @@ class DSExperiment(object):
         dsc.learner_datalist.append((training_id, train_index, valid_index))
         learn_json=model.to_json()
         with open("modello.json", "w") as json_file:
-    		json_file.write(model_json)
+        	json_file.write(model_json)
         del learn
         gc.collect()
         torch.cuda.empty_cache()
