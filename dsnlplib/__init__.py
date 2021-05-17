@@ -360,7 +360,7 @@ class DSExperiment(object):
 
     timestamp = now.isoformat(sep='_', timespec='seconds')
     
-    training_id = dsc.pretrain_id + '/' + timestamp + ' ' + dsc.model_class_name + ' - lr: ' + str(dsc.lr)
+    training_id = '2021-05-13_07_19_34 BertClfier - lr_ 1e-05'
 
     return training_id
 
