@@ -57,6 +57,8 @@ class DSTransform(Transform):
     def __init__(self,exp):
       self.exp = exp
 
+
+     #codifica le frasi 
     def encodes(self, i):
         
         question = i.Question
@@ -405,7 +407,7 @@ class DSExperiment(object):
 
   def transformer_setup(self):
     dsc = self.dsc
-    tf_config = AutoConfig.from_pretrained(dsc.pretrain_id)
+    tf_config = AutoConfig.from_pretrained('/content/drive/My Drive/dnlp_models/dbmdz/bert_base_italian-xxl-uncased/2021-05-13_07_19_34 BertClfier - lr_ 1e-05.pth')
 
     # Number of classifier classes
     tf_config.num_labels = dsc.num_labels
@@ -430,7 +432,7 @@ class DSExperiment(object):
 
     dsc.num_labels = self.df['label'].nunique()
 
-    self.tokenizer = AutoTokenizer.from_pretrained(self.dsc.pretrain_id)
+    self.tokenizer = AutoTokenizer.from_pretrained('/content/drive/My Drive/dnlp_models/dbmdz/bert_base_italian-xxl-uncased/2021-05-13_07_19_34 BertClfier - lr_ 1e-05.pth')
     self.tokenizer_vocab=self.tokenizer.get_vocab() 
 
     self.tokenizer_vocab_ls = [k for k, v in sorted(self.tokenizer_vocab.items(), key=lambda item: item[1])]
@@ -729,7 +731,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         "Print scikit-learn classification report"
         d,t = flatten_check(self.decoded, self.targs)
         #clf = sk(solver="liblinear").fit(d, t)
-        skm.roc_auc_score((t,23), (d,23), average='macro', sample_weight=None, max_fpr=None, multi_class='ovo', labels=None)
+  
 
 
 
