@@ -567,12 +567,11 @@ class DSExperiment(object):
         
         training_id, learn = self.create_learner(train_index, valid_index)
         json_file = open("modello.json",'r')
-    # Do something with the fil
-		except IOError:
-			json_file = open('modello.json', 'r')
-			loaded_model_json = json_file.read()
-			json_file.close()
-			learn = model_from_json(loaded_model_json)
+    except IOError:
+    	json_file = open('modello.json', 'r')
+    	loaded_model_json = json_file.read()
+    	json_file.close()
+    	learn = model_from_json(loaded_model_json)
 
     
         		
