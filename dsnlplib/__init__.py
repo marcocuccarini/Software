@@ -16,6 +16,7 @@ import fastai
 from fastai.basics import *
 from fastai.text.all import *
 from fastai.callback.all import *
+from keras.models import model_from_json
 
 import sklearn.linear_model as sk
 from sklearn.multioutput import MultiOutputClassifier
@@ -407,7 +408,7 @@ class DSExperiment(object):
 
   def transformer_setup(self):
     dsc = self.dsc
-    tf_config = AutoConfig.from_pretrained('/content/drive/My Drive/dnlp_models/dbmdz/bert_base_italian-xxl-uncased/2021-05-13_07_19_34 BertClfier - lr_ 1e-05.pth')
+    tf_config = AutoConfig.from_pretrained(dsc.pretrain_id)
 
     # Number of classifier classes
     tf_config.num_labels = dsc.num_labels
@@ -432,7 +433,7 @@ class DSExperiment(object):
 
     dsc.num_labels = self.df['label'].nunique()
 
-    self.tokenizer = AutoTokenizer.from_pretrained('/content/drive/My Drive/dnlp_models/dbmdz/bert_base_italian-xxl-uncased/2021-05-13_07_19_34 BertClfier - lr_ 1e-05.pth')
+    self.tokenizer = AutoTokenizer.from_pretrained(dsc.pretrain_id)
     self.tokenizer_vocab=self.tokenizer.get_vocab() 
 
     self.tokenizer_vocab_ls = [k for k, v in sorted(self.tokenizer_vocab.items(), key=lambda item: item[1])]
@@ -565,6 +566,18 @@ class DSExperiment(object):
       for train_index, valid_index in dsc.split_series[start_from_split:]:
         
         training_id, learn = self.create_learner(train_index, valid_index)
+        
+    	json_file = open("modello.json",'r')
+    # Do something with the file
+		except IOError:
+   			json_file = open('modello.json', 'r')
+			loaded_model_json = json_file.read()
+			json_file.close()
+			learn = model_from_json(loaded_model_json)
+
+    
+        		
+
 
         if (dsc.epochs > 0):
           learn.freeze_to(dsc.freeze_to)
@@ -583,7 +596,9 @@ class DSExperiment(object):
           plt.show()
 
         dsc.learner_datalist.append((training_id, train_index, valid_index))
-
+        learn_json=model.to_json()
+        with open("modello.json", "w") as json_file:
+    		json_file.write(model_json)
         del learn
         gc.collect()
         torch.cuda.empty_cache()
