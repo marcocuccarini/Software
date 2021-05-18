@@ -16,10 +16,8 @@ import fastai
 from fastai.basics import *
 from fastai.text.all import *
 from fastai.callback.all import *
-from keras.models import model_from_json
 
-import sklearn.linear_model as sk
-from sklearn.multioutput import MultiOutputClassifier
+
 from transformers import AutoModel, AutoTokenizer, AutoConfig
 from .splitters import *
 from .models import * 
@@ -51,15 +49,12 @@ from pprint import pprint
 from statistics import mean
 
 from sklearn.model_selection import StratifiedKFold
-from sklearn.metrics import roc_auc_score
 import sklearn.metrics as skm
 
 class DSTransform(Transform):
     def __init__(self,exp):
       self.exp = exp
 
-
-     #codifica le frasi 
     def encodes(self, i):
         
         question = i.Question
@@ -299,15 +294,21 @@ class DSConfig(object):
     else:
       self.__dict__[key] = value
 
+
 def ds_loop_gen(env):
-	dsc = DSConfig.from_env(env)
-	return partial(_ds_loop,dsc=dsc)
+ """ Legacy imperative function """
+  dsc = DSConfig.from_env(env)
+
+  return partial(_ds_loop,dsc=dsc)
+
 
 def _ds_loop(model_idx,dsc):
-	
-	dsc.model_idx = model_idx
-	exp = DSExperiment(dsc)
-	return exp.run() 
+ """ Legacy imperative function """
+  dsc.model_idx = model_idx
+
+  exp = DSExperiment(dsc)
+
+  return exp.run() 
 
 
 class DSExperiment(object):
@@ -363,7 +364,7 @@ class DSExperiment(object):
 
     timestamp = now.isoformat(sep='_', timespec='seconds')
     
-    training_id = '2021-05-13_07_19_34 BertClfier - lr_ 1e-05'
+    training_id = dsc.pretrain_id + '/' + timestamp + ' ' + dsc.model_class_name + ' - lr: ' + str(dsc.lr)
 
     return training_id
 
@@ -401,9 +402,10 @@ class DSExperiment(object):
     learn = Learner(dls, fai_model,  opt_func=self.opt_func, loss_func=self.criterion, metrics=self.metrics, cbs=self.callbacks, splitter=fai_model.transformer_spltr).to_fp16()
 
     if (pretrained):
-     learn.load(fname)
+      learn.load(fname)
 
     print(training_id, flush=true)
+
     return training_id, learn
 
   def transformer_setup(self):
@@ -433,7 +435,7 @@ class DSExperiment(object):
 
     dsc.num_labels = self.df['label'].nunique()
 
-    self.tokenizer = AutoTokenizer.from_pretrained(dsc.pretrain_id)
+    self.tokenizer = AutoTokenizer.from_pretrained(self.dsc.pretrain_id)
     self.tokenizer_vocab=self.tokenizer.get_vocab() 
 
     self.tokenizer_vocab_ls = [k for k, v in sorted(self.tokenizer_vocab.items(), key=lambda item: item[1])]
@@ -469,7 +471,7 @@ class DSExperiment(object):
     
     #dsc.useRocAuc = (dsc.num_labels <= 3)
     dsc.useRocAuc = True
-    #prova
+    
     tfms = []
 
     if (dsc.use_qa):
@@ -480,7 +482,7 @@ class DSExperiment(object):
     
     tfms.append(x_tfms)
     
-    if (0):
+    if (dsc.double):
       x2_tfms = [attrgetter("Question"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
       tfms.append(x2_tfms)
 
@@ -564,26 +566,26 @@ class DSExperiment(object):
         print('Resuming from split: %s' % (start_from_split,))
 
       for train_index, valid_index in dsc.split_series[start_from_split:]:
-       training_id, learn = self.create_learner(train_index, valid_index)
-       if (dsc.epochs > 0):
+        
+        training_id, learn = self.create_learner(train_index, valid_index)
 
-         learn.freeze_to(dsc.freeze_to)
-         plt.show()
+        if (dsc.epochs > 0):
+          learn.freeze_to(dsc.freeze_to)
+
+          #learn.lr_find()
+          plt.show()
         
-         try:
+          try:
             #with learn.no_mbar(): learn.fit_one_cycle(epochs, lr_max=lr)
-          with learn.no_mbar(): learn.fit(dsc.epochs, lr=dsc.lr, wd=1e-4, reset_opt=False)
-         except KeyboardInterrupt:
+            with learn.no_mbar(): learn.fit(dsc.epochs, lr=dsc.lr, wds=1e-4, use_wd_sched=True)
+          except KeyboardInterrupt:
             print('Fit was interrupted')
-            self.save()
+
         
-         learn.recorder.plot_loss(skip_start=0)
-         plt.show()
+          learn.recorder.plot_loss(skip_start=0)
+          plt.show()
 
         dsc.learner_datalist.append((training_id, train_index, valid_index))
-        learn_json=model.to_json()
-        with open("modello.json", "w") as json_file:
-        	json_file.write(model_json)
         del learn
         gc.collect()
         torch.cuda.empty_cache()
@@ -597,7 +599,6 @@ class DSExperiment(object):
 
     #outputstream.close()
 
- 
   def benchmark(self):
     
     dsc = self.dsc
@@ -612,18 +613,10 @@ class DSExperiment(object):
       averages = { benchmark: {metric: None for metric in metricsL} for benchmark in benchmarks }
       confusion_matrices = { benchmark: [] for benchmark in benchmarks }
       classification_reports = { benchmark: [] for benchmark in benchmarks }
-      
-      
-      
 
-      
       learner_datalist = self.dsc.learner_datalist
 
-
-
       for (i, learner_data) in enumerate(learner_datalist, start = 1):
-
-
 
         training_id, train_index, valid_index = learner_data
 
@@ -638,7 +631,6 @@ class DSExperiment(object):
           
           for (metric, value) in zip(metricsL, metrics):
             results[benchmark][metric].append(value)
-            print(results)
 
             interp = DSClassificationInterpretation.from_learner(learner)
 
@@ -670,9 +662,7 @@ class DSExperiment(object):
 
     interp.plot_average_confusion_matrix(self.dsc.confusion_matrices['test'],figsize=(12,12))
     interp.print_average_classification_report(self.dsc.classification_reports['test'])
-    interp.auc()
     pprint(self.dsc.averages)
-
 
 
 class DSClassificationInterpretation(ClassificationInterpretation):
@@ -727,13 +717,6 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 
         display(HTML(report_average.to_html(float_format=lambda x: '%.2f' % x)))
     
-    def auc(self):
-        "Print scikit-learn classification report"
-        d,t = flatten_check(self.decoded, self.targs)
-        #clf = sk(solver="liblinear").fit(d, t)
-  
-
-
 
     def classification_report(self):
         "Print scikit-learn classification report"
