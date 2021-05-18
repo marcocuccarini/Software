@@ -572,14 +572,10 @@ class DSExperiment(object):
       	 json_file.close()
       	 learn = model_from_json(loaded_model_json)
 
-    
-        		
-
-
         if (dsc.epochs > 0):
 
-        	learn.freeze_to(dsc.freeze_to)
-        	plt.show()
+         learn.freeze_to(dsc.freeze_to)
+         plt.show()
         
           try:
             #with learn.no_mbar(): learn.fit_one_cycle(epochs, lr_max=lr)
