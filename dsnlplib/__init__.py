@@ -567,12 +567,13 @@ class DSExperiment(object):
        training_id, learn = self.create_learner(train_index, valid_index)
         
       	if(('modello.json').exists()):
-      	 json_file = open('modello.json', 'r')
-      	 loaded_model_json = json_file.read()
-      	 json_file.close()
-      	 learn = model_from_json(loaded_model_json)
 
-        if (dsc.epochs > 0):
+      	  json_file = open('modello.json', 'r')
+      	  loaded_model_json = json_file.read()
+      	  json_file.close()
+      	  learn = model_from_json(loaded_model_json)
+
+      	if (dsc.epochs > 0):
 
          learn.freeze_to(dsc.freeze_to)
          plt.show()
