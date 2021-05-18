@@ -296,10 +296,9 @@ class DSConfig(object):
 
 
 def ds_loop_gen(env):
- """ Legacy imperative function """
-  dsc = DSConfig.from_env(env)
 
-  return partial(_ds_loop,dsc=dsc)
+	dsc = DSConfig.from_env(env)
+	return partial(_ds_loop,dsc=dsc)
 
 
 def _ds_loop(model_idx,dsc):
