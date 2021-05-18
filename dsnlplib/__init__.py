@@ -442,7 +442,7 @@ class DSExperiment(object):
     
     self.qa_tok_func = QATokFunc(transformer_tokenizer=self.tokenizer, pretrain_id=self.dsc.pretrain_id, max_seq_len=self.dsc.max_seq_len, sentence_pair=self.dsc.sentence_pair)
     
-    self.fai_tokenizer = Tokenizer.from_df(text_cols='text', res_col_name='Answer', tok=self.tok_func, rules=[])
+    self.fai_tokenizer = Tokenizer.from_df(text_cols='text', res_col_name='text', tok=self.tok_func, rules=[])
 
     model = dsc.models[dsc.model_idx]
     (dsc.model_cls, _) = model
@@ -478,7 +478,7 @@ class DSExperiment(object):
     
     tfms.append(x_tfms)
     
-    if (1):
+    if (0):
       x2_tfms = [attrgetter("Question"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
       tfms.append(x2_tfms)
 
