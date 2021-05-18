@@ -564,14 +564,13 @@ class DSExperiment(object):
         print('Resuming from split: %s' % (start_from_split,))
 
       for train_index, valid_index in dsc.split_series[start_from_split:]:
-      	training_id, learn = self.create_learner(train_index, valid_index)
+       training_id, learn = self.create_learner(train_index, valid_index)
         
       	if(('modello.json').exists()):
-
-      		json_file = open('modello.json', 'r')
-      		loaded_model_json = json_file.read()
-      		json_file.close()
-      		learn = model_from_json(loaded_model_json)
+      	 json_file = open('modello.json', 'r')
+      	 loaded_model_json = json_file.read()
+      	 json_file.close()
+      	 learn = model_from_json(loaded_model_json)
 
     
         		
@@ -579,8 +578,8 @@ class DSExperiment(object):
 
         if (dsc.epochs > 0):
 
-        	learn.freeze_to(dsc.freeze_to)
-        	plt.show()
+         learn.freeze_to(dsc.freeze_to)
+         plt.show()
         
           try:
             #with learn.no_mbar(): learn.fit_one_cycle(epochs, lr_max=lr)
