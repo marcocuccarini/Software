@@ -577,10 +577,10 @@ class DSExperiment(object):
          learn.freeze_to(dsc.freeze_to)
          plt.show()
         
-          try:
+         try:
             #with learn.no_mbar(): learn.fit_one_cycle(epochs, lr_max=lr)
-            with learn.no_mbar(): learn.fit(dsc.epochs, lr=dsc.lr, wd=1e-4, reset_opt=False)
-          except KeyboardInterrupt:
+          with learn.no_mbar(): learn.fit(dsc.epochs, lr=dsc.lr, wd=1e-4, reset_opt=False)
+         except KeyboardInterrupt:
             print('Fit was interrupted')
             self.save()
         
