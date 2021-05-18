@@ -565,10 +565,7 @@ class DSExperiment(object):
 
       for train_index, valid_index in dsc.split_series[start_from_split:]:
        training_id, learn = self.create_learner(train_index, valid_index)
-        
-      	
-
-      	if (dsc.epochs > 0):
+       if (dsc.epochs > 0):
 
          learn.freeze_to(dsc.freeze_to)
          plt.show()
