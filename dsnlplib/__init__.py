@@ -568,22 +568,19 @@ class DSExperiment(object):
         
       	if(('modello.json').exists()):
 
-
-
-        	json_file = open('modello.json', 'r')
-        	loaded_model_json = json_file.read()
-        	json_file.close()
-        	learn = model_from_json(loaded_model_json)
+      		json_file = open('modello.json', 'r')
+      		loaded_model_json = json_file.read()
+      		json_file.close()
+      		learn = model_from_json(loaded_model_json)
 
     
         		
 
 
         if (dsc.epochs > 0):
-          learn.freeze_to(dsc.freeze_to)
 
-          #learn.lr_find()
-          plt.show()
+        	learn.freeze_to(dsc.freeze_to)
+        	plt.show()
         
           try:
             #with learn.no_mbar(): learn.fit_one_cycle(epochs, lr_max=lr)
