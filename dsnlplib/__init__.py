@@ -577,8 +577,8 @@ class DSExperiment(object):
             print('Fit was interrupted')
             self.save()
         
-          learn.recorder.plot_loss(skip_start=0)
-          plt.show()
+         learn.recorder.plot_loss(skip_start=0)
+         plt.show()
 
         dsc.learner_datalist.append((training_id, train_index, valid_index))
         learn_json=model.to_json()
