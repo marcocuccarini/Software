@@ -302,12 +302,10 @@ def ds_loop_gen(env):
 
 
 def _ds_loop(model_idx,dsc):
- """ Legacy imperative function """
-  dsc.model_idx = model_idx
 
-  exp = DSExperiment(dsc)
-
-  return exp.run() 
+	dsc.model_idx = model_idx
+	exp = DSExperiment(dsc)
+	return exp.run() 
 
 
 class DSExperiment(object):
