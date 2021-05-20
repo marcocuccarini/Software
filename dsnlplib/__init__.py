@@ -658,7 +658,7 @@ class DSExperiment(object):
       self.dsc.confusion_matrices = confusion_matrices
       self.dsc.classification_reports = classification_reports
       print('\n'*2)
-      self.save()
+      #self.save()
 
     interp.plot_average_confusion_matrix(self.dsc.confusion_matrices['test'],figsize=(12,12))
     interp.print_average_classification_report(self.dsc.classification_reports['test'])
