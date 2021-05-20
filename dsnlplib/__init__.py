@@ -575,6 +575,7 @@ class DSExperiment(object):
             #with learn.no_mbar(): learn.fit_one_cycle(epochs, lr_max=lr)
             with learn.no_mbar(): learn.fit(dsc.epochs, lr=dsc.lr, wd=1e-4)
           except KeyboardInterrupt:
+          	self.save()
             print('Fit was interrupted')
 
         
@@ -588,7 +589,7 @@ class DSExperiment(object):
         
         dsc.started = self.started()
         dsc.over = self.over()
-        self.save()
+        
 
     if (dsc.epochs > 0):
       self.benchmark()
