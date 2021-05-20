@@ -244,7 +244,7 @@ class DSConfig(object):
       self.use_activ = kwargs.pop("use_activ", True) 
 
       # Indica sino a quale gruppo di layer congelare l'apprendimento
-      self.freeze_to = kwargs.pop("freeze_to",  1)
+      self.freeze_to = kwargs.pop("freeze_to",  10)
 
       # Numero di filtri per la cnn
       self.kernel_num = kwargs.pop("kernel_num",  3)
