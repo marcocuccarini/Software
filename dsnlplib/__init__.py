@@ -575,14 +575,17 @@ class DSExperiment(object):
             #with learn.no_mbar(): learn.fit_one_cycle(epochs, lr_max=lr)
             with learn.no_mbar(): learn.fit(dsc.epochs, lr=dsc.lr, wd=1e-4)
           except KeyboardInterrupt:
-          	self.save()
             print('Fit was interrupted')
 
         
           learn.recorder.plot_loss(skip_start=0)
           plt.show()
 
+
+
+
         dsc.learner_datalist.append((training_id, train_index, valid_index))
+        self.save()
         del learn
         gc.collect()
         torch.cuda.empty_cache()
