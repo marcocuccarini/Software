@@ -236,7 +236,7 @@ class DSConfig(object):
       self.results = kwargs.pop("results", {}) 
       
       # Numero di split per la cross validation
-      self.n_splits = kwargs.pop("n_splits", 1) 
+      self.n_splits = kwargs.pop("n_splits", 10) 
 
 
       # Utilizza funzione di attivazione ReLU prima dell'ultimo livello
