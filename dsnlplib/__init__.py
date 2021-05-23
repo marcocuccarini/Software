@@ -385,7 +385,7 @@ class DSExperiment(object):
 
     splits = ColSplitter()(df)
 
-    dsets = Datasets(df, splits=1, tfms=self.tfms, dl_type=SortedDL)
+    dsets = Datasets(df, splits=splits, tfms=self.tfms, dl_type=SortedDL)
     
     dls = dsets.dataloaders(bs=dsc.bs, before_batch=self.before_batch)
 
@@ -478,7 +478,7 @@ class DSExperiment(object):
     
     tfms.append(x_tfms)
     
-    if (0):
+    if (1):
       x2_tfms = [attrgetter("Question"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
       tfms.append(x2_tfms)
 
