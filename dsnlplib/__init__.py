@@ -385,7 +385,7 @@ class DSExperiment(object):
 
     splits = ColSplitter()(df)
 
-    dsets = Datasets(df, splits=splits, tfms=self.tfms, dl_type=SortedDL)
+    dsets = Datasets(df, splits=1, tfms=self.tfms, dl_type=SortedDL)
     
     dls = dsets.dataloaders(bs=dsc.bs, before_batch=self.before_batch)
 
@@ -561,7 +561,7 @@ class DSExperiment(object):
       if (start_from_split > 0):
         print('Resuming from split: %s' % (start_from_split,))
 
-      for train_index, valid_index in dsc.split_series:
+      for train_index, valid_index in dsc.split_series[start_from_split:]:
         
         training_id, learn = self.create_learner(train_index, valid_index)
 
