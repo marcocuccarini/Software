@@ -236,7 +236,7 @@ class DSConfig(object):
       self.results = kwargs.pop("results", {}) 
       
       # Numero di split per la cross validation
-      self.n_splits = kwargs.pop("n_splits", 5) 
+      self.n_splits = kwargs.pop("n_splits", 1) 
 
 
       # Utilizza funzione di attivazione ReLU prima dell'ultimo livello
@@ -585,7 +585,6 @@ class DSExperiment(object):
 
 
         dsc.learner_datalist.append((training_id, train_index, valid_index))
-        self.save()
         del learn
         gc.collect()
         torch.cuda.empty_cache()
@@ -658,7 +657,7 @@ class DSExperiment(object):
       self.dsc.confusion_matrices = confusion_matrices
       self.dsc.classification_reports = classification_reports
       print('\n'*2)
-      #self.save()
+      self.save()
 
     interp.plot_average_confusion_matrix(self.dsc.confusion_matrices['test'],figsize=(12,12))
     interp.print_average_classification_report(self.dsc.classification_reports['test'])
@@ -722,6 +721,9 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         "Print scikit-learn classification report"
         d,t = flatten_check(self.decoded, self.targs)
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
+
+    
+        
 
     def plot_average_confusion_matrix(self, confusion_matrices, title='Confusion matrix', normalized=False, cmap="Reds", plot_txt=True, **kwargs):
         "Plot the confusion matrix, with `title` and using `cmap`."
