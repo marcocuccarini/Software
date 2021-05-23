@@ -561,7 +561,7 @@ class DSExperiment(object):
       if (start_from_split > 0):
         print('Resuming from split: %s' % (start_from_split,))
 
-      for train_index, valid_index in dsc.split_series[start_from_split:]:
+      for train_index, valid_index in dsc.split_series:
         
         training_id, learn = self.create_learner(train_index, valid_index)
 
