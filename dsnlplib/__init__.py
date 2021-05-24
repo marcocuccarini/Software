@@ -383,11 +383,11 @@ class DSExperiment(object):
 
     fname = self.save_models_path + training_id
 
-    #splits = ColSplitter()(df)
+    splits = ColSplitter()(df)
 
 
 
-    dsets = Datasets(df, tfms=self.tfms, dl_type=SortedDL)
+    dsets = Datasets(df, splits=splits, tfms=self.tfms, dl_type=SortedDL)
     
     dls = dsets.dataloaders(bs=dsc.bs, before_batch=self.before_batch)
 
