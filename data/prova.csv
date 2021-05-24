@@ -1,4 +1,4 @@
-,Unnamed: 0,Question,Qrep,Answer,Rep,Skill,Dataset,p,MacroCat,text,label,label2,is_valid,set_tag,is_test
+,Unnamed: 0,Question,QRep,Answer,Rep,Skill,Dataset,p,MacroCat,text,label,label2,is_valid,set_tag,is_test
 0,0,Come descriverebbe un trattamento efficace?,descrizione,"un bello spazio con uffici per personale di trattamento, abbastanza 
 collaborazione con centri o istituti o associazioni. all_esterno, possibilità 
 di reinserimenti con cure eccetera eccetera e posibilità di",giudizio,S,RD,"('red', 3, 1)",red,"un bello spazio con uffici per personale di trattamento, abbastanza 
