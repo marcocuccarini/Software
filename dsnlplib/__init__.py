@@ -262,7 +262,7 @@ class DSConfig(object):
       self.multi_label = kwargs.pop("multi_label",  False) # multiple classifications and labels     
 
       # Numero di etichette (calcolato automaticamente, ma imponibile)
-      self.num_labels = kwargs.pop("num_labels", None)
+      self.num_labels = kwargs.pop("num_labels", 17)
 
       # Utilizza come input sia la domanda che la risposta (altrimenti il dataloader usa solo la risposta)
       self.use_qa = kwargs.pop("use_qa", False)
@@ -384,6 +384,8 @@ class DSExperiment(object):
     fname = self.save_models_path + training_id
 
     splits = ColSplitter()(df)
+
+
 
     dsets = Datasets(df, splits=splits, tfms=self.tfms, dl_type=SortedDL)
     
