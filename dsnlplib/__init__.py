@@ -383,11 +383,33 @@ class DSExperiment(object):
 
     fname = self.save_models_path + training_id
 
+
+
+
+    #############
+
+
+    #Errore
+
+
+
+    #############
+
+
     splits = ColSplitter()(df)
 
-
-
     dsets = Datasets(df, splits=splits, tfms=self.tfms, dl_type=SortedDL)
+
+
+
+    #############
+
+
+    #Errore
+
+
+
+    #############
     
     dls = dsets.dataloaders(bs=dsc.bs, before_batch=self.before_batch)
 
@@ -476,10 +498,10 @@ class DSExperiment(object):
       x_tfms = [DSTransform(self)]
 
     else:
-      x_tfms = [attrgetter("text"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
+      x_tfms = [attrgetter("Answer"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
     
     tfms.append(x_tfms)
-    
+    #Double
     if (0):
       x2_tfms = [attrgetter("Question"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
       tfms.append(x2_tfms)
@@ -593,7 +615,7 @@ class DSExperiment(object):
         
         dsc.started = self.started()
         dsc.over = self.over()
-        
+        self.save()
 
     if (dsc.epochs > 0):
       self.benchmark()
