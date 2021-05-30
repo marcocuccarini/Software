@@ -57,11 +57,11 @@ class DSTransform(Transform):
 
     def encodes(self, i):
         
-        #question = i.Question
+        question = i.Question
         answer = i.Answer
         label = i.label
 
-        input_ids, attention_mask, token_type_ids = self.exp.qa_tok_func((answer))#question,
+        input_ids, attention_mask, token_type_ids = self.exp.qa_tok_func((question,answer))#
 
         #print(tokenized, flush=True)
 
