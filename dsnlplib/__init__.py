@@ -61,7 +61,7 @@ class DSTransform(Transform):
         answer = i.Answer
         label = i.label
 
-        input_ids, attention_mask, token_type_ids = self.exp.qa_tok_func((answer)
+        input_ids, attention_mask, token_type_ids = self.exp.qa_tok_func((answer))
 
         #print(tokenized, flush=True)
 
