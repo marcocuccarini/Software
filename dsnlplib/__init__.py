@@ -57,11 +57,11 @@ class DSTransform(Transform):
 
     def encodes(self, i):
         
-        question = i.Question
+        #question = i.Question
         answer = i.Answer
         label = i.label
 
-        input_ids, attention_mask, token_type_ids = self.exp.qa_tok_func((question,answer))
+        input_ids, attention_mask, token_type_ids = self.exp.qa_tok_func(answer)
 
         #print(tokenized, flush=True)
 
@@ -501,10 +501,7 @@ class DSExperiment(object):
       x_tfms = [attrgetter("Answer"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
     
     tfms.append(x_tfms)
-    #Double
-    if (0):
-      x2_tfms = [attrgetter("Question"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
-      tfms.append(x2_tfms)
+    
 
     if (dsc.multi_label):
       y_tfms = [attrgetter("labels"), MultiCategorize()]
