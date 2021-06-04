@@ -57,7 +57,7 @@ class DSTransform(Transform):
 
     def encodes(self, i):
         
-        question = ''
+        question = i.Question
         
         answer = i.Answer
         label = i.label
