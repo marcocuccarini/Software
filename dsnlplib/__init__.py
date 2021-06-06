@@ -484,7 +484,7 @@ class DSExperiment(object):
       x_tfms = [DSTransform(self)]
 
     else:
-      x_tfms = [attrgetter("Answer"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
+      x_tfms = [attrgetter("text"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
     
     tfms.append(x_tfms)
     
