@@ -59,7 +59,7 @@ class DSTransform(Transform):
         
         #question = i.Question
         
-        answer = i.Answer
+        answer = i.text
         label = i.label
 
         input_ids, attention_mask, token_type_ids = self.exp.qa_tok_func((answer))
