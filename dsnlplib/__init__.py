@@ -73,6 +73,8 @@ class DSTransform(Transform):
     def decodes(self, x): 
       return self.exp.tokenizer.decode(x[0])
 
+
+
     
 #    def __len__(self): return len(self.exp.df)
 
@@ -450,7 +452,7 @@ class DSExperiment(object):
     
     self.qa_tok_func = QATokFunc(transformer_tokenizer=self.tokenizer, pretrain_id=self.dsc.pretrain_id, max_seq_len=self.dsc.max_seq_len, sentence_pair=self.dsc.sentence_pair)
     
-    self.fai_tokenizer = Tokenizer.from_df(text_cols='text', res_col_name='text1', tok=self.tok_func, rules=[])
+    self.fai_tokenizer = Tokenizer.from_df(text_cols='text', res_col_name='text', tok=self.tok_func, rules=[])
 
     model = dsc.models[dsc.model_idx]
     (dsc.model_cls, _) = model
