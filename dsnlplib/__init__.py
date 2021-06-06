@@ -57,12 +57,12 @@ class DSTransform(Transform):
 
     def encodes(self, i):
         
-        question = i.Question
+        #question = i.Question
         
         answer = i.Answer
         label = i.label
 
-        input_ids, attention_mask, token_type_ids = self.exp.qa_tok_func((question,answer))
+        input_ids, attention_mask, token_type_ids = self.exp.qa_tok_func((answer))
 
         #print(tokenized, flush=True)
 
@@ -387,30 +387,13 @@ class DSExperiment(object):
 
 
 
-    #############
-
-
-    #Errore
-
-
-
-    #############
-
-
     splits = ColSplitter()(df)
 
     dsets = Datasets(df, splits=splits, tfms=self.tfms, dl_type=SortedDL)
 
 
 
-    #############
 
-
-    #Errore
-
-
-
-    #############
     
     dls = dsets.dataloaders(bs=dsc.bs, before_batch=self.before_batch)
 
