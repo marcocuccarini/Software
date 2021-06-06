@@ -73,27 +73,7 @@ class DSTransform(Transform):
     def decodes(self, x): 
       return self.exp.tokenizer.decode(x[0])
 
-class DSTransform1(Transform):
-    def __init__(self,exp):
-      self.exp = exp
 
-    def encodes(self, i):
-        
-       
-        
-        answer = i.Answer
-        label = i.label
-
-        input_ids, attention_mask, token_type_ids = self.exp.tok_func((answer))
-
-        #print(tokenized, flush=True)
-
-        tokenized = torch.tensor(input_ids), torch.tensor(attention_mask), torch.tensor(token_type_ids)
-
-        return (tokenized)
-
-    def decodes(self, x): 
-      return self.exp.tokenizer.decode(x[0])
 
     
 #    def __len__(self): return len(self.exp.df)
@@ -504,7 +484,7 @@ class DSExperiment(object):
       x_tfms = [DSTransform(self)]
 
     else:
-      x_tfms = [DSTransform1(self)]
+      x_tfms = [attrgetter("Answer"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
     
     tfms.append(x_tfms)
     
