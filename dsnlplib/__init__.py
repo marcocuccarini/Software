@@ -209,7 +209,7 @@ class DSConfig(object):
       self.max_seq_len = kwargs.pop("max_seq_len", 512) 
 
       # Parametro deprecato
-      self.sentence_pair = kwargs.pop("sentence_pair", False) 
+      self.sentence_pair = kwargs.pop("sentence_pair", True) 
 
       # Parametro Eps per ottimizzatore AdamW
       self.eps = kwargs.pop("eps", 0.0001) 
@@ -452,7 +452,7 @@ class DSExperiment(object):
     
     self.qa_tok_func = QATokFunc(transformer_tokenizer=self.tokenizer, pretrain_id=self.dsc.pretrain_id, max_seq_len=self.dsc.max_seq_len, sentence_pair=self.dsc.sentence_pair)
     
-    self.fai_tokenizer = Tokenizer.from_df(text_cols='Answer', res_col_name='Answer', tok=self.tok_func, rules=[])
+    self.fai_tokenizer = Tokenizer.from_df(text_cols='text', res_col_name='text', tok=self.tok_func, rules=[])
 
     model = dsc.models[dsc.model_idx]
     (dsc.model_cls, _) = model
