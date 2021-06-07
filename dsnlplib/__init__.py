@@ -449,10 +449,10 @@ class DSExperiment(object):
     self.dsc.max_seq_len = min(dsc.max_seq_len,self.tokenizer.model_max_length)
       
     self.tok_func = TokFunc(transformer_tokenizer=self.tokenizer, pretrain_id=self.dsc.pretrain_id, max_seq_len=self.dsc.max_seq_len, sentence_pair=self.dsc.sentence_pair)
-    print(self.df['text'])
-    self.qa_tok_func = QATokFunc(transformer_tokenizer=self.tokenizer, pretrain_id=self.dsc.pretrain_id, max_seq_len=self.dsc.max_seq_len, sentence_pair=self.dsc.sentence_pair)
     
-    self.fai_tokenizer = Tokenizer.from_df(text_cols='text', res_col_name='text1', tok=self.tok_func, rules=[])
+    self.qa_tok_func = QATokFunc(transformer_tokenizer=self.tokenizer, pretrain_id=self.dsc.pretrain_id, max_seq_len=self.dsc.max_seq_len, sentence_pair=self.dsc.sentence_pair)
+    print(self.df)
+    self.fai_tokenizer = Tokenizer.from_df(text_cols='text', res_col_name='text', tok=self.tok_func, rules=[])
 
     model = dsc.models[dsc.model_idx]
     (dsc.model_cls, _) = model
