@@ -619,6 +619,7 @@ class DSExperiment(object):
       averages = { benchmark: {metric: None for metric in metricsL} for benchmark in benchmarks }
       confusion_matrices = { benchmark: [] for benchmark in benchmarks }
       classification_reports = { benchmark: [] for benchmark in benchmarks }
+      AP_reports = { benchmark: [] for benchmark in benchmarks }
 
       learner_datalist = self.dsc.learner_datalist
 
@@ -735,7 +736,9 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         y_true = lb.transform(y_t)
         y_scores = lb.transform(y_p)
         AP=average_precision_score(y_true, y_scores, average=None)
-        print('AP',AP)
+        voc=self.vocab
+        for i in range(len(AP)):
+        	print(voc[i],AP[i])
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
 
     
