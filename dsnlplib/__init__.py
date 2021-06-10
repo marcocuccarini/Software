@@ -16,8 +16,8 @@ import fastai
 from fastai.basics import *
 from fastai.text.all import *
 from fastai.callback.all import *
-
-
+import numpy as np
+from sklearn.metrics import average_precision_score
 from transformers import AutoModel, AutoTokenizer, AutoConfig
 from .splitters import *
 from .models import * 
@@ -727,6 +727,10 @@ class DSClassificationInterpretation(ClassificationInterpretation):
     def classification_report(self):
         "Print scikit-learn classification report"
         d,t = flatten_check(self.decoded, self.targs)
+        y_true = np.array(d)
+        y_scores = np.array(t)
+        AP=average_precision_score(y_true, y_scores)
+        print(AP)
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
 
     
