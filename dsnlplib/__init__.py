@@ -730,6 +730,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         lb = preprocessing.LabelBinarizer()
         y_t = np.array(t)
         y_p = np.array(d)
+        print(set(y_t) - set(y_p))
         lb.fit(y_t)
         y_true = lb.transform(y_t)
         y_scores = lb.transform(y_p)
