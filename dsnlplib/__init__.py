@@ -9,7 +9,7 @@ Original file is located at
 
 import sys
 sys.path.append('/home/nbuser/library/')
-
+from sklearn import preprocessing
 import os
 
 import fastai
@@ -727,8 +727,12 @@ class DSClassificationInterpretation(ClassificationInterpretation):
     def classification_report(self):
         "Print scikit-learn classification report"
         d,t = flatten_check(self.decoded, self.targs)
-        y_true = np.array(d)
-        y_scores = np.array(t)
+        lb = preprocessing.LabelBinarizer()
+        y_t = np.array(t)
+        y_p = np.array(d)
+        lb.fit(y_t)
+        y_true = lb.transform(y_t)
+        y_scores = lb.transform(y_p)
         AP=average_precision_score(y_true, y_scores)
         print(AP)
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
