@@ -734,7 +734,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         lb.fit(y_t)
         y_true = lb.transform(y_t)
         y_scores = lb.transform(y_p)
-        AP=average_precision_score(y_true, y_scores, average='None')
+        AP=average_precision_score(y_true, y_scores, average=None)
         print('AP',AP)
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
 
