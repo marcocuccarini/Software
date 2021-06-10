@@ -737,8 +737,20 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         y_scores = lb.transform(y_p)
         AP=average_precision_score(y_true, y_scores, average=None)
         voc=self.vocab
+        print('&'*5)
+        print('&'*10)
+        print('&'*20)
+        print('METRIC:AP')
+        print('Repertorio discorsivo','Valore')
         for i in range(len(AP)):
-        	print(voc[i],AP[i])
+        	print(voc[i],'----->',AP[i])
+
+        print('Average','---->',sum(AP)/len(AP))
+
+
+        print('&'*20)
+        print('&'*10)
+        print('&'*5)
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
 
     
