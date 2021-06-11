@@ -738,7 +738,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         AP=average_precision_score(y_true, y_scores, average=None)
         voc=self.vocab
         
-        voc.append('Average')
+        
         
 
         df1 = pd.DataFrame(columns = ['Label','Metrica'])
