@@ -737,20 +737,9 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         y_scores = lb.transform(y_p)
         AP=average_precision_score(y_true, y_scores, average=None)
         voc=self.vocab
-        print('&'*5)
-        print('&'*10)
-        print('&'*20)
-        print('METRIC:AP')
-        print('Repertorio discorsivo','Valore')
-        for i in range(len(AP)):
-        	print(voc[i],'----->',AP[i])
-
-        print('Average','---->',sum(AP)/len(AP))
-
-
-        print('&'*20)
-        print('&'*10)
-        print('&'*5)
+        
+        voc.append('Average')
+        AP.append(sum(AP)/len(AP))
 
         df1 = pd.DataFrame(columns = ['Label','Metrica'])
         df1['Label']=voc
