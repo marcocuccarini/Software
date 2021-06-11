@@ -751,9 +751,16 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         print('&'*20)
         print('&'*10)
         print('&'*5)
+
+        df1 = pd.DataFrame(columns = ['Label','Metrica'])
+        df1['Label']=voc
+        df1['Metrica']=AP
+
+        print(df1)
+
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
 
-    
+    	
         
 
     def plot_average_confusion_matrix(self, confusion_matrices, title='Confusion matrix', normalized=False, cmap="Reds", plot_txt=True, **kwargs):
