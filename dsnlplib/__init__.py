@@ -739,14 +739,15 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         voc=self.vocab
         
         voc.append('Average')
-        AP.append(sum(AP)/len(AP))
+        
 
         df1 = pd.DataFrame(columns = ['Label','Metrica'])
         df1['Label']=voc
         df1['Metrica']=AP
-
-        print(df1)
-
+        
+        print(df)
+        print('Averege')
+        print(sum(AP)/len(AP))
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
 
     	
