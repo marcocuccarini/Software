@@ -745,7 +745,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         df1['Label']=voc
         df1['Metrica']=AP
         
-        print(df)
+        print(df1)
         print('Averege')
         print(sum(AP)/len(AP))
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
