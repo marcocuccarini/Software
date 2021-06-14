@@ -753,7 +753,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         perc=[0]*24
         label = voc
         for i in range(len(label)):
-        	
+        	print(label[i])
 	        for j in range(len(t)):
 	        	if(t[j]==i):
 
@@ -772,7 +772,8 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 	        df2['Label']=label
 	        df2['%']=perc
 	        df2=df2.sort_values(by='%',ascending=False)
-	        print(df2)
+	        print(df2.head(6))
+	        plt.title(label[i])
 	        plt.figure(figsize=(12,12))
 	        plt.pie(x, labels=label)
 	        plt.show()
