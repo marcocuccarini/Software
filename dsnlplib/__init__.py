@@ -778,13 +778,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 	        plt.show()
 
 
-	def most_confused(cm, labels, min_val=1):
-    	"Sorted descending list of largest non-diagonal entries of confusion matrix, presented as actual, predicted, number of occurrences."
-    	cm = cm.copy()
-    	np.fill_diagonal(cm, 0)
-    	res = [(labels[i],labels[j],cm[i,j])
-            for i,j in zip(*np.where(cm>=min_val))]
-    	return sorted(res, key=operator.itemgetter(2), reverse=True)
+	
 
 
 
