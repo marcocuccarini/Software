@@ -744,7 +744,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         df1 = pd.DataFrame(columns = ['Label','Metrica'])
         df1['Label']=voc
         df1['Metrica']=AP
-        df2 = pd.DataFrame(columns = ['Label','Percentuale'])
+        df2 = pd.DataFrame(columns = ['Label','%'])
         print(df1)
         print('Averege')
         print(sum(AP)/len(AP))
@@ -770,12 +770,16 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 
 
 	        df2['Label']=label
-	        df2['Percentuale']=perc
-	        df2.sort_values('Percentuale',axis=1,ascending=False, inplace=True)
+	        df2['%']=perc
+	        df2.sort_values('%',axis=1,ascending=False, inplace=True)
 	        print(df2)
 	        plt.figure(figsize=(12,12))
 	        plt.pie(x, labels=label)
 	        plt.show()
+
+
+	
+
 
 
 
