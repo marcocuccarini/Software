@@ -764,7 +764,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 	        x = np.array(v)
 	        
 
-	        for j in range(len(v))
+	        for j in range(len(v)):
 	        	perc[j]=v[j]/sum(v)*100
 
 	        df2['Label']=label
