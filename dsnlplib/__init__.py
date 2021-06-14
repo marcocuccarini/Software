@@ -751,7 +751,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         print(t[1])
         v=[0]*24
         label = voc
-        for i in range(len(d)):
+        for i in range(len(d)-1):
         	print(label[i])
 	        for j in range(len(t)):
 	        	if(t[j]==i):
