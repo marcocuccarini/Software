@@ -753,7 +753,8 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         sns.heatmap(cmn, annot=True, fmt='.2f', xticklabels=voc, yticklabels=voc ,cmap=plt.cm.Blues)
         plt.ylabel('Actual')
         plt.xlabel('Predicted')
-        plt.show(block=False)
+        plt.show()
+
         
         
         
