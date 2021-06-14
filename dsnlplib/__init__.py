@@ -749,7 +749,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         print('Averege')
         print(sum(AP)/len(AP))
 
-        v=[0]*24
+        v=[0]*23
         for j in y_true:
         	if(j==1):
 
