@@ -747,9 +747,8 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         voc=self.vocab
 
         cm = confusion_matrix(y_t, y_p)
-# Normalise
-		cmn = cm.astype('float') / 
-		cm.sum(axis=1)[:, np.newaxis]
+
+		cmn = cm.astype('float')/cm.sum(axis=1)[:, np.newaxis]
 		fig, ax = plt.subplots(figsize=(14,14))
 		sns.heatmap(cmn, annot=True, fmt='.2f', xticklabels=target_names, yticklabels=target_names)
 		plt.ylabel('Actual')
@@ -767,10 +766,8 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         print('Averege')
         print(sum(AP)/len(AP))
         print(t[1])
-        v=[0]*24
-        perc=[0]*24
-        label = voc
-        
+       
+
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
 
     	
