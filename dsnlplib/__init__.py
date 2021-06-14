@@ -724,6 +724,14 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 
         display(HTML(report_average.to_html(float_format=lambda x: '%.2f' % x)))
     
+    def most_confused(cm, labels, min_val=1):
+    	"Sorted descending list of largest non-diagonal entries of confusion matrix, presented as actual, predicted, number of occurrences."
+    	cm = cm.copy()
+    	np.fill_diagonal(cm, 0)
+    	res = [(labels[i],labels[j],cm[i,j])
+        	for i,j in zip(*np.where(cm>=min_val))]
+    	return sorted(res, key=operator.itemgetter(2), reverse=True)
+    
 
     def classification_report(self):
         "Print scikit-learn classification report"
@@ -813,6 +821,8 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         plt.xticks(tick_marks, self.vocab, rotation=90)
         plt.yticks(tick_marks, self.vocab, rotation=0)
 
+
+
         if (normalized):
           cm = ncm
           norm_dec = 2
@@ -843,3 +853,5 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         plt.ylabel('Actual')
         plt.xlabel('Predicted')
         plt.grid(False)    
+
+        print(most_confused(cm,self.vocab))
