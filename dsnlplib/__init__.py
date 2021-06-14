@@ -756,6 +756,14 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         		v[i]+=1
 
         print(v)
+        import matplotlib.pyplot as plt
+        x = np.array(v)
+        label = voc
+
+        plt.pie(x, labels=label)
+        plt.show()
+
+
 
 
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
