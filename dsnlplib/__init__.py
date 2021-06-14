@@ -760,7 +760,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         x = np.array(v)
         label = voc
 
-        plt.pie(x, labels=label)
+        plt.pie(x, labels=label, figsize=(12,12))
         plt.show()
 
 
