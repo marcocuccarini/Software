@@ -750,10 +750,10 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         print(sum(AP)/len(AP))
 
         v=[0]*23
-        for j in y_true:
-        	if(j==1):
+        for j in range(len(y_true)):
+        	if(y_true[j]==1):
 
-        		v[i]+=1
+        		v[y_pred[j]]+=1
 
         print(v)
         import matplotlib.pyplot as plt
