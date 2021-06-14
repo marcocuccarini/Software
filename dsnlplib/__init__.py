@@ -762,7 +762,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 	        import matplotlib.pyplot as plt
 	        x = np.array(v)
 	        
-
+	        plt.figure(figsize=(12,12))
 	        plt.pie(x, labels=label)
 	        plt.show()
 
