@@ -747,7 +747,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         voc=self.vocab
         from sklearn.metrics import confusion_matrix
         import seaborn as sns
-        cm = confusion_matrix(y_t, y_p, cmap=plt.cm.Blues)
+        cm = confusion_matrix(y_t, y_p)
         cmn = cm.astype('float')/cm.sum(axis=1)[:, np.newaxis]
         fig, ax = plt.subplots(figsize=(14,14))
         sns.heatmap(cmn, annot=True, fmt='.2f', xticklabels=voc, yticklabels=voc ,cmap=plt.cm.Blues)
