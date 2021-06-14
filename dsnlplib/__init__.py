@@ -748,6 +748,16 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         print(df1)
         print('Averege')
         print(sum(AP)/len(AP))
+
+        v=[0]*24
+        for j in y_true:
+        	if(j==1):
+
+        		v[i]+=1
+
+        print(v)
+
+
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
 
     	
