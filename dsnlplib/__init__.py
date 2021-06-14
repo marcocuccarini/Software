@@ -771,7 +771,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 
 	        df2['Label']=label
 	        df2['%']=perc
-	        df2.sort_values(by=['%'],axis=1,ascending=False, inplace=True)
+	        df2=df2.sort_values(by=['%'],axis=1,ascending=False)
 	        print(df2)
 	        plt.figure(figsize=(12,12))
 	        plt.pie(x, labels=label)
