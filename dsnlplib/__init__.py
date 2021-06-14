@@ -748,7 +748,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         print(df1)
         print('Averege')
         print(sum(AP)/len(AP))
-
+        print(y_true[1])
         v=[0]*23
         for j in range(len(y_true)):
         	if(y_true[j]==1):
