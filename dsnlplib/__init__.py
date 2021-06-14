@@ -830,7 +830,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         else:
           cm = np.mean(confusion_matrices,axis=0)
           norm_dec = 0
-        print(most_confused(cm,self.vocab))
+        print(interp.most_confused(cm,self.vocab))
         if plot_txt:
             thresh = ncm.max() / 2.
             for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
