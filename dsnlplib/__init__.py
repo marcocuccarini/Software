@@ -745,6 +745,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         y_scores = lb.transform(y_p)
         AP=average_precision_score(y_true, y_scores, average=None)
         voc=self.vocab
+        from sklearn.metrics import confusion_matrix
         cm = confusion_matrix(y_t, y_p)
         cmn = cm.astype('float')/cm.sum(axis=1)[:, np.newaxis]
         fig, ax = plt.subplots(figsize=(14,14))
