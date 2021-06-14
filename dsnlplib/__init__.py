@@ -745,15 +745,13 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         y_scores = lb.transform(y_p)
         AP=average_precision_score(y_true, y_scores, average=None)
         voc=self.vocab
-
         cm = confusion_matrix(y_t, y_p)
-
-		cmn = cm.astype('float')/cm.sum(axis=1)[:, np.newaxis]
-		fig, ax = plt.subplots(figsize=(14,14))
-		sns.heatmap(cmn, annot=True, fmt='.2f', xticklabels=target_names, yticklabels=target_names)
-		plt.ylabel('Actual')
-		plt.xlabel('Predicted')
-		plt.show(block=False)
+        cmn = cm.astype('float')/cm.sum(axis=1)[:, np.newaxis]
+        fig, ax = plt.subplots(figsize=(14,14))
+        sns.heatmap(cmn, annot=True, fmt='.2f', xticklabels=target_names, yticklabels=target_names)
+        plt.ylabel('Actual')
+        plt.xlabel('Predicted')
+        plt.show(block=False)
         
         
         
