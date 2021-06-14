@@ -750,6 +750,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         print(sum(AP)/len(AP))
         print(t[1])
         v=[0]*24
+        label = voc
         for i in range(len(d)):
         	print(label[i])
 	        for j in range(len(t)):
@@ -760,7 +761,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 	        print(v)
 	        import matplotlib.pyplot as plt
 	        x = np.array(v)
-	        label = voc
+	        
 
 	        plt.pie(x, labels=label)
 	        plt.show()
