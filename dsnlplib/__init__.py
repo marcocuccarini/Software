@@ -760,6 +760,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         v=[0]*24
         perc=[0]*24
         label = voc
+        most_confused=[]
         for i in range(len(label)):
         	print(label[i])
 	        for j in range(len(t)):
@@ -775,16 +776,22 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 	        for j in range(len(v)):
 	        	perc[j]=v[j]/sum(v)*100
 
+	     
+
+
+
 
 
 	        df2['Label']=label
 	        df2['%']=perc
 	        df2=df2.sort_values(by='%',ascending=False)
 	        print(df2.head(6))
-	        plt.title(label[i])
+	        
 	        plt.figure(figsize=(12,12))
 	        plt.pie(x, labels=label)
 	        plt.show()
+
+
 
 
 	
@@ -830,7 +837,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         else:
           cm = np.mean(confusion_matrices,axis=0)
           norm_dec = 0
-        print(interp.most_confused(cm,self.vocab))
+
         if plot_txt:
             thresh = ncm.max() / 2.
             for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
