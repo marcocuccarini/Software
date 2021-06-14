@@ -771,14 +771,20 @@ class DSClassificationInterpretation(ClassificationInterpretation):
 
 	        df2['Label']=label
 	        df2['%']=perc
-	        df2.sort_values('%',axis=1,ascending=False, inplace=True)
+	        df2.sort_values(by=['%'],axis=1,ascending=False, inplace=True)
 	        print(df2)
 	        plt.figure(figsize=(12,12))
 	        plt.pie(x, labels=label)
 	        plt.show()
 
 
-	
+	def most_confused(cm, labels, min_val=1):
+    	"Sorted descending list of largest non-diagonal entries of confusion matrix, presented as actual, predicted, number of occurrences."
+    	cm = cm.copy()
+    	np.fill_diagonal(cm, 0)
+    	res = [(labels[i],labels[j],cm[i,j])
+            for i,j in zip(*np.where(cm>=min_val))]
+    	return sorted(res, key=operator.itemgetter(2), reverse=True)
 
 
 
