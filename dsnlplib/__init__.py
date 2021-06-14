@@ -744,27 +744,37 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         df1 = pd.DataFrame(columns = ['Label','Metrica'])
         df1['Label']=voc
         df1['Metrica']=AP
-        
+        df2 = pd.DataFrame(columns = ['Label','%'])
         print(df1)
         print('Averege')
         print(sum(AP)/len(AP))
         print(t[1])
         v=[0]*24
+        perc=[0]*24
         label = voc
         for i in range(len(label)):
-        	print(label[i])
+        	
 	        for j in range(len(t)):
 	        	if(t[j]==i):
 
 	        		v[d[j]-1]+=1
 
-	        print(v)
+	        
 	        import matplotlib.pyplot as plt
 	        x = np.array(v)
 	        
+
+	        for j in range(len(v))
+	        	perc[j]=v[j]/sum(v)*100
+
+	        df2['Label']=label
+	        df2['%']=perc
+	        print(df2.T)
 	        plt.figure(figsize=(12,12))
 	        plt.pie(x, labels=label)
 	        plt.show()
+
+
 
 
 
