@@ -748,12 +748,12 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         print(df1)
         print('Averege')
         print(sum(AP)/len(AP))
-        print(y_true[1])
+        print(t[1])
         v=[0]*23
-        for j in range(len(y_true)):
-        	if(y_true[j]==1):
+        for j in range(len(t)):
+        	if(t[j]==1):
 
-        		v[y_pred[j]]+=1
+        		v[d[j]]+=1
 
         print(v)
         import matplotlib.pyplot as plt
