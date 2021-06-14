@@ -745,6 +745,16 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         y_scores = lb.transform(y_p)
         AP=average_precision_score(y_true, y_scores, average=None)
         voc=self.vocab
+
+        cm = confusion_matrix(y_t, y_p)
+# Normalise
+		cmn = cm.astype('float') / 
+		cm.sum(axis=1)[:, np.newaxis]
+		fig, ax = plt.subplots(figsize=(14,14))
+		sns.heatmap(cmn, annot=True, fmt='.2f', xticklabels=target_names, yticklabels=target_names)
+		plt.ylabel('Actual')
+		plt.xlabel('Predicted')
+		plt.show(block=False)
         
         
         
@@ -760,48 +770,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         v=[0]*24
         perc=[0]*24
         label = voc
-        most_confused=[]
-        for i in range(len(label)):
-        	print(label[i])
-	        for j in range(len(t)):
-	        	if(t[j]==i):
-
-	        		v[d[j]-1]+=1
-
-	        
-	        import matplotlib.pyplot as plt
-	        x = np.array(v)
-	        
-
-	        for j in range(len(v)):
-	        	perc[j]=v[j]/sum(v)*100
-
-	     
-
-
-
-
-
-	        df2['Label']=label
-	        df2['%']=perc
-	        df2=df2.sort_values(by='%',ascending=False)
-	        print(df2.head(6))
-	        
-	        plt.figure(figsize=(12,12))
-	        plt.pie(x, labels=label)
-	        plt.show()
-
-
-
-
-	
-
-
-
-
-
-
-
+        
         return skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
 
     	
