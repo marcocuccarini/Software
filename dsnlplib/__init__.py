@@ -753,6 +753,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         voc=self.vocab
         from sklearn.metrics import confusion_matrix
         import seaborn as sns
+        import matplotlib.pyplot as plt
         cm = confusion_matrix(y_t, y_p)
         cmn = cm.astype('float')/cm.sum(axis=1)[:, np.newaxis]
         fig, ax = plt.subplots(figsize=(14,14))
