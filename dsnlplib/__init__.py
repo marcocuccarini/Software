@@ -754,7 +754,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         plt.ylabel('Actual')
         plt.xlabel('Predicted')
         plt.show()
-
+        fig.savefig('filename.png', dpi = 600)
         
         
         
@@ -828,3 +828,4 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         plt.xlabel('Predicted')
         plt.grid(False)    
 
+        fig.savefig('filename.png', dpi = 600)
