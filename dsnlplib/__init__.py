@@ -706,7 +706,6 @@ class DSClassificationInterpretation(ClassificationInterpretation):
             
             df = pd.DataFrame(np.concatenate((data, accuracy, macro_avg,weighted_avg)), columns=header)
             import matplotlib.pyplot as plt
-            import pandas as pd
             from pandas.plotting import table 
             ax = plt.subplot(111, frame_on=False) # no visible frame
             ax.xaxis.set_visible(False)  # hide the x axis
@@ -769,7 +768,15 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         df1 = pd.DataFrame(columns = ['Label','Metrica'])
         df1['Label']=voc
         df1['Metrica']=AP
-        df2 = pd.DataFrame(columns = ['Label','%'])
+        df = pd.DataFrame(np.concatenate((data, accuracy, macro_avg,weighted_avg)), columns=header)
+        import matplotlib.pyplot as plt
+        import pandas as pd
+        from pandas.plotting import table 
+        ax = plt.subplot(111, frame_on=False) # no visible frame
+        ax.xaxis.set_visible(False)  # hide the x axis
+        ax.yaxis.set_visible(False)  # hide the y axis
+        table(ax, df1)  # where df is your data frame
+        plt.savefig('mytable.png')
         print(df1)
         print('Averege')
         print(sum(AP)/len(AP))
