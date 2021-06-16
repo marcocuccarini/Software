@@ -11,7 +11,12 @@ import sys
 sys.path.append('/home/nbuser/library/')
 from sklearn import preprocessing
 import os
-
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
+import pandas as pd
+from pandas.plotting import table 
 import fastai
 from fastai.basics import *
 from fastai.text.all import *
@@ -751,9 +756,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         y_scores = lb.transform(y_p)
         AP=average_precision_score(y_true, y_scores, average=None)
         voc=self.vocab
-        from sklearn.metrics import confusion_matrix
-        import seaborn as sns
-        import matplotlib.pyplot as plt
+
         cm = confusion_matrix(y_t, y_p)
         cmn = cm.astype('float')/cm.sum(axis=1)[:, np.newaxis]
         fig, ax = plt.subplots(figsize=(14,14))
@@ -770,9 +773,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         df1['Label']=voc
         df1['Metrica']=AP
         df = pd.DataFrame(np.concatenate((data, accuracy, macro_avg,weighted_avg)), columns=header)
-        import matplotlib.pyplot as plt
-        import pandas as pd
-        from pandas.plotting import table 
+      
         ax = plt.subplot(111, frame_on=False) # no visible frame
         ax.xaxis.set_visible(False)  # hide the x axis
         ax.yaxis.set_visible(False)  # hide the y axis
