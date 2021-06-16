@@ -705,7 +705,14 @@ class DSClassificationInterpretation(ClassificationInterpretation):
             weighted_avg = np.array(weighted_avg_data.split(' ')[-4:]).astype(float).reshape(-1, len(header))
             
             df = pd.DataFrame(np.concatenate((data, accuracy, macro_avg,weighted_avg)), columns=header)
-             
+            import matplotlib.pyplot as plt
+            import pandas as pd
+            from pandas.plotting import table 
+            ax = plt.subplot(111, frame_on=False) # no visible frame
+            ax.xaxis.set_visible(False)  # hide the x axis
+            ax.yaxis.set_visible(False)  # hide the y axis
+            table(ax, df1)  # where df is your data frame
+            plt.savefig('mytable.png')
             report_list.append(df)
         res = reduce(lambda x, y: x.add(y, fill_value=0), report_list) / len(report_list)
 
