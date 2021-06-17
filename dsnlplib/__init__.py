@@ -715,8 +715,8 @@ class DSClassificationInterpretation(ClassificationInterpretation):
             ax = plt.subplot(111, frame_on=False) # no visible frame
             ax.xaxis.set_visible(False)  # hide the x axis
             ax.yaxis.set_visible(False)  # hide the y axis
-            table(ax, df1)  # where df is your data frame
-            plt.savefig('mytable.png')
+            table(ax, df)  # where df is your data frame
+            plt.savefig('precision.png',bbox_inches="tight", dpi=600)
             report_list.append(df)
         res = reduce(lambda x, y: x.add(y, fill_value=0), report_list) / len(report_list)
 
@@ -764,7 +764,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         plt.ylabel('Actual')
         plt.xlabel('Predicted')
         plt.show()
-        fig.savefig('filename.png', dpi = 600)
+        fig.savefig('Norm.png', dpi=600)
         
         
         
@@ -778,7 +778,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         ax.xaxis.set_visible(False)  # hide the x axis
         ax.yaxis.set_visible(False)  # hide the y axis
         table(ax, df1)  # where df is your data frame
-        plt.savefig('mytable.png')
+        plt.savefig('mAP.png',bbox_inches="tight", dpi=600)
         print(df1)
         print('Averege')
         print(sum(AP)/len(AP))
@@ -810,7 +810,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         tick_marks = np.arange(len(self.vocab))
         plt.xticks(tick_marks, self.vocab, rotation=90)
         plt.yticks(tick_marks, self.vocab, rotation=0)
-
+        fig.savefig('NotNorm.png', dpi=600)
 
 
         if (normalized):
