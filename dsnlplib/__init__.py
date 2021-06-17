@@ -772,7 +772,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         df1 = pd.DataFrame(columns = ['Label','Metrica'])
         df1['Label']=voc
         df1['Metrica']=AP
-        df = pd.DataFrame(np.concatenate((data, accuracy, macro_avg,weighted_avg)), columns=header)
+        
       
         ax = plt.subplot(111, frame_on=False) # no visible frame
         ax.xaxis.set_visible(False)  # hide the x axis
