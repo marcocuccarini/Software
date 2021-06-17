@@ -28,6 +28,8 @@ from .splitters import *
 from .models import * 
 from .navarin import * 
 from .data_load import *
+import matplotlib.pyplot as plt
+from pandas.plotting import table 
 
 from .loss_functions import *
 from .legacy_utils import *
@@ -751,7 +753,8 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         y_scores = lb.transform(y_p)
         AP=average_precision_score(y_true, y_scores, average=None)
         voc=self.vocab
-
+        import matplotlib.pyplot as plt
+        from pandas.plotting import table 
         cm = confusion_matrix(y_t, y_p)
         cmn = cm.astype('float')/cm.sum(axis=1)[:, np.newaxis]
         fig, ax = plt.subplots(figsize=(14,14))
@@ -779,8 +782,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         print(sum(AP)/len(AP))
         print(t[1])
         dfPrecision=skm.classification_report(t, d, labels=list(self.vocab.o2i.values()), target_names=[str(v) for v in self.vocab])
-        import matplotlib.pyplot as plt
-        from pandas.plotting import table 
+       
         ax = plt.subplot(111, frame_on=False) # no visible frame
         ax.xaxis.set_visible(False)  # hide the x axis
         ax.yaxis.set_visible(False)  # hide the y axis
