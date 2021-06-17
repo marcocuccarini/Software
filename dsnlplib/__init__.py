@@ -774,13 +774,13 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         df1['Label']=voc
         df1['Metrica']=AP
         dfNew = pd.DataFrame([('Media',sum(AP)/len(AP))], columns = ['Label' , 'Metrica'])
-        df1.append(dfNew, ignore_index=False)
+        df1=df1.append(dfNew, ignore_index=True)
         
       
         ax = plt.subplot(111, frame_on=False) # no visible frame
         ax.xaxis.set_visible(False)  # hide the x axis
         ax.yaxis.set_visible(False)  # hide the y axis
-        table(ax, df1)  # where df is your data frame
+        table(ax, df1.round(decimals=2))  # where df is your data frame
         plt.savefig('mAP.png',bbox_inches="tight", dpi=600)
         print(df1)
         print('Averege')
