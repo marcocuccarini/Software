@@ -773,6 +773,8 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         df1 = pd.DataFrame(columns = ['Label','Metrica'])
         df1['Label']=voc
         df1['Metrica']=AP
+        dfNew = pd.DataFrame([('Media',sum(AP)/len(AP))], columns = ['Label' , 'Metrica'])
+        df1.append(dfNew, ignore_index=True)
         
       
         ax = plt.subplot(111, frame_on=False) # no visible frame
