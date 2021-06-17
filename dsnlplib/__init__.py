@@ -712,11 +712,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
             df = pd.DataFrame(np.concatenate((data, accuracy, macro_avg,weighted_avg)), columns=header)
             import matplotlib.pyplot as plt
             from pandas.plotting import table 
-            ax = plt.subplot(111, frame_on=False) # no visible frame
-            ax.xaxis.set_visible(False)  # hide the x axis
-            ax.yaxis.set_visible(False)  # hide the y axis
-            table(ax, df)  # where df is your data frame
-            plt.savefig('precision.png',bbox_inches="tight", dpi=600)
+           
             report_list.append(df)
         res = reduce(lambda x, y: x.add(y, fill_value=0), report_list) / len(report_list)
 
@@ -725,14 +721,19 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         rename_index.update({ len(rename_index) : 'accuracy' })
         rename_index.update({ len(rename_index) : 'macro avg' })
         rename_index.update({ len(rename_index) : 'weighted avg' })
-        
+         
         res['precision'] = res['precision'].apply(partial(round,ndigits=2))
         res['recall'] = res['recall'].apply(partial(round,ndigits=2))
         res['support'] = res['support'].apply(int)
         
-        res.iloc[-3,[0,1]] = ' '      
+        res.iloc[-3,[0,1]] = ' ' 
+            
         report_average = res.rename(index=rename_index)        
-
+        ax = plt.subplot(111, frame_on=False) # no visible frame
+        ax.xaxis.set_visible(False)  # hide the x axis
+        ax.yaxis.set_visible(False)  # hide the y axis
+        table(ax, report_average)  # where df is your data frame
+        plt.savefig('precision.png',bbox_inches="tight", dpi=600)
         display(HTML(report_average.to_html(float_format=lambda x: '%.2f' % x)))
     
     def most_confused(cm, labels, min_val=1):
