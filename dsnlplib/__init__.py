@@ -711,7 +711,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
             
             df = pd.DataFrame(np.concatenate((data, accuracy, macro_avg,weighted_avg)), columns=header)
             precDF=df.copy()
-            precDF.insert(loc=0, column='Label', value=label)
+            precDF.insert(loc=0, column='Label', value=labels)
             import matplotlib.pyplot as plt
             from pandas.plotting import table 
             ax = plt.subplot(111, frame_on=False) # no visible frame
