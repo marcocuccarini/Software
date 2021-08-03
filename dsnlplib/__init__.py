@@ -62,7 +62,7 @@ class DSTransform(Transform):
 
     def encodes(self, i):
         #i.Question
-        question = i.Question
+        question = '' #i.Question
         
         answer = i.Answer
         label = i.label
@@ -770,7 +770,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         df2 = pd.DataFrame(columns = ['d','t'])
         df2['d']=d
         df2['t']=t
-        df2.to_csv('Result.csv')
+        df2.to_csv('ResultVal.csv')
 
         df1 = pd.DataFrame(columns = ['Label','Metrica'])
         df1['Label']=voc
