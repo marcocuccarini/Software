@@ -767,8 +767,10 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         plt.show()
         fig.savefig('Norm.png', dpi=600)
         
-        
-        
+        df2 = pd.DataFrame(columns = ['d','t'])
+        df2['d']=d
+        df2['t']=t
+        df2.to_csv('Result.csv')
 
         df1 = pd.DataFrame(columns = ['Label','Metrica'])
         df1['Label']=voc
