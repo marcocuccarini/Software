@@ -269,7 +269,7 @@ class DSConfig(object):
       self.multi_label = kwargs.pop("multi_label",  False) # multiple classifications and labels     
 
       # Numero di etichette (calcolato automaticamente, ma imponibile)
-      self.num_labels = kwargs.pop("num_labels", 17)
+      self.num_labels = kwargs.pop("num_labels", 24)
 
       # Utilizza come input sia la domanda che la risposta (altrimenti il dataloader usa solo la risposta)
       self.use_qa = kwargs.pop("use_qa", False)
