@@ -62,7 +62,7 @@ class DSTransform(Transform):
 
     def encodes(self, i):
         #i.Question
-        question = i.Question
+        question = True
         answer = i.Answer
         label = i.label
 
