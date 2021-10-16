@@ -1,0 +1,27 @@
+,p,label2,label
+0,"('green', 0, 1)",descrizione,green
+1,"('yellow', 1, 1)",specificazione,yellow
+2,"('green', 5, 6)",riferimento_obiettivo,green
+3,"('green', 3, 5)",considerazione,green
+4,"('red', 3, 1)",generalizzazione,red
+5,"('red', 1, 0)",sancire,red
+6,"('red', 9, 7)",implicazione,red
+7,"('red', 2, 1)",conferma,red
+8,"('red', 3, 1)",commento,red
+9,"('yellow', 4, 4)",prescrizione,yellow
+10,"('red', 6, 4)",contrapposizione,red
+11,"('red', 5, 4)",previsione,red
+12,"('red', 3, 1)",giudizio,red
+13,"('red', 2, 1)",causa,red
+14,"('red', 5, 3)",opinione,red
+15,"('yellow', 5, 5)",valutazione,yellow
+16,"('red', 3, 1)",non_risposta,red
+17,"('red', 4, 1)",giustificazione,red
+18,"('red', 6, 4)",confronto,red
+19,"('yellow', 2, 2)",possibilita,yellow
+20,"('green', 8, 10)",anticipazione,green
+21,"('red', 5, 4)",dichiarazione_intenti,red
+22,"('green', 4, 5)",proposta,green
+23,"('red', 4, 2)",deresponsabilizzazione,red
+24,"('red', 6, 6)",ridimesionamento,red
+25,"('red', 9, 7)",implicazioni,red
