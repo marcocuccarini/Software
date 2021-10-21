@@ -62,7 +62,10 @@ class DSTransform(Transform):
 
     def encodes(self, i):
         #i.Question
-        question = i.Question
+        if(self.use_qa):
+        	question = i.Question
+        else:
+        	question=""
         answer = i.Answer
         label = i.label
 
@@ -484,11 +487,9 @@ class DSExperiment(object):
     
     tfms = []
 
-    if (dsc.use_qa):
-      x_tfms = [DSTransform(self)]
+    x_tfms = [DSTransform(self)]
 
-    else:
-      x_tfms = [attrgetter("Answer"), self.fai_tokenizer, Numericalize(vocab=self.tokenizer_vocab_ls)]
+    
     
     tfms.append(x_tfms)
     
