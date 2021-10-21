@@ -62,7 +62,7 @@ class DSTransform(Transform):
 
     def encodes(self, i):
         #i.Question
-        if(self.exp.use_qa):
+        if(dsc.use_qa):
         	question = i.Question
         else:
         	question=""
