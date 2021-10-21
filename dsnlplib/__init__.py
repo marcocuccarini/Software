@@ -62,7 +62,7 @@ class DSTransform(Transform):
 
     def encodes(self, i):
         #i.Question
-        if(exp.use_qa):
+        if(kwargs.pop("use_qa", False)):
         	question = i.Question
         else:
         	question=""
