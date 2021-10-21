@@ -62,7 +62,7 @@ class DSTransform(Transform):
 
     def encodes(self, i):
         #i.Question
-        if(kwargs.pop("use_qa", False)):
+        if(self.exp.question):
         	question = i.Question
         else:
         	question=""
@@ -460,6 +460,8 @@ class DSExperiment(object):
     self.qa_tok_func = QATokFunc(transformer_tokenizer=self.tokenizer, pretrain_id=self.dsc.pretrain_id, max_seq_len=self.dsc.max_seq_len, sentence_pair=self.dsc.sentence_pair)
     
     self.fai_tokenizer = Tokenizer.from_df(text_cols='text', res_col_name='text', tok=self.tok_func, rules=[])
+
+    self.question=dsc.use_qa
 
     model = dsc.models[dsc.model_idx]
     (dsc.model_cls, _) = model
