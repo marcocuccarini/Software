@@ -772,7 +772,7 @@ class DSClassificationInterpretation(ClassificationInterpretation):
         df2 = pd.DataFrame(columns = ['d','t'])
         df2['d']=d
         df2['t']=t
-        df2.to_csv('ResultVal.csv')
+        df2.to_csv('/content/drive/MyDrive/BorsadiStudioNLP/FakevsReal-News/DatasetFakeNews/ResultTest.csv')
 
         df1 = pd.DataFrame(columns = ['Label','Metrica'])
         df1['Label']=voc
